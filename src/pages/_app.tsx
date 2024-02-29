@@ -1,8 +1,10 @@
 import "@/styles/globals.css";
+import "swiper/css";
+import "swiper/css/navigation";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/index";
 
 const remarkFont = localFont({
   src: "../fonts/remark.ttf",

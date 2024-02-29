@@ -10,9 +10,17 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      sm: "560px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
+      xlg: "1300px",
+      "2xl": "1400px",
+    },
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
@@ -21,15 +29,6 @@ const config = {
       fontFamily: {
         remark: "var(--remark-font)",
         inter: "var(--inter-font)",
-      },
-      fontSize: {
-        heading1: "68px",
-        heading2: "58px",
-        heading3: "28px",
-        paragraph1: "20px",
-        paragraph2: "16px",
-        button1: "20px",
-        button2: "16px",
       },
       colors: {
         green: {
@@ -78,10 +77,20 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontSize: {
+        heading1: ["68px", "68px"],
+        heading2: "58px",
+        heading3: "28px",
+        paragraph1: "20px",
+        paragraph2: "16px",
+        button1: "20px",
+        button2: "16px",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        inherit: "inherit",
       },
       keyframes: {
         "accordion-down": {

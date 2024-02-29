@@ -61,8 +61,8 @@ const SwitchLanguage = () => {
   };
 
   return (
-    <div className="border-2 !p-5 border-[#F9F9F9] bg-transparent rounded-full">
-      <div className="flex items-center gap-1">
+    <div className="border-2 !p-5 lg:border-[#F9F9F9] border-white bg-transparent rounded-full">
+      <div className="flex items-center justify-center gap-1">
         <div className="text-gray flex items-center gap-[6px]">
           {infoSelectLanguage[selectedLang]?.icon}
           Язык:

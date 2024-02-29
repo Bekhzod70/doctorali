@@ -72,7 +72,7 @@
   }
 
   body {
-    @apply bg-background text-green-dark min-h-[200vh] pt-32;
+    @apply bg-background text-green-dark min-h-[200vh] 2xl:!pt-[9rem] pt-24;
   }
 }
 
@@ -80,4 +80,7 @@
   .center-mode {
     @apply flex justify-center items-center;
   }
+}
+
+#hero-slider {
 }
