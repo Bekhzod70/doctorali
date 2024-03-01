@@ -79,8 +79,9 @@ const config = {
       },
       fontSize: {
         heading1: ["68px", "68px"],
-        heading2: "58px",
-        heading3: "28px",
+        heading2: ["58px", "58px"],
+        heading3: ["48px", "48px"],
+        heading4: "28px",
         paragraph1: "20px",
         paragraph2: "16px",
         button1: "20px",

@@ -7,7 +7,9 @@ interface Props extends PropsWithChildren {
 
 const SectionTitle = ({ className, children }: Props) => {
   return (
-    <h1 className={`text-heading1 font-remark ${className}`}>{children}</h1>
+    <h1 className={`sm:text-heading2 text-heading3 font-remark ${className}`}>
+      {children}
+    </h1>
   );
 };
 export default SectionTitle;

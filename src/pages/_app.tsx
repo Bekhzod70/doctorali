@@ -3,7 +3,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
-import { Inter } from "next/font/google";
 import Navbar from "@/components/navbar/index";
 
 const remarkFont = localFont({
@@ -12,8 +11,17 @@ const remarkFont = localFont({
   variable: "--remark-font",
 });
 
-const interFont = Inter({
-  subsets: ["latin", "cyrillic"],
+const interFont = localFont({
+  src: [
+    {
+      path: "../fonts/Inter-Regular.ttf",
+      weight: "400",
+    },
+    {
+      path: "../fonts/Inter-Medium.ttf",
+      weight: "500",
+    },
+  ],
   variable: "--inter-font",
 });
 

@@ -7,7 +7,7 @@ const UzbekFlag = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_77_2008)">
+      <g clipPath="url(#clip0_77_2008)">
         <mask
           id="mask0_77_2008"
           maskUnits="userSpaceOnUse"
