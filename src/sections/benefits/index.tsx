@@ -43,17 +43,14 @@ const Benefits = () => {
             prevEl: ".benefit-arrow-right",
           }}
           breakpoints={{
-            // when window width is >= 320px
             600: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            // when window width is >= 480px
             900: {
               slidesPerView: 3,
               spaceBetween: 30,
             },
-            // when window width is >= 640px
             1400: {
               slidesPerView: 4,
               spaceBetween: 4,

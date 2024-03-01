@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Section from "../components/section";
 import { Phone } from "lucide-react";
 import Slider from "./slider";
+import Chip from "@/components/chip";
 
 const Hero = () => {
   return (
@@ -13,9 +14,7 @@ const Hero = () => {
             alt="bg shape"
             className="absolute bottom-0 right-0 pointer-events-none"
           />
-          <span className="inline-block py-[10px] px-5 rounded-full border border-white text-white text-base mb-5">
-            Набор Doctor Ali
-          </span>
+          <Chip>Набор Doctor Ali</Chip>
           <h1 className="text-white font-remark sm:text-heading1 text-heading2">
             Природная сила для вашего здоровья
           </h1>

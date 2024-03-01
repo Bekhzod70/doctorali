@@ -1,5 +1,13 @@
 import type { Config } from "tailwindcss";
 
+const child = ({ addVariant }: { addVariant: any }) => {
+  addVariant("child", "& > *");
+  addVariant("child-hover", "& > *:hover");
+  addVariant("child-focus", "& > *:focus");
+  addVariant("child-first", "& > *:first-child");
+  addVariant("child-last", "& > *:last-child");
+};
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -11,6 +19,7 @@ const config = {
   prefix: "",
   theme: {
     screens: {
+      xs: "400px",
       sm: "560px",
       md: "768px",
       lg: "992px",
@@ -81,9 +90,9 @@ const config = {
         heading1: ["68px", "68px"],
         heading2: ["58px", "58px"],
         heading3: ["48px", "48px"],
-        heading4: "28px",
-        paragraph1: "20px",
-        paragraph2: "16px",
+        heading4: ["28px", "33.6px"],
+        paragraph1: ["20px", "28px"],
+        paragraph2: ["16px", "22.4px"],
         button1: "20px",
         button2: "16px",
       },
@@ -109,7 +118,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), child],
 } satisfies Config;
 
 export default config;

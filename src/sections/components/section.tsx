@@ -7,7 +7,7 @@ interface Props extends PropsWithChildren {
 
 const Section = ({ className, children }: Props) => {
   return (
-    <section className={cn("my-[80px]", className)}>
+    <section className={cn("my-[150px]", className)}>
       <div className="container">{children}</div>
     </section>
   );

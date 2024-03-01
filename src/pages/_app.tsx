@@ -4,6 +4,7 @@ import "swiper/css/navigation";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import Navbar from "@/components/navbar/index";
+import Footer from "@/components/footer";
 
 const remarkFont = localFont({
   src: "../fonts/remark.ttf",
@@ -37,6 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className={`${remarkFont.variable} ${interFont.variable}`}>
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </div>
     </>
   );
