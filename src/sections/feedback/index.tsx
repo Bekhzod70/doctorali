@@ -9,6 +9,7 @@ import { feedbackData } from "./data";
 import Play from "@/components/icons/play";
 import VideoModal from "@/components/video-modal";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Feedback = () => {
   const [open, setOpen] = useState(false);
@@ -78,10 +79,12 @@ const Feedback = () => {
             <SwiperSlide key={i} className="!h-[unset]">
               <div className="max-w-[335px] h-[594px] relative rounded-[48px] overflow-hidden group slider-item-wrapper">
                 <div className="w-[128px] h-[30px] absolute z-10 top-0 left-1/2 -translate-x-1/2 rounded-b-[16px] bg-orange" />
-                <img
+                <Image
                   src={imageUrl}
                   alt="feedback image"
                   className="h-full w-full object-cover group-hover:scale-105 transition"
+                  width={1000}
+                  height={1000}
                 />
                 <div
                   className="w-full h-full absolute left-0 top-0"

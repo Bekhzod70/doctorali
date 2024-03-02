@@ -57,7 +57,7 @@ const Benefits = () => {
             },
           }}
           id="benefit-slider"
-          className="sm:!block !hidden h-full !items-end"
+          className="h-full !items-end"
         >
           {data.map((props) => (
             <SwiperSlide key={props.imageUrl} className="!h-[unset]">
@@ -65,13 +65,22 @@ const Benefits = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <ul className="flex flex-col gap-y-[15px] sm:hidden">
-          {data.map((props) => (
-            <li key={props.imageUrl}>
-              <BenefitCard {...props} />
-            </li>
-          ))}
-        </ul>
+        <div className="flex gap-[10px] sm:hidden justify-center mt-10">
+          <Button
+            size="icon"
+            variant="warning"
+            className="benefit-arrow-right arrow disabled:bg-gray-light disabled:opacity-100 group"
+          >
+            <ChevronLeft className="text-white group-disabled:text-gray" />
+          </Button>
+          <Button
+            size="icon"
+            variant="warning"
+            className="benefit-arrow-left arrow disabled:bg-gray-light disabled:opacity-100 group"
+          >
+            <ChevronRight className="text-white group-disabled:text-gray" />
+          </Button>
+        </div>
       </div>
     </Section>
   );

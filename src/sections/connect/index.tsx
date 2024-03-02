@@ -17,8 +17,11 @@ import { useForm } from "react-hook-form";
 import { FormSchema, formSchema } from "./formSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Pencil from "@/components/icons/pencil";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Loader2Icon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { sendMessage } from "@/utils/send-data";
+import { useRouter } from "next/router";
+import { useState } from "react";
 
 interface Props {
   title: string;
@@ -30,6 +33,8 @@ interface Props {
 }
 
 const Connect = (props: Props) => {
+  const router = useRouter();
+  const [pending, setIsPending] = useState(false);
   const { bgColor, buttonClass, desktopImg, mobileImg, subtitle, title } =
     props;
 
@@ -41,10 +46,27 @@ const Connect = (props: Props) => {
     },
   });
 
-  function onSubmit(values: FormSchema) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
+  async function onSubmit(values: FormSchema) {
+    setIsPending(true);
+    const { name, phone } = values;
+
+    const _data = {
+      form_name: "numakids",
+      name: name,
+      phone: phone,
+    };
+
+    try {
+      await sendMessage(_data).then((data) => {
+        if (data.status === 200) {
+          router.push("/thanks");
+        }
+      });
+    } catch (_) {
+      alert(`Iltimos, qayta urinib ko'ring`);
+    } finally {
+      setIsPending(false);
+    }
   }
 
   return (
@@ -115,6 +137,7 @@ const Connect = (props: Props) => {
                 <Button
                   type="submit"
                   variant="warning"
+                  disabled={pending}
                   className={cn(
                     "w-full sm:py-[27px] py-5 !mt-10 sm:text-button1",
                     buttonClass
@@ -122,7 +145,11 @@ const Connect = (props: Props) => {
                 >
                   Получить <span className="sm:inline hidden">бесплатную</span>{" "}
                   консультацию
-                  <ChevronRight />
+                  {pending ? (
+                    <Loader2Icon className="animate-spin" />
+                  ) : (
+                    <ChevronRight />
+                  )}
                 </Button>
               </form>
             </Form>

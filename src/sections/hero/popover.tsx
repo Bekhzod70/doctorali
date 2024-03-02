@@ -25,7 +25,7 @@ const Popover = ({ text, left, right, top, position = "left" }: Props) => {
         return "left-1/2 sm:rounded-tr-full sm:rounded-tl-none max-sm:-translate-x-1/2";
 
       case "left-center":
-        return "sm:right-1/2 max-sm:left-1/2 max-sm:-translate-x-1/2";
+        return "sm:right-1/2 max-sm:left-1/2 sm:rounded-tr-none max-sm:-translate-x-1/2";
 
       default:
         return "";

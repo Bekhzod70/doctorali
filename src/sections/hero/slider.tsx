@@ -1,6 +1,6 @@
+import Image from "next/image";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import { Navigation } from "swiper/modules";
 import { Button } from "@/components/ui/button";
@@ -17,8 +17,10 @@ const Slider = () => {
     >
       <SwiperSlide>
         <div className="relative w-full h-full rounded-[40px]  overflow-hidden">
-          <img
-            src="/images/landing.png"
+          <Image
+            width={1000}
+            height={1000}
+            src="/images/landing.jpg"
             alt="landing image"
             className="rounded-inherit w-full h-full transition-all object-cover"
           />
@@ -49,8 +51,10 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="relative w-full h-full rounded-[40px]  overflow-hidden">
-          <img
-            src="/images/landing.png"
+          <Image
+            width={1000}
+            height={1000}
+            src="/images/landing.jpg"
             alt=""
             className="rounded-inherit w-full h-full transition-all object-cover"
           />

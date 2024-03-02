@@ -10,6 +10,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Shield from "@/components/icons/shield";
+import Image from "next/image";
 
 const Health = () => {
   const [image, setImage] = useState(healthData[0].imageUrl);
@@ -19,10 +20,12 @@ const Health = () => {
       <div className="flex xlg:flex-row flex-col gap-5">
         <div className="xlg:w-1/2">
           <div className="w-full xlg:h-[620px] max-sm:h-[511px] rounded-[40px]">
-            <img
+            <Image
               src={image}
               alt="health image"
               className="h-full w-full object-cover rounded-inherit"
+              width={1000}
+              height={1000}
             />
           </div>
           <div
@@ -40,10 +43,12 @@ const Health = () => {
                   )}
                   onClick={() => setImage(imageUrl)}
                 >
-                  <img
+                  <Image
                     src={imageUrl}
                     alt="health image"
                     className="h-full w-full object-cover rounded-inherit"
+                    width={1000}
+                    height={1000}
                   />
                 </div>
                 <p className="text-button1 mt-[22px] text-center">{info}</p>
