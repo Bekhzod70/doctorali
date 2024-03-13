@@ -5,6 +5,7 @@ import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import Navbar from "@/components/navbar/index";
 import Footer from "@/components/footer";
+import { appWithTranslation } from "next-i18next";
 
 const remarkFont = localFont({
   src: "../fonts/remark.ttf",
@@ -26,7 +27,7 @@ const interFont = localFont({
   variable: "--inter-font",
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <style jsx global>{`
@@ -43,3 +44,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+export default appWithTranslation(App);

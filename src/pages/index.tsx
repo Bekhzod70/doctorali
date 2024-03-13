@@ -6,6 +6,7 @@ import Health from "@/sections/health";
 import Hero from "@/sections/hero";
 import Product from "@/sections/product";
 import Sertificate from "@/sections/sertificate";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { Fragment } from "react";
 
 export default function Home() {
@@ -42,4 +43,13 @@ export default function Home() {
       <Address />
     </Fragment>
   );
+}
+
+// @ts-ignore
+export async function getServerSideProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
 }

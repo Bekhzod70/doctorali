@@ -8,12 +8,11 @@ import {
 } from "@/components/ui/select";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { Button } from "./ui/button";
+
 import RussiaFlag from "./icons/russia-flag";
 import UzbekFlag from "./icons/uzbek-flag";
-import EnglandFlag from "./icons/england-flag";
 
-type ILanguage = "ru" | "uz" | "en";
+type ILanguage = "ru" | "uz";
 
 const languages = [
   {
@@ -23,10 +22,6 @@ const languages = [
   {
     label: "Русский",
     value: "ru",
-  },
-  {
-    label: "English",
-    value: "en",
   },
 ];
 
@@ -53,10 +48,6 @@ const SwitchLanguage = () => {
     uz: {
       icon: <UzbekFlag />,
       label: "Uzbek",
-    },
-    en: {
-      icon: <EnglandFlag />,
-      label: "English",
     },
   };
 

@@ -3,13 +3,14 @@ import Logo from "../icons/logo";
 import SwitchLanguage from "../switch-language";
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { ChevronRight, Menu, Phone } from "lucide-react";
-import { useEffect, useState } from "react";
+import { ChevronRight, Phone } from "lucide-react";
+import { useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { useScroll } from "./useScroll";
 import { useToggle } from "@/hooks/useToggle";
 import Hamburger from "./hamburger";
 import MobilNav from "./mobil-nav";
+import Translation from "../translation";
 
 const Navbar = () => {
   const [isOpen, toggle] = useToggle();
@@ -35,6 +36,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="sm:w-[92px] w-[70px]">
             <Logo />
+            <Translation text="h" />
           </div>
           <div className="lg:block hidden">
             <SwitchLanguage />
