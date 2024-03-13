@@ -9,6 +9,7 @@ import { sertificateData } from "./data";
 import { Controlled as ControlledZoom } from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
+import Translation from "@/components/translation";
 
 const Sertificate = () => {
   const [zoom, setZoomed] = useState(0);
@@ -18,7 +19,7 @@ const Sertificate = () => {
       <div className="flex justify-between items-end mb-16">
         <div>
           <SectionTitle className="max-w-[576px]">
-            Преимущества для всего организма
+            <Translation text="label.sertificate"/>
           </SectionTitle>
         </div>
 

@@ -36,7 +36,6 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="sm:w-[92px] w-[70px]">
             <Logo />
-            <Translation text="h" />
           </div>
           <div className="lg:block hidden">
             <SwitchLanguage />
@@ -47,7 +46,10 @@ const Navbar = () => {
               {navLinks.map(({ label, to }) => (
                 <li key={label + to}>
                   <Link href={to}>
-                    <Button variant="ghost">{label}</Button>
+                    <Button variant="ghost">
+                      <Translation text={label} />
+                      {/* {label} */}
+                    </Button>
                   </Link>
                 </li>
               ))}
@@ -57,13 +59,15 @@ const Navbar = () => {
           <div className="flex items-center sm:gap-5 gap-2">
             <Button className="sm:inline-flex hidden">
               <Phone />
-              Контакты
+              {/* Контакты */}
+              <Translation text="links.contact" />
             </Button>
             <Button size="icon" className="sm:hidden">
               <Phone className="h-6 w-6" />
             </Button>
             <Button variant="warning" className="xlg:inline-flex hidden">
-              Бесплатная консультация
+              {/* Бесплатная консультация */}
+              <Translation text="links.connect" />
               <ChevronRight className="h-5 w-5" />
             </Button>
 

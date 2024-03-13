@@ -1,26 +1,26 @@
 export const productData = [
   {
     imageUrl: "/images/product/image-1.png",
-    info: "Свой оригинальный продукт",
+    info: "product.card1",
   },
   {
     imageUrl: "/images/product/image-2.png",
-    info: "Экологически чистые компоненты",
+    info: "product.card2",
   },
   {
     imageUrl: "/images/product/image-3.png",
-    info: "Сертификаты подтверждающие качество",
+    info: "product.card3",
   },
   {
     imageUrl: "/images/product/image-4.png",
-    info: "Бесплатная доставка по всему Узбекистану",
+    info: "product.card4",
   },
   {
     imageUrl: "/images/product/image-5.png",
-    info: "Различные подарки иконкурсы",
+    info: "product.card5",
   },
   {
     imageUrl: "/images/product/image-6.png",
-    info: "Бесплатная консультация",
+    info: "product.card6",
   },
 ];

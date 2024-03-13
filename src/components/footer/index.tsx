@@ -1,6 +1,7 @@
 import { socialLinks } from "@/constants/social-links";
 import Logo from "../icons/logo";
 import { footerLinks } from "./data";
+import Translation from "../translation";
 
 const Footer = () => {
   return (
@@ -12,12 +13,12 @@ const Footer = () => {
               <Logo />
             </div>
             <p className="mt-5 text-white text-paragraph2 max-w-[248px]">
-              Здоровье под заботой природы – выберите Doctor Ali.
+              <Translation text="footer.quote" />
             </p>
           </div>
           <div className="lg:w-[335px]">
             <p className="text-button2 text-orange mb-[30px] font-medium">
-              Контакты
+              <Translation text="links.contact" />
             </p>
             <ul className="flex flex-col gap-y-[15px]">
               <li>
@@ -63,7 +64,7 @@ const Footer = () => {
                   key={label}
                   className="text-button1 text-white font-medium hover:underline"
                 >
-                  {label}
+                 <Translation text={label} />
                 </a>
               ))}
             </div>

@@ -1,3 +1,4 @@
+import Translation from "@/components/translation";
 import Image from "next/image";
 
 interface Props {
@@ -12,7 +13,8 @@ const ProductCard = ({ imageUrl, info }: Props) => {
       key={info}
     >
       <h3 className="lg:text-heading4 text-paragraph1 text-white relative z-10 font-medium max-w-[416px]">
-        {info}
+        {/* {info} */}
+        <Translation text={info} />
       </h3>
       <Image
         width={500}

@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/accordion";
 import Shield from "@/components/icons/shield";
 import Image from "next/image";
+import Translation from "@/components/translation";
 
 const Health = () => {
   const [image, setImage] = useState(healthData[0].imageUrl);
@@ -51,7 +52,9 @@ const Health = () => {
                     height={1000}
                   />
                 </div>
-                <p className="text-button1 mt-[22px] text-center">{info}</p>
+                <p className="text-button1 mt-[22px] text-center">
+                  <Translation text={info} />
+                </p>
               </div>
             ))}
           </div>

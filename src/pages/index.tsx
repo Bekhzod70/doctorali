@@ -8,15 +8,18 @@ import Product from "@/sections/product";
 import Sertificate from "@/sections/sertificate";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { Fragment } from "react";
+import { useTranslation } from "next-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <Fragment>
       <Hero />
       <Benefits />
       <Connect
-        title="Не теряйте времени на болезни"
-        subtitle="отправьте заявку сейчас и начните свой путь к здоровью!"
+        title={t("connect1.title")}
+        subtitle={t("connect1.subtitle")}
         bgColor="bg-green"
         desktopImg="/images/bg/connect-1.png"
         mobileImg="/images/bg/connect-1-sm.png"
@@ -24,8 +27,8 @@ export default function Home() {
       <Health />
       <Product />
       <Connect
-        title="Готовы к позитивным изменениям?"
-        subtitle="Оставьте заявку и откройте для себя силу нашего натурального комплекса!"
+        title={t("connect2.title")}
+        subtitle={t("connect2.subtitle")}
         bgColor="bg-orange"
         desktopImg="/images/bg/connect-2.png"
         mobileImg="/images/bg/connect-2.png"
@@ -34,8 +37,8 @@ export default function Home() {
       <Sertificate />
       <Feedback />
       <Connect
-        title="Пройдите первый шаг к лучшему здоровью"
-        subtitle="заполните форму заявки и мы свяжемся с вами незамедлительно!"
+        title={t("connect3.title")}
+        subtitle={t("connect3.subtitle")}
         bgColor="bg-green"
         desktopImg="/images/bg/connect-3.png"
         mobileImg="/images/bg/connect-3-sm.png"

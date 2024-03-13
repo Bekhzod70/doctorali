@@ -11,12 +11,13 @@ import { useState } from "react";
 
 import RussiaFlag from "./icons/russia-flag";
 import UzbekFlag from "./icons/uzbek-flag";
+import Translation from "./translation";
 
 type ILanguage = "ru" | "uz";
 
 const languages = [
   {
-    label: "Uzbek",
+    label: "Ўзбек",
     value: "uz",
   },
   {
@@ -47,7 +48,7 @@ const SwitchLanguage = () => {
     },
     uz: {
       icon: <UzbekFlag />,
-      label: "Uzbek",
+      label: "Ўзбек",
     },
   };
 
@@ -56,7 +57,8 @@ const SwitchLanguage = () => {
       <div className="flex items-center justify-center gap-1">
         <div className="text-gray flex items-center gap-[6px]">
           {infoSelectLanguage[selectedLang]?.icon}
-          Язык:
+          {/* Язык: */}
+          <Translation text="label.language" />:
         </div>
         <Select
           onValueChange={(e: ILanguage) => {

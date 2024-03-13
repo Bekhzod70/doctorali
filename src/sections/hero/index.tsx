@@ -3,6 +3,7 @@ import Section from "../components/section";
 import { Phone } from "lucide-react";
 import Slider from "./slider";
 import Chip from "@/components/chip";
+import Translation from "@/components/translation";
 
 const Hero = () => {
   return (
@@ -14,18 +15,27 @@ const Hero = () => {
             alt="bg shape"
             className="absolute bottom-0 right-0 pointer-events-none"
           />
-          <Chip>Набор Doctor Ali</Chip>
+          <Chip>
+            {/* Набор Doctor Ali */}
+            <Translation text="hero.collection_ali" />
+          </Chip>
           <h1 className="text-white font-remark sm:text-heading1 text-heading2">
-            Природная сила для вашего здоровья
+            {/* Природная сила для вашего здоровья */}
+            <Translation text="hero.title" />
           </h1>
           <p className="text-paragraph1 text-gray-light mt-[30px] mb-[120px]">
-            Инновационный набор для поддержки внутренних органов
+            {/* Инновационный набор для поддержки внутренних органов */}
+            <Translation text="hero.subtitle" />
           </p>
           <Button variant="warning" className="w-full">
             <Phone className="shrink-0" />
-            <span>
-              <span className="sm:inline hidden">Получить</span>{" "}
-              <span className="max-sm:capitalize">беспатную</span> консультацию
+            <span className="sm:hidden">
+              <Translation text="links.connect" />
+            </span>
+            <span className="sm:block hidden">
+              {/* <span className="sm:inline hidden">Получить</span>{" "}
+              <span className="max-sm:capitalize">беспатную</span> консультацию */}
+              <Translation text="connect.btn" />
             </span>
           </Button>
         </div>

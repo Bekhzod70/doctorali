@@ -1,10 +1,10 @@
 export const navLinks = [
   {
-    label: "О нас",
+    label: "links.about",
     to: "/about",
   },
   {
-    label: "Каталог",
+    label: "links.catalog",
     to: "/category",
   },
 ];

@@ -7,17 +7,17 @@ import Vector from "@/components/icons/vector";
 export const healthData = [
   {
     imageUrl: "/images/health/image-4.jpg",
-    info: "Элискир",
+    info: "health.eliksir",
   },
   {
     imageUrl: "/images/health/image-3.jpg",
-    info: "Мармелад",
+    info: "health.marmelad",
   },
   {
     imageUrl: "/images/health/image-2.jpg",
-    info: "Капсулы",
+    info: "health.capsula",
   },
-  { imageUrl: "/images/health/image-1.jpg", info: "Чай" },
+  { imageUrl: "/images/health/image-1.jpg", info: "health.tea" },
 ];
 
 export const healthAccordionData = [

@@ -22,6 +22,8 @@ import { cn } from "@/lib/utils";
 import { sendMessage } from "@/utils/send-data";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import Translation from "@/components/translation";
+import { useTranslation } from "next-i18next";
 
 interface Props {
   title: string;
@@ -33,6 +35,7 @@ interface Props {
 }
 
 const Connect = (props: Props) => {
+  const { t } = useTranslation();
   const router = useRouter();
   const [pending, setIsPending] = useState(false);
   const { bgColor, buttonClass, desktopImg, mobileImg, subtitle, title } =
@@ -91,7 +94,9 @@ const Connect = (props: Props) => {
           <div className="lg:w-1/2">
             <SectionTitle className="mb-[26px]">{title}</SectionTitle>
             <p className="text-paragraph1 mb-[38px]">{subtitle}</p>
-            <Chip>Перезвоним через 15 минут</Chip>
+            <Chip>
+              <Translation text="connect.chip" />
+            </Chip>
           </div>
           <div className="lg:w-1/2">
             <Form {...form}>
@@ -107,7 +112,7 @@ const Connect = (props: Props) => {
                       <FormControl>
                         <Input
                           icon={Pencil}
-                          placeholder="Ваше имя"
+                          placeholder={t("connect.name")}
                           {...field}
                         />
                       </FormControl>
@@ -124,7 +129,7 @@ const Connect = (props: Props) => {
                       <FormControl>
                         <PhoneInput
                           className="phone-input !block"
-                          placeholder="Номер телефона"
+                          placeholder={t("connect.phone")}
                           value={field.value}
                           onChange={field.onChange}
                           inputComponent={Input}
@@ -143,8 +148,12 @@ const Connect = (props: Props) => {
                     buttonClass
                   )}
                 >
-                  Получить <span className="sm:inline hidden">бесплатную</span>{" "}
-                  консультацию
+                  <span className="sm:inline hidden">
+                    <Translation text="connect.btn" />
+                  </span>
+                  <span className="sm:hidden">
+                    <Translation text="links.connect" />
+                  </span>
                   {pending ? (
                     <Loader2Icon className="animate-spin" />
                   ) : (

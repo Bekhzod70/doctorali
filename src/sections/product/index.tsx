@@ -6,6 +6,7 @@ import ProductCard from "./product-card";
 import { Navigation } from "swiper/modules";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Translation from "@/components/translation";
 
 const Product = () => {
   return (
@@ -22,7 +23,7 @@ const Product = () => {
       />
       <div className="py-20">
         <SectionTitle className="text-orange max-w-[941px] mb-[60px]">
-          Откройте для себя преимущества нашего продукта
+          <Translation text="product.title" />
         </SectionTitle>
         <div className="sm:grid hidden lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
           {productData.map((productProps) => (
