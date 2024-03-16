@@ -10,7 +10,7 @@ import Translation from "@/components/translation";
 
 const Product = () => {
   return (
-    <Section className="bg-green relative">
+    <Section className="bg-green relative" id="about">
       <img
         src="/images/bg/product-bg.png"
         alt="bg image"

@@ -32,13 +32,14 @@ interface Props {
   mobileImg: string;
   bgColor: string;
   buttonClass?: string;
+  id?: string;
 }
 
 const Connect = (props: Props) => {
   const { t } = useTranslation();
   const router = useRouter();
   const [pending, setIsPending] = useState(false);
-  const { bgColor, buttonClass, desktopImg, mobileImg, subtitle, title } =
+  const { bgColor, buttonClass, desktopImg, mobileImg, subtitle, title, id } =
     props;
 
   const form = useForm<FormSchema>({
@@ -73,7 +74,7 @@ const Connect = (props: Props) => {
   }
 
   return (
-    <Section>
+    <Section id={id}>
       <div
         className={cn(
           "w-full sm:py-[60px] py-10 sm:px-[50px] px-5 rounded-[40px] relative",

@@ -1,18 +1,18 @@
 export const footerLinks = [
   {
     label: "links.about",
-    url: "",
+    url: "#about",
   },
   {
     label: "links.catalog",
-    url: "",
+    url: "#catalog",
   },
   {
     label: "links.contact",
-    url: "",
+    url: "#contacts",
   },
   {
     label: "links.connect",
-    url: "",
+    url: "#consultation2",
   },
 ];

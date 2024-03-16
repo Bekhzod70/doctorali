@@ -7,6 +7,7 @@ import { Navigation } from "swiper/modules";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { data } from "./data";
+import Translation from "@/components/translation";
 
 const Benefits = () => {
   return (
@@ -14,7 +15,7 @@ const Benefits = () => {
       <div className="flex justify-between items-end mb-16">
         <div>
           <SectionTitle className="max-w-[576px]">
-            Преимущества для всего организма
+            <Translation text="benefits.title" />
           </SectionTitle>
         </div>
 

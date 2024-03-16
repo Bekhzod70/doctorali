@@ -18,6 +18,7 @@ export default function Home() {
       <Hero />
       <Benefits />
       <Connect
+        id="consultation1"
         title={t("connect1.title")}
         subtitle={t("connect1.subtitle")}
         bgColor="bg-green"
@@ -34,9 +35,10 @@ export default function Home() {
         mobileImg="/images/bg/connect-2.png"
         buttonClass="bg-green hover:bg-green/90"
       />
-      <Sertificate />
-      <Feedback />
+      {/* <Sertificate />
+      <Feedback /> */}
       <Connect
+        id="consultation2"
         title={t("connect3.title")}
         subtitle={t("connect3.subtitle")}
         bgColor="bg-green"

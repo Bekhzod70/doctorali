@@ -35,7 +35,10 @@ const SwitchLanguage = () => {
 
   const changeLanguage = (currentLanguage: string) => {
     try {
-      router.push({ pathname, query }, asPath, { locale: currentLanguage });
+      router.push({ pathname, query }, asPath, {
+        locale: currentLanguage,
+        scroll: false,
+      });
     } catch (err) {
       console.error(err);
     }

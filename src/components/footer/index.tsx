@@ -22,7 +22,11 @@ const Footer = () => {
             </p>
             <ul className="flex flex-col gap-y-[15px]">
               <li>
-                <a href="tel:+998711234567" className="footer-contact-link">
+                <a
+                  href="tel:+998711234567"
+                  className="footer-contact-link"
+                  target="_blank"
+                >
                   +998 (71) 123-4567
                 </a>
               </li>
@@ -30,27 +34,44 @@ const Footer = () => {
                 <a
                   href="mailto:support@doctorali.uz"
                   className="footer-contact-link"
+                  target="_blank"
                 >
                   support@doctorali.uz
                 </a>
               </li>
               <li>
-                <a href={socialLinks.map} className="footer-contact-link">
+                <a
+                  href={socialLinks.map}
+                  className="footer-contact-link"
+                  target="_blank"
+                >
                   ул. Ислома Каримова, 15, Ташкент, Узбекистан, 100047
                 </a>
               </li>
               <li>
-                <a href={socialLinks.instagram} className="footer-contact-link">
+                <a
+                  href={socialLinks.instagram}
+                  className="footer-contact-link"
+                  target="_blank"
+                >
                   Instagram
                 </a>
               </li>
-              <li>
-                <a href={socialLinks.facebook} className="footer-contact-link">
+              {/* <li>
+                <a
+                  href={socialLinks.facebook}
+                  className="footer-contact-link"
+                  target="_blank"
+                >
                   Facebook
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href={socialLinks.telegram} className="footer-contact-link">
+                <a
+                  href={socialLinks.telegram}
+                  className="footer-contact-link"
+                  target="_blank"
+                >
                   Telegram
                 </a>
               </li>
@@ -64,7 +85,7 @@ const Footer = () => {
                   key={label}
                   className="text-button1 text-white font-medium hover:underline"
                 >
-                 <Translation text={label} />
+                  <Translation text={label} />
                 </a>
               ))}
             </div>

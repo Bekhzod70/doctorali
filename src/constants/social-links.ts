@@ -1,6 +1,6 @@
 export const socialLinks = {
-  telegram: "https://t.me/",
+  telegram: "https://t.me/mehrigiyo",
   facebook: "facebook.com",
-  instagram: "instagram.com",
-  map: "google.maps",
+  instagram: "https://www.instagram.com/mehrigiyo.uz",
+  map: "https://yandex.com/maps/-/CDFLaW4k",
 };

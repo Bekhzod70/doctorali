@@ -5,6 +5,7 @@ import ThirdCircle from "@/components/icons/third-circle";
 import Vector from "@/components/icons/vector";
 
 export const healthData = [
+  { imageUrl: "/images/health/image-1.jpg", info: "health.tea" },
   {
     imageUrl: "/images/health/image-4.jpg",
     info: "health.eliksir",
@@ -17,38 +18,32 @@ export const healthData = [
     imageUrl: "/images/health/image-2.jpg",
     info: "health.capsula",
   },
-  { imageUrl: "/images/health/image-1.jpg", info: "health.tea" },
 ];
 
 export const healthAccordionData = [
   {
     icon: Shield,
-    question: "Укрепление иммунитета",
-    answer:
-      "Эликсир способствует улучшению пищеварения, обеспечивая естественное и мягкое усвоение пищи. Благодаря уникальной формуле, он помогает снизить вздутие живота, изжогу и дискомфорт после еды, возвращая вам ощущение легкости.",
+    question: "health.card1.title",
+    answer: "health.card1.subtitle",
   },
   {
     icon: Vector,
-    question: "Улучшение пищеварени",
-    answer:
-      "Эликсир способствует улучшению пищеварения, обеспечивая естественное и мягкое усвоение пищи. Благодаря уникальной формуле, он помогает снизить вздутие живота, изжогу и дискомфорт после еды, возвращая вам ощущение легкости.",
+    question: "health.card2.title",
+    answer: "health.card2.subtitle",
   },
   {
     icon: Light,
-    question: "Повышение уровня энергии",
-    answer:
-      "Эликсир способствует улучшению пищеварения, обеспечивая естественное и мягкое усвоение пищи. Благодаря уникальной формуле, он помогает снизить вздутие живота, изжогу и дискомфорт после еды, возвращая вам ощущение легкости.",
+    question: "health.card3.title",
+    answer: "health.card3.subtitle",
   },
   {
     icon: ThirdCircle,
-    question: "Детоксикация организма",
-    answer:
-      "Эликсир способствует улучшению пищеварения, обеспечивая естественное и мягкое усвоение пищи. Благодаря уникальной формуле, он помогает снизить вздутие живота, изжогу и дискомфорт после еды, возвращая вам ощущение легкости.",
+    question: "health.card4.title",
+    answer: "health.card4.subtitle",
   },
   {
     icon: Moon,
-    question: "Улучшение качества сна",
-    answer:
-      "Эликсир способствует улучшению пищеварения, обеспечивая естественное и мягкое усвоение пищи. Благодаря уникальной формуле, он помогает снизить вздутие живота, изжогу и дискомфорт после еды, возвращая вам ощущение легкости.",
+    question: "health.card5.title",
+    answer: "health.card5.subtitle",
   },
 ];

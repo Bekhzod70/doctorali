@@ -1,7 +1,6 @@
 import { navLinks } from "@/constants/nav-links";
 import Logo from "../icons/logo";
 import SwitchLanguage from "../switch-language";
-import Link from "next/link";
 import { Button } from "../ui/button";
 import { ChevronRight, Phone } from "lucide-react";
 import { useEffect } from "react";
@@ -45,31 +44,35 @@ const Navbar = () => {
             <ul className="flex gap-5">
               {navLinks.map(({ label, to }) => (
                 <li key={label + to}>
-                  <Link href={to}>
+                  <a href={to}>
                     <Button variant="ghost">
                       <Translation text={label} />
                       {/* {label} */}
                     </Button>
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
           </nav>
 
           <div className="flex items-center sm:gap-5 gap-2">
-            <Button className="sm:inline-flex hidden">
-              <Phone />
-              {/* Контакты */}
-              <Translation text="links.contact" />
-            </Button>
-            <Button size="icon" className="sm:hidden">
-              <Phone className="h-6 w-6" />
-            </Button>
-            <Button variant="warning" className="xlg:inline-flex hidden">
-              {/* Бесплатная консультация */}
-              <Translation text="links.connect" />
-              <ChevronRight className="h-5 w-5" />
-            </Button>
+            <a href="#contacts">
+              <Button className="sm:inline-flex hidden">
+                <Phone />
+                <Translation text="links.contact" />
+              </Button>
+            </a>
+            <a href="#contacts">
+              <Button size="icon" className="sm:hidden">
+                <Phone className="h-6 w-6" />
+              </Button>
+            </a>
+            <a href="#consultation1">
+              <Button variant="warning" className="xlg:inline-flex hidden">
+                <Translation text="links.connect" />
+                <ChevronRight className="h-5 w-5" />
+              </Button>
+            </a>
 
             <Hamburger toggle={toggle} isOpen={isOpen} />
           </div>

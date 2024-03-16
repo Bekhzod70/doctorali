@@ -24,7 +24,7 @@ const Slider = () => {
             alt="landing image"
             className="rounded-inherit w-full h-full transition-all object-cover"
           />
-          <Popover
+          {/* <Popover
             text="Элискир Doctor Ali"
             left="left-[37%]"
             top="top-[38%]"
@@ -46,10 +46,10 @@ const Slider = () => {
             text="Элискир Doctor Ali"
             right="xlg:right-[20%] right-[15%]"
             top="top-[48%]"
-          />
+          /> */}
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <div className="relative w-full h-full rounded-[40px]  overflow-hidden">
           <Image
             width={1000}
@@ -59,24 +59,24 @@ const Slider = () => {
             className="rounded-inherit w-full h-full transition-all object-cover"
           />
         </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
 
-      <div className="absolute top-[5%] right-[30px] flex gap-[10px] z-10">
+      {/* <div className="absolute top-[5%] right-[30px] flex gap-[10px] z-10">
         <Button
           size="icon"
           variant="ghost"
-          className="arrow-right arrow bg-white"
+          className="arrow-right arrow disabled:bg-opacity-30 bg-white"
         >
           <ChevronLeft className="text-green-dark" />
         </Button>
         <Button
           size="icon"
           variant="ghost"
-          className="arrow-left arrow bg-white"
+          className="arrow-left arrow disabled:bg-opacity-30 bg-white"
         >
           <ChevronRight className="text-green-dark" />
         </Button>
-      </div>
+      </div> */}
     </Swiper>
   );
 };

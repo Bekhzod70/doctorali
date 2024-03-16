@@ -5,7 +5,7 @@ import Translation from "@/components/translation";
 
 const Address = () => {
   return (
-    <Section>
+    <Section id="contacts">
       <SectionTitle className="max-w-[512px] mb-16">
         <Translation text="address.title" />
       </SectionTitle>
@@ -31,13 +31,25 @@ const Address = () => {
             <Translation text="address.social" />
           </p>
           <div>
-            <a href={socialLinks.instagram} className="address-link mb-3">
+            <a
+              href={socialLinks.instagram}
+              className="address-link mb-3"
+              target="_blank"
+            >
               Instagram
             </a>
-            <a href={socialLinks.facebook} className="address-link mb-3">
+            {/* <a
+              href={socialLinks.facebook}
+              className="address-link mb-3"
+              target="_blank"
+            >
               Facebook
-            </a>
-            <a href={socialLinks.telegram} className="address-link">
+            </a> */}
+            <a
+              href={socialLinks.telegram}
+              className="address-link"
+              target="_blank"
+            >
               Telegram
             </a>
           </div>
@@ -46,7 +58,7 @@ const Address = () => {
           <p className="address-title">
             <Translation text="address.map" />
           </p>
-          <a href={socialLinks.map} className="address-link">
+          <a href={socialLinks.map} className="address-link" target="_blank">
             ул. Ислома Каримова, 15, Ташкент, Узбекистан, 100047
           </a>
         </div>

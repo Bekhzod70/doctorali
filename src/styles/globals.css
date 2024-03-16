@@ -71,6 +71,10 @@
     @apply border-border;
   }
 
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-background text-green-dark min-h-[200vh] 2xl:!pt-[9rem] pt-[100px] overflow-x-hidden;
   }

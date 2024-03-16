@@ -9,7 +9,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Shield from "@/components/icons/shield";
 import Image from "next/image";
 import Translation from "@/components/translation";
 
@@ -17,7 +16,7 @@ const Health = () => {
   const [image, setImage] = useState(healthData[0].imageUrl);
 
   return (
-    <Section>
+    <Section id="catalog">
       <div className="flex xlg:flex-row flex-col gap-5">
         <div className="xlg:w-1/2">
           <div className="w-full xlg:h-[620px] max-sm:h-[511px] rounded-[40px]">
@@ -61,9 +60,13 @@ const Health = () => {
         </div>
         <div className="xlg:w-1/2">
           <div className="mb-[46px]">
-            <SectionTitle>Эксклюзивный комплекс для здоровья</SectionTitle>
+            <SectionTitle>
+              <Translation text="health.title" />
+              {/* Эксклюзивный комплекс для здоровья */}
+            </SectionTitle>
             <p className="text-paragraph1 text-gray mt-5">
-              Состав и уникальные преимущества
+              {/* Состав и уникальные преимущества */}
+              <Translation text="health.subtitle" />
             </p>
           </div>
           <Accordion
@@ -71,10 +74,14 @@ const Health = () => {
             collapsible
             className="flex flex-col gap-y-4"
           >
-            {healthAccordionData.map(({ answer, icon, question }, i) => (
+            {healthAccordionData.map(({ answer, question }, i) => (
               <AccordionItem value={`item-${i}`} key={question}>
-                <AccordionTrigger icon={icon}>{question}</AccordionTrigger>
-                <AccordionContent>{answer}</AccordionContent>
+                <AccordionTrigger>
+                  <Translation text={question} />
+                </AccordionTrigger>
+                <AccordionContent>
+                  <Translation text={answer} />
+                </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>

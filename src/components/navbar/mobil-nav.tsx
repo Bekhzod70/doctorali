@@ -1,6 +1,5 @@
 import { navLinks } from "@/constants/nav-links";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 import { Button } from "../ui/button";
 import { ChevronRight } from "lucide-react";
 import SwitchLanguage from "../switch-language";
@@ -18,14 +17,14 @@ const MobilNav = ({ isOpen }: { isOpen: boolean }) => {
           <div></div>
           <div className="flex flex-col gap-[18px]">
             {navLinks.map(({ label, to }) => (
-              <Link href={to} key={label + to}>
+              <a href={to} key={label + to}>
                 <Button
                   variant="ghost"
                   className="w-full bg-white hover:bg-white"
                 >
                   {label}
                 </Button>
-              </Link>
+              </a>
             ))}
 
             <Button variant="warning" className="w-full">
