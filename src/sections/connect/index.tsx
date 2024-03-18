@@ -84,7 +84,10 @@ const Connect = (props: Props) => {
   }
 
   const handleActive = () => {
-    form.setValue("phone", "+");
+    const phoneValue = form.getValues("phone");
+    if (!phoneValue) {
+      form.setValue("phone", "+");
+    }
   };
 
   return (
