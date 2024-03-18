@@ -1,6 +1,7 @@
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-
+// import { PhoneInput } from "react-international-phone";
+// import "react-international-phone/style.css";
 import Chip from "@/components/chip";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
@@ -82,6 +83,10 @@ const Connect = (props: Props) => {
     }
   }
 
+  const handleActive = () => {
+    form.setValue("phone", "+");
+  };
+
   return (
     <Section id={id}>
       <div
@@ -149,6 +154,8 @@ const Connect = (props: Props) => {
                     <FormItem>
                       <FormControl>
                         <PhoneInput
+                          defaultCountry="UZ"
+                          onFocus={handleActive}
                           className="phone-input !block"
                           placeholder={t("connect.phone")}
                           value={field.value}

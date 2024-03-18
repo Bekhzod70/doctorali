@@ -38,11 +38,11 @@ const SingleRecommend = () => {
                   <PlayBox onClick={openVideoModal} />
                   <div className="w-full h-full absolute -z-[1] left-0 top-0 bg-black/20" />
                   <div className="py-6 px-5 rounded-[20px] bg-white inline-block">
-                    <h4 className="text-orange text-xl">
+                    {/* <h4 className="text-orange text-xl">
                       <Translation text="label.recommend" />
-                    </h4>
+                    </h4> */}
                     <h2 className="text-[28px] text-green font-medium">
-                      Профессор Зокиржон Муҳаммеджонов
+                      <Translation text="label.recommend" />
                     </h2>
                   </div>
                 </div>
@@ -53,6 +53,14 @@ const SingleRecommend = () => {
       </div>
       <div className="lg:hidden">
         <div>
+          <div className="bg-gray-light mb-2 py-[18px] px-[14px] rounded-[20px]">
+            {/* <h4 className="text-orange text-base">
+              <Translation text="label.recommend" />
+            </h4> */}
+            <h2 className="text-xl text-green font-medium">
+              <Translation text="label.recommend" />
+            </h2>
+          </div>
           <div className="rounded-[40px] overflow-hidden w-full sm:h-auto h-[332px] relative">
             <img
               src="https://i3.ytimg.com/vi/yGPxiTo39ok/maxresdefault.jpg"
@@ -60,14 +68,6 @@ const SingleRecommend = () => {
               className="w-full h-full object-cover"
             />
             <PlayBox onClick={openVideoModal} />
-          </div>
-          <div className="bg-gray-light mt-2 py-[18px] px-[14px] rounded-[20px]">
-            <h4 className="text-orange text-base">
-              <Translation text="label.recommend" />
-            </h4>
-            <h2 className="text-xl text-green font-medium">
-              Профессор Зокиржон Муҳаммеджонов
-            </h2>
           </div>
         </div>
       </div>

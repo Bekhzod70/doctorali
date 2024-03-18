@@ -29,7 +29,7 @@ const Health = () => {
               <Translation text="health.subtitle" />
             </p>
           </div>
-          <div className="w-full xlg:h-[620px] sm:h-[600px] max-sm:h-[400px] rounded-[40px]">
+          <div className="w-full xlg:h-[620px] sm:h-[600px] max-sm:h-[300px] rounded-[40px]">
             <Image
               src={image}
               alt="health image"

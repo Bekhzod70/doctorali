@@ -25,6 +25,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.50.1",
     "react-i18next": "^14.1.0",
+    "react-international-phone": "^4.2.6",
     "react-medium-image-zoom": "^5.1.10",
     "react-phone-number-input": "^3.3.9",
     "react-player": "^2.15.0",

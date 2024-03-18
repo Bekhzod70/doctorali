@@ -50,8 +50,8 @@ export default function Home() {
         desktopImg="/images/bg/connect-3.png"
         mobileImg="/images/bg/connect-3-sm.png"
       /> */}
-      <Address />
       <Faq />
+      <Address />
     </Fragment>
   );
 }

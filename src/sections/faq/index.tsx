@@ -12,7 +12,9 @@ import { faqData } from "./faq-data";
 const Faq = () => {
   return (
     <Section className="py-10 bg-orange">
-      <SectionTitle className="text-white sm:mb-16 mb-7"></SectionTitle>
+      <SectionTitle className="text-white sm:mb-16 mb-7">
+        <Translation text="faq.title" />
+      </SectionTitle>
       <div>
         <Accordion type="single" collapsible className="flex flex-col gap-y-4">
           {faqData.map(({ answer, question }, i) => (
