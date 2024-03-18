@@ -58,13 +58,13 @@ const FeedbackSlider = ({
                 width={1000}
                 height={1000}
               />
-              <div
+              {/* <div
                 className="w-full h-full absolute left-0 top-0"
                 style={{
                   background:
                     "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%)",
                 }}
-              />
+              /> */}
               {/* <p className="text-paragraph1 absolute left-[30px] bottom-10 max-w-[220px] text-white">
                 {info}
               </p> */}
