@@ -10,6 +10,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { Fragment } from "react";
 import { useTranslation } from "next-i18next";
 import SingleRecommend from "@/sections/single-recommend";
+import Faq from "@/sections/faq";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -33,6 +34,7 @@ export default function Home() {
       <Sertificate />
       <Feedback />
       <Connect
+        image
         id="consultation2"
         title={t("connect1.title")}
         subtitle={t("connect1.subtitle")}
@@ -49,6 +51,7 @@ export default function Home() {
         mobileImg="/images/bg/connect-3-sm.png"
       /> */}
       <Address />
+      <Faq />
     </Fragment>
   );
 }

@@ -89,10 +89,10 @@
     @apply sm:text-2xl text-xl font-medium text-green block hover:underline;
   }
   .address-wrapper {
-    @apply sm:w-[335px] sm:h-[273px] h-[212px] w-full bg-gray-light sm:rounded-[30px] rounded-[20px] flex flex-col justify-between sm:py-10 py-[30px] sm:px-[30px] px-5;
+    @apply bg-gray-light sm:rounded-[30px] sm:w-[48%] rounded-[20px] flex flex-col justify-between sm:py-10 py-[30px] sm:px-[30px] px-5;
   }
   .address-title {
-    @apply sm:text-button1 text-button2 text-orange;
+    @apply sm:text-button1 text-button2 text-orange mb-1;
   }
 
   .footer-contact-link {

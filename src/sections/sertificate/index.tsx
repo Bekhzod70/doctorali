@@ -216,7 +216,7 @@ const Sertificates = () => {
               prevEl: ".sertificate-arrow-right",
             }}
             slidesPerView="auto"
-            spaceBetween={30}
+            spaceBetween={8}
             pagination={{
               clickable: true,
               el: "#pagination-sertificate-wrapper",

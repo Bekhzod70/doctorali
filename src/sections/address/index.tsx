@@ -6,10 +6,10 @@ import Translation from "@/components/translation";
 const Address = () => {
   return (
     <Section id="contacts">
-      <SectionTitle className="max-w-[512px] mb-16">
+      <SectionTitle className="max-w-[712px] sm:mb-16 mb-7">
         <Translation text="address.title" />
       </SectionTitle>
-      <div className="flex max-xl:flex-wrap justify-evenly gap-5">
+      <div className="flex sm:flex-row flex-col max-xl:flex-wrap sm:gap-5 gap-2">
         <div className="address-wrapper">
           <p className="address-title">
             <Translation text="address.phone" />
@@ -20,31 +20,16 @@ const Address = () => {
         </div>
         <div className="address-wrapper">
           <p className="address-title">
-            <Translation text="address.email" />
-          </p>
-          <a href="mailto:suport@doctorali.uz" className="address-link">
-            suport@doctorali.uz
-          </a>
-        </div>
-        <div className="address-wrapper">
-          <p className="address-title">
             <Translation text="address.social" />
           </p>
-          <div>
+          <div className="flex gap-4">
             <a
               href={socialLinks.instagram}
-              className="address-link mb-3"
+              className="address-link"
               target="_blank"
             >
               Instagram
             </a>
-            {/* <a
-              href={socialLinks.facebook}
-              className="address-link mb-3"
-              target="_blank"
-            >
-              Facebook
-            </a> */}
             <a
               href={socialLinks.telegram}
               className="address-link"
@@ -53,14 +38,6 @@ const Address = () => {
               Telegram
             </a>
           </div>
-        </div>
-        <div className="address-wrapper">
-          <p className="address-title">
-            <Translation text="address.map" />
-          </p>
-          <a href={socialLinks.map} className="address-link" target="_blank">
-            ул. Ислома Каримова, 15, Ташкент, Узбекистан, 100047
-          </a>
         </div>
       </div>
     </Section>

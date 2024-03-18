@@ -2,7 +2,6 @@ import Play from "@/components/icons/play";
 import Section from "../components/section";
 import { HTMLAttributes, useState } from "react";
 import VideoModal from "@/components/video-modal";
-import Translation from "@/components/translation";
 
 interface PlayBoxProps extends HTMLAttributes<HTMLSpanElement> {}
 
@@ -61,12 +60,12 @@ const SingleRecommend = () => {
             />
             <PlayBox onClick={openVideoModal} />
           </div>
-          <div className="bg-gray-light mt-2 py-[18px] px-[14px] rounded-[20px]">
+          {/* <div className="bg-gray-light mt-2 py-[18px] px-[14px] rounded-[20px]">
             <h4 className="text-orange text-base">Рекомендует</h4>
             <h2 className="text-xl text-green font-medium">
               Малинин Роман Сергеевич
             </h2>
-          </div>
+          </div> */}
         </div>
       </div>
       {open && (

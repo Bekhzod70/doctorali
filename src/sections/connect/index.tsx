@@ -33,14 +33,23 @@ interface Props {
   bgColor: string;
   buttonClass?: string;
   id?: string;
+  image?: boolean;
 }
 
 const Connect = (props: Props) => {
   const { t } = useTranslation();
   const router = useRouter();
   const [pending, setIsPending] = useState(false);
-  const { bgColor, buttonClass, desktopImg, mobileImg, subtitle, title, id } =
-    props;
+  const {
+    bgColor,
+    buttonClass,
+    desktopImg,
+    mobileImg,
+    subtitle,
+    title,
+    id,
+    image,
+  } = props;
 
   const form = useForm<FormSchema>({
     resolver: zodResolver(formSchema),
@@ -91,13 +100,24 @@ const Connect = (props: Props) => {
           alt="Connect bg shape"
           className="absolute lg:hidden right-0 top-0"
         />
+        {image ? (
+          <div className="w-full overflow-hidden rounded-2xl mb-[22px] sm:hidden">
+            <img
+              src="/images/contact.jpg"
+              alt="contact"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ) : null}
         <div className="flex lg:flex-row flex-col xl:gap-24 gap-y-10 text-white relative z-10">
           <div className="lg:w-1/2">
             <SectionTitle className="mb-[26px]">{title}</SectionTitle>
             <p className="sm:text-paragraph1 text-base mb-[38px]">{subtitle}</p>
-            <Chip>
-              <Translation text="connect.chip" />
-            </Chip>
+            {!image ? (
+              <Chip>
+                <Translation text="connect.chip" />
+              </Chip>
+            ) : null}
           </div>
           <div className="lg:w-1/2">
             <Form {...form}>
