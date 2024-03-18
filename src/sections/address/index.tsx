@@ -7,7 +7,7 @@ const Address = () => {
   return (
     <Section id="contacts">
       <SectionTitle className="max-w-[712px] sm:mb-16 mb-7">
-        <Translation text="address.title" />
+        <Translation text="footer.quote" />
       </SectionTitle>
       <div className="flex sm:flex-row flex-col max-xl:flex-wrap sm:gap-5 gap-2">
         <div className="address-wrapper">
