@@ -112,6 +112,13 @@
   },
   "label": {
     "language": "Тил",
-    "sertificate": "Бизнинг сертификатлар"
+    "sertificate": "Бизнинг сертификатлар",
+    "recommend": "Tavsiya qiladi"
+  },
+  "feedback": {
+    "title": "Mahsulotimizning samaradorligi haqida haqiqiy sharhlar",
+    "experts": "Mutaxassislarning fikri",
+    "clients": "Mijozlarning fikri",
+    "star": "Mashxurlarning fikrlari"
   }
 }

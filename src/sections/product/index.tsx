@@ -1,11 +1,10 @@
+import "swiper/css/grid";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 import { productData } from "./data";
 import ProductCard from "./product-card";
-import { Navigation } from "swiper/modules";
-import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Grid, Pagination } from "swiper/modules";
 import Translation from "@/components/translation";
 
 const Product = () => {
@@ -30,28 +29,25 @@ const Product = () => {
             <ProductCard key={productProps.info} {...productProps} />
           ))}
         </div>
-        <div className="sm:hidden">
+        <div className="sm:hidden h-[400px]">
           <Swiper
-            modules={[Navigation]}
             navigation={{
               nextEl: ".product-arrow-left",
               prevEl: ".product-arrow-right",
             }}
-            breakpoints={{
-              600: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-              },
-              900: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-              },
-              1400: {
-                slidesPerView: 4,
-                spaceBetween: 4,
-              },
+            grid={{
+              rows: 2,
             }}
-            id="benefit-slider"
+            slidesPerView={2}
+            pagination={{
+              clickable: true,
+              el: "#pagination-wrapper",
+              bulletClass: "product-bullet",
+              bulletActiveClass: "product-bullet-active",
+            }}
+            spaceBetween={8}
+            id="product-slider"
+            modules={[Grid, Pagination]}
             className="h-full !items-end"
           >
             {productData.map((props) => (
@@ -60,8 +56,12 @@ const Product = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+          <div
+            id="pagination-wrapper"
+            className="flex justify-center gap-3 child:bg-orange"
+          ></div>
         </div>
-        <div className="flex gap-[10px] sm:hidden relative z-10 justify-center mt-10">
+        {/* <div className="flex gap-[10px] sm:hidden relative z-10 justify-center mt-10">
           <Button
             size="icon"
             variant="warning"
@@ -76,7 +76,7 @@ const Product = () => {
           >
             <ChevronRight className="text-white group-disabled:text-gray" />
           </Button>
-        </div>
+        </div> */}
       </div>
     </Section>
   );

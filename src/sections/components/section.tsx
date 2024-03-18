@@ -5,7 +5,7 @@ interface Props extends HTMLAttributes<HTMLElement> {}
 
 const Section = ({ className, children, ...rest }: Props) => {
   return (
-    <section className={cn("my-[150px]", className)} {...rest}>
+    <section className={cn("sm:my-[150px] my-[70px]", className)} {...rest}>
       <div className="container">{children}</div>
     </section>
   );

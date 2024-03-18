@@ -7,7 +7,7 @@ import Translation from "@/components/translation";
 
 const Hero = () => {
   return (
-    <Section className="mt-0">
+    <Section className="!mt-0 !mb-[83px]">
       <div className="flex gap-[10px] xl:flex-row flex-col">
         <div className="xl:w-1/2 w-full bg-green rounded-[40px] overflow-hidden sm:p-[50px] px-5 py-10 relative">
           <img
@@ -18,12 +18,15 @@ const Hero = () => {
           <Chip>
             <Translation text="hero.collection_ali" />
           </Chip>
-          <h1 className="text-white font-remark sm:text-heading1 text-heading2">
+          <h1 className="text-white font-remark sm:text-heading1 text-[34px] max-sm:leading-[34px]">
             <Translation text="hero.title" />
           </h1>
-          <p className="text-paragraph1 text-gray-light mt-[30px] mb-[120px]">
+          <p className="text-paragraph1 text-gray-light sm:mt-[30px] mt-[14px] xl:mb-[120px]">
             <Translation text="hero.subtitle" />
           </p>
+          <div className="xl:w-1/2 xl:hidden my-[30px]">
+            <Slider />
+          </div>
           <Button variant="warning" className="w-full">
             <Phone className="shrink-0" />
             <span className="sm:hidden">
@@ -34,7 +37,7 @@ const Hero = () => {
             </span>
           </Button>
         </div>
-        <div className="xl:w-1/2 w-full">
+        <div className="xl:w-1/2 xl:block hidden">
           <Slider />
         </div>
       </div>

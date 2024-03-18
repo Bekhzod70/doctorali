@@ -94,7 +94,7 @@ const Connect = (props: Props) => {
         <div className="flex lg:flex-row flex-col xl:gap-24 gap-y-10 text-white relative z-10">
           <div className="lg:w-1/2">
             <SectionTitle className="mb-[26px]">{title}</SectionTitle>
-            <p className="text-paragraph1 mb-[38px]">{subtitle}</p>
+            <p className="sm:text-paragraph1 text-base mb-[38px]">{subtitle}</p>
             <Chip>
               <Translation text="connect.chip" />
             </Chip>

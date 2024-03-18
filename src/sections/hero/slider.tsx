@@ -13,14 +13,14 @@ const Slider = () => {
       modules={[Navigation]}
       navigation={{ nextEl: ".arrow-left", prevEl: ".arrow-right" }}
       id="hero-slider"
-      className="xl:h-full max-sm:h-[474px]"
+      className="xl:h-full max-sm:h-[257px]"
     >
       <SwiperSlide>
-        <div className="relative w-full h-full rounded-[40px]  overflow-hidden">
+        <div className="relative w-full h-full sm:rounded-[40px] rounded-2xl  overflow-hidden">
           <Image
             width={1000}
             height={1000}
-            src="/images/landing.jpg"
+            src="/images/hero2.jpg"
             alt="landing image"
             className="rounded-inherit w-full h-full transition-all object-cover"
           />

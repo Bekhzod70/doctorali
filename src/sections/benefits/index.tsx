@@ -12,9 +12,9 @@ import Translation from "@/components/translation";
 const Benefits = () => {
   return (
     <Section>
-      <div className="flex justify-between items-end mb-16">
+      <div className="flex justify-between items-end sm:mb-16 mb-[30px]">
         <div>
-          <SectionTitle className="max-w-[576px]">
+          <SectionTitle className="max-w-[600px]">
             <Translation text="benefits.title" />
           </SectionTitle>
         </div>
@@ -36,7 +36,12 @@ const Benefits = () => {
           </Button>
         </div>
       </div>
-      <div>
+      <div className="sm:hidden flex flex-wrap gap-2">
+        {data.map((props, i) => (
+          <BenefitCard key={i} {...props} />
+        ))}
+      </div>
+      <div className="sm:block hidden">
         <Swiper
           modules={[Navigation]}
           navigation={{

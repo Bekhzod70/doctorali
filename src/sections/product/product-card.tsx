@@ -9,11 +9,10 @@ interface Props {
 const ProductCard = ({ imageUrl, info }: Props) => {
   return (
     <div
-      className="relative h-[235px] py-[30px] px-5 lg:[&:nth-child(6n_+_3)]:col-span-2 lg:[&:nth-child(6n_+_4)]:col-span-2 rounded-[30px] group overflow-hidden"
+      className="relative sm:border-0 border-2 border-orange sm:w-auto xs:w-[175px] h-[170px] sm:h-[235px] xs:h-[175px] w-[100%] sm:py-[30px] sm:px-5 py-4 px-3 lg:[&:nth-child(6n_+_3)]:col-span-2 lg:[&:nth-child(6n_+_4)]:col-span-2 rounded-[30px] group overflow-hidden"
       key={info}
     >
-      <h3 className="lg:text-heading4 text-paragraph1 text-white relative z-10 font-medium max-w-[416px]">
-        {/* {info} */}
+      <h3 className="lg:text-heading4 sm:text-paragraph1 text-sm text-white relative z-10 font-medium max-w-[416px]">
         <Translation text={info} />
       </h3>
       <Image
