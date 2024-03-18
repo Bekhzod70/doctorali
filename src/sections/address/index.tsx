@@ -14,15 +14,15 @@ const Address = () => {
           <p className="address-title">
             <Translation text="address.phone" />
           </p>
-          <a href="tel:+998711234567" className="address-link">
-            +998 (71) 123-4567
+          <a href="tel:+998787773103" className="address-link">
+            +998 (78) 777-31-03
           </a>
         </div>
         <div className="address-wrapper">
           <p className="address-title">
             <Translation text="address.social" />
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-x-4 flex-wrap">
             <a
               href={socialLinks.instagram}
               className="address-link"
@@ -36,6 +36,13 @@ const Address = () => {
               target="_blank"
             >
               Telegram
+            </a>
+            <a
+              href={socialLinks.youtube}
+              className="address-link"
+              target="_blank"
+            >
+              YouTube
             </a>
           </div>
         </div>

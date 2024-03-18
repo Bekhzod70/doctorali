@@ -23,11 +23,11 @@ const Footer = () => {
             <ul className="flex flex-col gap-y-[15px]">
               <li>
                 <a
-                  href="tel:+998711234567"
+                  href="tel:+998787773103"
                   className="footer-contact-link"
                   target="_blank"
                 >
-                  +998 (71) 123-4567
+                  +998 (78) 777-31-03
                 </a>
               </li>
               <li>
@@ -57,15 +57,15 @@ const Footer = () => {
                   Instagram
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a
-                  href={socialLinks.facebook}
+                  href={socialLinks.youtube}
                   className="footer-contact-link"
                   target="_blank"
                 >
-                  Facebook
+                  YouTube
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a
                   href={socialLinks.telegram}
@@ -83,7 +83,7 @@ const Footer = () => {
                 <a
                   href={url}
                   key={label}
-                  className="text-button1 text-white font-medium hover:underline"
+                  className="sm:text-button1 text-base text-white font-medium hover:underline"
                 >
                   <Translation text={label} />
                 </a>

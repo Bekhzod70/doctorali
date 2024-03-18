@@ -24,12 +24,12 @@ const Product = () => {
         <SectionTitle className="text-orange max-w-[941px] mb-[60px]">
           <Translation text="product.title" />
         </SectionTitle>
-        <div className="sm:grid hidden lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 sm:gap-5 gap-2">
           {productData.map((productProps) => (
             <ProductCard key={productProps.info} {...productProps} />
           ))}
         </div>
-        <div className="sm:hidden h-[400px]">
+        {/* <div className="sm:hidden h-[400px]">
           <Swiper
             navigation={{
               nextEl: ".product-arrow-left",
@@ -60,7 +60,7 @@ const Product = () => {
             id="pagination-wrapper"
             className="flex justify-center gap-3 child:bg-orange"
           ></div>
-        </div>
+        </div> */}
         {/* <div className="flex gap-[10px] sm:hidden relative z-10 justify-center mt-10">
           <Button
             size="icon"

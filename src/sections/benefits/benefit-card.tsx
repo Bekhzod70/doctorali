@@ -9,7 +9,7 @@ interface Props {
 
 const BenefitCard = ({ imageUrl, title }: Props) => {
   return (
-    <div className="xl:w-[300px] w-[48%] h-auto rounded-[36px] p-2 bg-gray-light">
+    <div className="sm:w-[300px] w-[48%] h-auto rounded-[36px] p-2 bg-gray-light">
       <div className="flex flex-col gap-y-4 items-center">
         <div className="sm:w-[200px] sm:h-[200px] rounded-full border-4 border-orange">
           <Image

@@ -7,7 +7,7 @@ import Translation from "@/components/translation";
 
 const Hero = () => {
   return (
-    <Section className="!mt-0 !mb-[83px]">
+    <Section className="!mt-0">
       <div className="flex gap-[10px] xl:flex-row flex-col">
         <div className="xl:w-1/2 w-full bg-green rounded-[40px] overflow-hidden sm:p-[50px] px-5 py-10 relative">
           <img
@@ -18,7 +18,7 @@ const Hero = () => {
           <Chip>
             <Translation text="hero.collection_ali" />
           </Chip>
-          <h1 className="text-white font-remark sm:text-heading1 text-[34px] max-sm:leading-[34px]">
+          <h1 className="text-white font-alegreya sm:text-heading1 text-[34px] max-sm:leading-[34px]">
             <Translation text="hero.title" />
           </h1>
           <p className="text-paragraph1 text-gray-light sm:mt-[30px] mt-[14px] xl:mb-[120px]">

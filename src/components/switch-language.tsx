@@ -30,7 +30,7 @@ const SwitchLanguage = () => {
   const router = useRouter();
   const { pathname, asPath, query, locale } = router;
   const [selectedLang, setSelectedLang] = useState<ILanguage>(
-    (locale as ILanguage) || "ru"
+    (locale as ILanguage) || "uz"
   );
 
   const changeLanguage = (currentLanguage: string) => {

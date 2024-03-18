@@ -74,7 +74,7 @@ const FeedbackSlider = ({
                   setOpen(true);
                 }}
                 size="icon"
-                className="text-white absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[84px] h-[84px]"
+                className="text-white absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
               >
                 <Play />
               </Button>

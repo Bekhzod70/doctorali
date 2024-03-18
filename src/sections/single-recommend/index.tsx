@@ -2,6 +2,7 @@ import Play from "@/components/icons/play";
 import Section from "../components/section";
 import { HTMLAttributes, useState } from "react";
 import VideoModal from "@/components/video-modal";
+import Translation from "@/components/translation";
 
 interface PlayBoxProps extends HTMLAttributes<HTMLSpanElement> {}
 
@@ -36,14 +37,14 @@ const SingleRecommend = () => {
                   />
                   <PlayBox onClick={openVideoModal} />
                   <div className="w-full h-full absolute -z-[1] left-0 top-0 bg-black/20" />
-                  {/* <div className="py-6 px-5 rounded-[20px] bg-white inline-block">
+                  <div className="py-6 px-5 rounded-[20px] bg-white inline-block">
                     <h4 className="text-orange text-xl">
                       <Translation text="label.recommend" />
                     </h4>
                     <h2 className="text-[28px] text-green font-medium">
-                      Малинин Роман Сергеевич
+                      Профессор Зокиржон Муҳаммеджонов
                     </h2>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -60,12 +61,14 @@ const SingleRecommend = () => {
             />
             <PlayBox onClick={openVideoModal} />
           </div>
-          {/* <div className="bg-gray-light mt-2 py-[18px] px-[14px] rounded-[20px]">
-            <h4 className="text-orange text-base">Рекомендует</h4>
+          <div className="bg-gray-light mt-2 py-[18px] px-[14px] rounded-[20px]">
+            <h4 className="text-orange text-base">
+              <Translation text="label.recommend" />
+            </h4>
             <h2 className="text-xl text-green font-medium">
-              Малинин Роман Сергеевич
+              Профессор Зокиржон Муҳаммеджонов
             </h2>
-          </div> */}
+          </div>
         </div>
       </div>
       {open && (

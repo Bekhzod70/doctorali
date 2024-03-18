@@ -96,7 +96,7 @@
   }
 
   .footer-contact-link {
-    @apply text-white text-paragraph1 hover:underline;
+    @apply text-white sm:text-paragraph1 text-base hover:underline;
   }
 
   .nested-border {

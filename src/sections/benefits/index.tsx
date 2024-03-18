@@ -11,7 +11,7 @@ import Translation from "@/components/translation";
 
 const Benefits = () => {
   return (
-    <Section>
+    <Section className="sm:!mb-[83px] !mb-10">
       <div className="flex justify-between items-end sm:mb-16 mb-[30px]">
         <div>
           <SectionTitle className="max-w-[600px]">

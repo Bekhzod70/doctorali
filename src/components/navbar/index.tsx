@@ -79,7 +79,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <MobilNav isOpen={isOpen} />
+      <MobilNav isOpen={isOpen} toogle={toggle} />
     </header>
   );
 };

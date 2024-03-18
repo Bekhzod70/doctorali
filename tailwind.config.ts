@@ -38,6 +38,8 @@ const config = {
       fontFamily: {
         remark: "var(--remark-font)",
         inter: "var(--inter-font)",
+        ptSans: "var(--pt-sans)",
+        alegreya: "var(--alegreya-font)",
       },
       colors: {
         green: {

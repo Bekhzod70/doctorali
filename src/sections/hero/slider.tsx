@@ -16,7 +16,7 @@ const Slider = () => {
       className="xl:h-full max-sm:h-[257px]"
     >
       <SwiperSlide>
-        <div className="relative w-full h-full sm:rounded-[40px] rounded-2xl  overflow-hidden">
+        <div className="relative w-full h-full sm:rounded-[40px] rounded-2xl overflow-hidden">
           <Image
             width={1000}
             height={1000}

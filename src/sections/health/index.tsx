@@ -19,7 +19,17 @@ const Health = () => {
     <Section id="catalog">
       <div className="flex xlg:flex-row flex-col gap-5">
         <div className="xlg:w-1/2">
-          <div className="w-full xlg:h-[620px] max-sm:h-[411px] rounded-[40px]">
+          <div className="mb-8 xlg:hidden">
+            <SectionTitle>
+              <Translation text="health.title" />
+              {/* Эксклюзивный комплекс для здоровья */}
+            </SectionTitle>
+            <p className="text-paragraph1 text-gray mt-5">
+              {/* Состав и уникальные преимущества */}
+              <Translation text="health.subtitle" />
+            </p>
+          </div>
+          <div className="w-full xlg:h-[620px] sm:h-[600px] max-sm:h-[400px] rounded-[40px]">
             <Image
               src={image}
               alt="health image"
@@ -59,7 +69,7 @@ const Health = () => {
           </div>
         </div>
         <div className="xlg:w-1/2">
-          <div className="mb-[46px]">
+          <div className="mb-[46px] xlg:block hidden">
             <SectionTitle>
               <Translation text="health.title" />
               {/* Эксклюзивный комплекс для здоровья */}

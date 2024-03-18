@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <Fragment>
       <Hero />
-      <SingleRecommend />
       <Benefits />
+      <SingleRecommend />
       <Health />
       <Product />
       <Connect
@@ -31,8 +31,8 @@ export default function Home() {
         mobileImg="/images/bg/connect-2.png"
         buttonClass="bg-green hover:bg-green/90"
       />
-      <Sertificate />
       <Feedback />
+      <Sertificate />
       <Connect
         image
         id="consultation2"

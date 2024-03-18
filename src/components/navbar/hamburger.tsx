@@ -16,7 +16,7 @@ const Hamburger = ({ isOpen, toggle }: Props) => {
       )}
       onClick={toggle}
     >
-      <div className="block w-full absolute left-4">
+      <div className="block w-full absolute sm:left-4 left-3">
         <span
           className={cn(
             "block absolute h-0.5 bg-black w-7 text-white transform transition duration-500 ease-in-out",
