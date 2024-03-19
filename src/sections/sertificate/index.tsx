@@ -138,22 +138,26 @@ const data = [
   {
     id: 1,
     image_url: "/images/sertificate/iso-sert.png",
-    info: "ISO sertifikati. Xalqaro Standartlashtirish Tashkiloti (ISO) tomonidan nashr etilgan, dunyodagi eng mashhur sifat menejmenti sertifikati hisoblanadi.",
+    title: "sertificate.item1.title",
+    info: "sertificate.item1.info",
   },
   {
     id: 2,
     image_url: "/images/sertificate/usda.png",
-    info: "USDA Organic sertifikati. Bu AQSh Qishloq xo’jaligi Departamentining sifat standartiga muvofiq organik mahsulotlarni olish to’g’risidagi sertifikati hisoblanadi.",
+    title: "sertificate.item2.title",
+    info: "sertificate.item2.info",
   },
   {
     id: 3,
     image_url: "/images/sertificate/halal.png",
-    info: "Halol sertifikati. Mahsulot tarkibidagi iste’mol qiluvchi moddalar va ishlab chiqarish jarayonlari Islom va shariat ahkomlariga muvofiq ravishda amalga oshirilganini tasdiqlovchi xalqaro hujjat.",
+    title: "sertificate.item3.title",
+    info: "sertificate.item3.info",
   },
   {
     id: 4,
     image_url: "/images/sertificate/euro-leaf.png",
-    info: "EU Organic sertifikati. BIO/Organik mahsulotlarning umumiy qabul qilingan belgisi, Yevropa Biosertifikati.",
+    title: "sertificate.item4.title",
+    info: "sertificate.item4.info",
   },
 ];
 
@@ -201,7 +205,9 @@ const Sertificates = () => {
                   height={500}
                   className="w-20"
                 />
-                <p className="text-base">{selectedInfo}</p>
+                <p className="text-base">
+                  <Translation text={selectedInfo} />
+                </p>
               </div>
             </div>
           </div>
@@ -225,7 +231,7 @@ const Sertificates = () => {
             }}
             className="h-full !items-end"
           >
-            {data.map(({ id, image_url, info }, i) => (
+            {data.map(({ id, image_url, info, title }, i) => (
               <SwiperSlide key={i} className="!h-[unset] !w-auto">
                 <div
                   className="overlay-sertificate bg-gray-light rounded-[14px] w-[200px] p-[20px] group outline-none cursor-pointer relative"
@@ -248,6 +254,9 @@ const Sertificates = () => {
                       className="w-full"
                     />
                   </div>
+                  <p className="text-base text-center mt-2">
+                    <Translation text={title} />
+                  </p>
                 </div>
               </SwiperSlide>
             ))}
@@ -279,7 +288,7 @@ const Sertificates = () => {
 
       {/* ================= Desktop ================= */}
       <div className="flex-wrap justify-evenly gap-4 sm:flex hidden">
-        {data.map(({ id, image_url, info }, i) => (
+        {data.map(({ id, image_url, info, title }, i) => (
           <div key={i} className="!h-[unset]">
             <div
               className="overlay-sertificate bg-gray-light rounded-[14px] w-[200px] p-[20px] group outline-none cursor-pointer relative"
@@ -302,6 +311,9 @@ const Sertificates = () => {
                   className="w-full"
                 />
               </div>
+              <p className="text-lg text-center mt-2">
+                <Translation text={title} />
+              </p>
             </div>
           </div>
         ))}

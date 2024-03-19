@@ -31,17 +31,17 @@ const SingleRecommend = () => {
               <div>
                 <div className="h-[516px] flex items-end p-5 relative w-full rounded-[40px] overflow-hidden">
                   <img
-                    src="https://i3.ytimg.com/vi/yGPxiTo39ok/maxresdefault.jpg"
+                    src="/images/professor.jpg"
                     alt="recommend image"
                     className="w-full h-full object-cover absolute -z-[2] left-0 top-0"
                   />
                   <PlayBox onClick={openVideoModal} />
                   <div className="w-full h-full absolute -z-[1] left-0 top-0 bg-black/20" />
-                  <div className="py-6 px-5 rounded-[20px] bg-white inline-block">
+                  <div className="py-6 px-5 rounded-[20px] bg-white max-w-[50%] inline-block">
                     {/* <h4 className="text-orange text-xl">
                       <Translation text="label.recommend" />
                     </h4> */}
-                    <h2 className="text-[28px] text-green font-medium">
+                    <h2 className="text-xl text-green font-medium">
                       <Translation text="label.recommend" />
                     </h2>
                   </div>
