@@ -73,7 +73,8 @@ const Connect = (props: Props) => {
     try {
       await sendMessage(_data).then((data) => {
         if (data.status === 200) {
-          router.push("/thanks");
+          // router.push("/thanks");
+          console.log("TODO!");
         }
       });
     } catch (_) {
