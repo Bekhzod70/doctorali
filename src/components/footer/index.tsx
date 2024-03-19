@@ -40,13 +40,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href={socialLinks.map}
-                  className="footer-contact-link"
-                  target="_blank"
-                >
-                  ул. Ислома Каримова, 15, Ташкент, Узбекистан, 100047
-                </a>
+                <div className="footer-contact-link hover:no-underline">
+                  {"Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"}
+                </div>
               </li>
               <li>
                 <a

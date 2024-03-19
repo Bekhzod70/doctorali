@@ -102,16 +102,16 @@ const Feedback = () => {
 
   return (
     <Section className="bg-orange py-20">
-      <div className="flex justify-between items-end mb-16">
-        <div>
+      <div className="flex justify-between items-end">
+        {/* <div>
           <SectionTitle className="max-w-[1013px] text-white">
             <Translation text="feedback.title" />
           </SectionTitle>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col gap-y-6">
         <div>
-          <h2 className="text-white font-medium text-xl mb-3 sm:text-2xl">
+          <h2 className="text-white font-medium text-xl sm:mb-5 mb-3 sm:text-4xl">
             <Translation text="feedback.experts" />
           </h2>
           <FeedbackSlider
@@ -122,7 +122,7 @@ const Feedback = () => {
           />
         </div>
         <div>
-          <h2 className="text-white font-medium text-xl mb-3 sm:text-2xl">
+          <h2 className="text-white font-medium text-xl sm:mb-5 mb-3 sm:text-4xl">
             <Translation text="feedback.clients" />
           </h2>
           <FeedbackSlider

@@ -27,7 +27,18 @@ const Hero = () => {
           <div className="xl:w-1/2 xl:hidden my-[30px]">
             <Slider />
           </div>
-          <a href="#consultation1">
+          <a href="#consultation1" className="sm:block hidden">
+            <Button variant="warning" className="w-full">
+              <Phone className="shrink-0" />
+              <span className="sm:hidden">
+                <Translation text="links.connect" />
+              </span>
+              <span className="sm:block hidden">
+                <Translation text="connect.btn" />
+              </span>
+            </Button>
+          </a>
+          <a href="tel:+998787773103" className="sm:hidden">
             <Button variant="warning" className="w-full">
               <Phone className="shrink-0" />
               <span className="sm:hidden">

@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Translation text="links.contact" />
               </Button>
             </a>
-            <a href="#contacts">
+            <a href="tel:+998787773103">
               <Button size="icon" className="sm:hidden">
                 <Phone className="h-6 w-6" />
               </Button>

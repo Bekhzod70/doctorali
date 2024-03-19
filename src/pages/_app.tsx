@@ -70,13 +70,36 @@ function App({ Component, pageProps }: AppProps) {
       </div>
       <a
         href="tel:+998787773103"
-        className="fixed left-0 bottom-0 z-50 right-0"
+        className="fixed left-0 sm:hidden bottom-0 z-50 right-0"
         style={{
           boxShadow: "0rem 0rem 0.1rem rgba(0,0,0,0.3)",
         }}
       >
-        <Button variant="warning" className="w-full rounded-none">
-          <Phone className="shrink-0" />
+        <Button
+          variant="warning"
+          className="w-full rounded-none h-auto py-3 max-sm:text-sm"
+        >
+          <Phone className="shrink-0 max-sm:w-5 h-5" />
+          <span className="sm:hidden">
+            <Translation text="links.connect" />
+          </span>
+          <span className="sm:block hidden">
+            <Translation text="connect.btn" />
+          </span>
+        </Button>
+      </a>
+      <a
+        href="#consultation1"
+        className="fixed left-0 sm:block hidden bottom-0 z-50 right-0"
+        style={{
+          boxShadow: "0rem 0rem 0.1rem rgba(0,0,0,0.3)",
+        }}
+      >
+        <Button
+          variant="warning"
+          className="w-full rounded-none h-auto py-3 max-sm:text-sm"
+        >
+          <Phone className="shrink-0 max-sm:w-5 h-5" />
           <span className="sm:hidden">
             <Translation text="links.connect" />
           </span>

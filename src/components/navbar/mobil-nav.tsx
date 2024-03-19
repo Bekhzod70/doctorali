@@ -35,7 +35,7 @@ const MobilNav = ({
               </a>
             ))}
 
-            <a href="#consultation1">
+            <a href="tel:+998787773103">
               <Button variant="warning" className="w-full" onClick={toogle}>
                 <Translation text={"links.connect"} />
                 <ChevronRight className="h-5 w-5" />
