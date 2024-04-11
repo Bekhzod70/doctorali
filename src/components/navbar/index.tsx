@@ -57,7 +57,7 @@ const Navbar = () => {
 
           <div className="flex items-center sm:gap-5 gap-2">
             <a href="#contacts">
-              <Button className="sm:inline-flex hidden">
+              <Button className="sm:inline-flex hidden" variant="green">
                 <Phone />
                 <Translation text="links.contact" />
               </Button>
@@ -68,7 +68,7 @@ const Navbar = () => {
               </Button>
             </a>
             <a href="#consultation1">
-              <Button variant="warning" className="xlg:inline-flex hidden">
+              <Button className="xlg:inline-flex hidden">
                 <Translation text="links.connect" />
                 <ChevronRight className="h-5 w-5" />
               </Button>

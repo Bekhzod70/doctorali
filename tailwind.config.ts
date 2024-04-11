@@ -31,15 +31,17 @@ const config = {
       center: true,
       padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1600px",
       },
     },
     extend: {
       fontFamily: {
-        remark: "var(--remark-font)",
         inter: "var(--inter-font)",
-        ptSans: "var(--pt-sans)",
-        alegreya: "var(--alegreya-font)",
+        "times-new-roman": ["Times New Roman", "serif"],
+      },
+      backgroundImage: {
+        "primary-gradient":
+          "linear-gradient(135.84deg, #DCBC55 15.91%, #C59F36 38.52%, #BF9A32 64.21%, #B9922D 84.42%)",
       },
       colors: {
         green: {

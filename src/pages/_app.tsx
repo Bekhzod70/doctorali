@@ -11,24 +11,6 @@ import { ArrowUp, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Translation from "@/components/translation";
 
-const remarkFont = localFont({
-  src: "../fonts/remark.ttf",
-  weight: "400",
-  variable: "--remark-font",
-});
-
-const sansFont = localFont({
-  src: "../fonts/PTSans-Regular.ttf",
-  weight: "400",
-  variable: "--pt-sans",
-});
-
-const alegreyaFont = localFont({
-  src: "../fonts/Alegreya-VariableFont_wght.ttf",
-  weight: "400",
-  variable: "--alegreya-font",
-});
-
 const interFont = localFont({
   src: [
     {
@@ -55,9 +37,7 @@ function App({ Component, pageProps }: AppProps) {
           font-weight: 400;
         }
       `}</style>
-      <div
-        className={`${remarkFont.variable} ${interFont.variable} ${alegreyaFont.variable}`}
-      >
+      <div>
         <Navbar />
         <Component {...pageProps} />
         <Footer />
@@ -75,10 +55,7 @@ function App({ Component, pageProps }: AppProps) {
           boxShadow: "0rem 0rem 0.1rem rgba(0,0,0,0.3)",
         }}
       >
-        <Button
-          variant="warning"
-          className="w-full rounded-none h-auto py-3 max-sm:text-sm"
-        >
+        <Button className="w-full rounded-none h-auto py-3 max-sm:text-sm">
           <Phone className="shrink-0 max-sm:w-5 h-5" />
           <span className="sm:hidden">
             <Translation text="links.connect" />
@@ -95,10 +72,7 @@ function App({ Component, pageProps }: AppProps) {
           boxShadow: "0rem 0rem 0.1rem rgba(0,0,0,0.3)",
         }}
       >
-        <Button
-          variant="warning"
-          className="w-full rounded-none h-auto py-3 max-sm:text-sm"
-        >
+        <Button className="w-full rounded-none h-auto py-3 max-sm:text-sm">
           <Phone className="shrink-0 max-sm:w-5 h-5" />
           <span className="sm:hidden">
             <Translation text="links.connect" />

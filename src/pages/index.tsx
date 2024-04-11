@@ -18,11 +18,11 @@ export default function Home() {
   return (
     <Fragment>
       <Hero />
-      <Benefits />
-      <SingleRecommend />
-      <Health />
-      <Product />
-      <Connect
+      {/* <Benefits /> */}
+      {/* <SingleRecommend /> */}
+      {/* <Health /> */}
+      {/* <Product /> */}
+      {/* <Connect
         id="consultation1"
         title={t("connect2.title")}
         subtitle={t("connect2.subtitle")}
@@ -30,10 +30,10 @@ export default function Home() {
         desktopImg="/images/bg/connect-2.png"
         mobileImg="/images/bg/connect-2.png"
         buttonClass="bg-green hover:bg-green/90"
-      />
-      <Feedback />
-      <Sertificate />
-      <Connect
+      /> */}
+      {/* <Feedback /> */}
+      {/* <Sertificate /> */}
+      {/* <Connect
         image
         id="consultation2"
         title={t("connect1.title")}
@@ -41,7 +41,7 @@ export default function Home() {
         bgColor="bg-green"
         desktopImg="/images/bg/connect-1.png"
         mobileImg="/images/bg/connect-1-sm.png"
-      />
+      /> */}
       {/* <Connect
         id="consultation2"
         title={t("connect3.title")}
@@ -50,8 +50,8 @@ export default function Home() {
         desktopImg="/images/bg/connect-3.png"
         mobileImg="/images/bg/connect-3-sm.png"
       /> */}
-      <Faq />
-      <Address />
+      {/* <Faq /> */}
+      {/* <Address /> */}
     </Fragment>
   );
 }

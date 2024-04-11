@@ -14,6 +14,7 @@ const Hamburger = ({ isOpen, toggle }: Props) => {
         "relative xlg:hidden !bg-gray-light",
         isOpen ? "!bg-white hover:!bg-white" : ""
       )}
+      variant="ghost"
       onClick={toggle}
     >
       <div className="block w-full absolute sm:left-4 left-3">
