@@ -5,7 +5,7 @@ import Translation from "../translation";
 
 const Footer = () => {
   return (
-    <footer className="pt-[80px] pb-[100px] bg-green">
+    <footer className="pt-[80px] pb-[100px] bg-[#04312B]">
       <div className="container">
         <div className="flex lg:flex-row flex-col lg:gap-5 gap-y-[50px]">
           <div className="lg:w-[690px]">

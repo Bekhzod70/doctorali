@@ -79,7 +79,7 @@ const data = [
 
 const OurProduct = () => {
   return (
-    <Section>
+    <Section id="about">
       <div>
         <SectionTitle className="text-center mb-[60px]">
           Bizning mahsulotlar

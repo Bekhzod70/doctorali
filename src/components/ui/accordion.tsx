@@ -13,7 +13,7 @@ const AccordionItem = React.forwardRef<
   <AccordionPrimitive.Item
     ref={ref}
     className={cn(
-      "bg-white rounded-[20px] sm:p-6 p-5 border-2 border-gray-light",
+      "bg-white rounded-[20px] sm:p-6 p-5 border-2 border-gray-light data-[state=open]:bg-light transition-colors",
       className
     )}
     {...props}
@@ -46,7 +46,7 @@ const AccordionTrigger = React.forwardRef<
               <Icon />
             </span>
           )}
-          <span className="text-[#036053] font-medium text-start">
+          <span className="gradient-text font-medium text-start">
             {children}
           </span>
         </div>

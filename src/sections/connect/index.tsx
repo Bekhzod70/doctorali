@@ -95,11 +95,11 @@ const Connect = (props: Props) => {
     <Section id={id}>
       <div
         className={cn(
-          "w-full sm:py-[60px] py-10 sm:px-[50px] px-5 rounded-[40px] relative",
+          "w-full sm:py-[60px] py-10 sm:px-[50px] px-5 rounded-tr-[50px] rounded-bl-[50px] relative",
           bgColor
         )}
       >
-        <img
+        {/* <img
           src={desktopImg}
           alt="Connect bg shape"
           className="absolute bottom-0 lg:block hidden left-1/2 -translate-x-1/2"
@@ -108,7 +108,7 @@ const Connect = (props: Props) => {
           src={mobileImg}
           alt="Connect bg shape"
           className="absolute lg:hidden right-0 top-0"
-        />
+        /> */}
         {image ? (
           <div className="w-full overflow-hidden rounded-2xl mb-[22px] sm:hidden">
             <img
@@ -122,11 +122,6 @@ const Connect = (props: Props) => {
           <div className="lg:w-1/2">
             <SectionTitle className="mb-[26px]">{title}</SectionTitle>
             <p className="sm:text-paragraph1 text-base mb-[38px]">{subtitle}</p>
-            {!image ? (
-              <Chip>
-                <Translation text="connect.chip" />
-              </Chip>
-            ) : null}
           </div>
           <div className="lg:w-1/2">
             <Form {...form}>
@@ -173,7 +168,6 @@ const Connect = (props: Props) => {
                 />
                 <Button
                   type="submit"
-                  variant="warning"
                   disabled={pending}
                   className={cn(
                     "w-full sm:py-[27px] py-5 !mt-10 sm:text-button1",

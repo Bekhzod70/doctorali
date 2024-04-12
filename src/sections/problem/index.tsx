@@ -94,7 +94,7 @@ const data = [
 
 const Problem = () => {
   return (
-    <Section className="">
+    <Section id="catalog">
       <div className="">
         <SectionTitle className="text-center sm:mb-20 mb-14">
           Sizni qanday muammo bezovta qilmoqda?

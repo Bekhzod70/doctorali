@@ -11,11 +11,11 @@ import { faqData } from "./faq-data";
 
 const Faq = () => {
   return (
-    <Section className="py-10 bg-orange">
-      <SectionTitle className="text-white sm:mb-16 mb-7">
+    <Section>
+      <SectionTitle className="sm:mb-16 mb-7 text-center">
         <Translation text="faq.title" />
       </SectionTitle>
-      <div>
+      <div className="max-w-[1045px] mx-auto">
         <Accordion type="single" collapsible className="flex flex-col gap-y-4">
           {faqData.map(({ answer, question }, i) => (
             <AccordionItem value={`item-${i}`} key={question}>

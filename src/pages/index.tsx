@@ -20,6 +20,9 @@ import WorkProcess from "@/sections/work-process";
 import DownloadApp from "@/sections/download-app";
 import Individual from "@/sections/individual";
 import OurTeam from "@/sections/our-team";
+import OurSertificates from "@/sections/our-sertificates";
+import VideoInformation from "@/sections/video-information";
+import ContactInfo from "@/sections/contact-info";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -36,6 +39,8 @@ export default function Home() {
       <DownloadApp />
       <Individual />
       <OurTeam />
+      <OurSertificates />
+      <VideoInformation />
       {/* <Benefits /> */}
       {/* <SingleRecommend /> */}
       {/* <Health /> */}
@@ -60,15 +65,18 @@ export default function Home() {
         desktopImg="/images/bg/connect-1.png"
         mobileImg="/images/bg/connect-1-sm.png"
       /> */}
-      {/* <Connect
-        id="consultation2"
-        title={t("connect3.title")}
-        subtitle={t("connect3.subtitle")}
+      <Faq />
+      <Connect
+        id="consultation1"
+        title={
+          "Mutaxassislarimizdan mahsulotlar boʻyicha bepul konsultatsiya oling"
+        }
+        subtitle={" va sogʻlom hayot tomon ilk qadamni qoʻying! "}
         bgColor="bg-green"
         desktopImg="/images/bg/connect-3.png"
         mobileImg="/images/bg/connect-3-sm.png"
-      /> */}
-      {/* <Faq /> */}
+      />
+      <ContactInfo />
       {/* <Address /> */}
     </Fragment>
   );
