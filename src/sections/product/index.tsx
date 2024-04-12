@@ -29,54 +29,6 @@ const Product = () => {
             <ProductCard key={productProps.info} {...productProps} />
           ))}
         </div>
-        {/* <div className="sm:hidden h-[400px]">
-          <Swiper
-            navigation={{
-              nextEl: ".product-arrow-left",
-              prevEl: ".product-arrow-right",
-            }}
-            grid={{
-              rows: 2,
-            }}
-            slidesPerView={2}
-            pagination={{
-              clickable: true,
-              el: "#pagination-wrapper",
-              bulletClass: "product-bullet",
-              bulletActiveClass: "product-bullet-active",
-            }}
-            spaceBetween={8}
-            id="product-slider"
-            modules={[Grid, Pagination]}
-            className="h-full !items-end"
-          >
-            {productData.map((props) => (
-              <SwiperSlide key={props.imageUrl} className="!h-[unset]">
-                <ProductCard {...props} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <div
-            id="pagination-wrapper"
-            className="flex justify-center gap-3 child:bg-orange"
-          ></div>
-        </div> */}
-        {/* <div className="flex gap-[10px] sm:hidden relative z-10 justify-center mt-10">
-          <Button
-            size="icon"
-            variant="warning"
-            className="product-arrow-right arrow disabled:bg-gray-light disabled:opacity-100 group"
-          >
-            <ChevronLeft className="text-white group-disabled:text-gray" />
-          </Button>
-          <Button
-            size="icon"
-            variant="warning"
-            className="product-arrow-left arrow disabled:bg-gray-light disabled:opacity-100 group"
-          >
-            <ChevronRight className="text-white group-disabled:text-gray" />
-          </Button>
-        </div> */}
       </div>
     </Section>
   );
