@@ -3,7 +3,7 @@ import SectionTitle from "../components/section-title";
 
 const DownloadApp = () => {
   return (
-    <Section className="!mt-[250px]">
+    <Section className="sm:!mt-[250px]">
       <div className="bg-primary-gradient sm:py-[60px] py-10 sm:px-[70px] px-3 rounded-tr-[50px] rounded-bl-[50px] relative">
         <div className="flex lg:flex-row lg:items-start items-center flex-col gap-4">
           <div className="lg:w-1/2">
