@@ -104,6 +104,40 @@
   }
 }
 
+.gradient-text {
+  /* background: linear-gradient(
+    135.84deg,
+    #dcbc55 15.91%,
+    #c59f36 38.52%,
+    #bf9a32 64.21%,
+    #b9922d 84.42%
+  ); */
+  background: linear-gradient(
+    135.84deg,
+    #dcbc55 15.91%,
+    #c59f36 38.52%,
+    #bf9a32 64.21%,
+    #b9922d 84.42%
+  );
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradient-border {
+  border-width: 2px;
+  border-style: solid;
+  border-image: 1;
+
+  border-image-source: linear-gradient(
+    135.84deg,
+    #dcbc55 15.91%,
+    #c59f36 38.52%,
+    #bf9a32 64.21%,
+    #b9922d 84.42%
+  );
+}
+
 .phone-input .PhoneInputCountry {
   display: none;
 }
@@ -184,4 +218,14 @@
   z-index: 10;
   left: 0;
   top: 0;
+}
+
+#pagination-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: linear-gradient(
+    135.84deg,
+    #dcbc55 15.91%,
+    #c59f36 38.52%,
+    #bf9a32 64.21%,
+    #b9922d 84.42%
+  );
 }

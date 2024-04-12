@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button";
-import Section from "../components/section";
+
 import { ArrowRight, Phone } from "lucide-react";
 import Slider from "./slider";
-import Chip from "@/components/chip";
+
 import Translation from "@/components/translation";
 import GhostLogo from "@/components/icons/ghost-logo";
 
 const Hero = () => {
   return (
-    <section className="sm:mb-[150px] mb-[70px]">
+    <section className="">
       <div className="grid grid-cols-12">
         <div className="xl:col-span-6 col-span-12 xl:h-[640px]">
           <div className="w-full h-full bg-green overflow-hidden flex flex-col justify-between sm:p-[50px] xl:!pl-[100px] px-5 py-10 relative">

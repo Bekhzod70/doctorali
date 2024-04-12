@@ -11,6 +11,15 @@ import { Fragment } from "react";
 import { useTranslation } from "next-i18next";
 import SingleRecommend from "@/sections/single-recommend";
 import Faq from "@/sections/faq";
+import Overall from "@/sections/overall";
+import Problem from "@/sections/problem";
+import OurProduct from "@/sections/our-product";
+import Advantages from "@/sections/advantages";
+import CompanyHistory from "@/sections/company-history";
+import WorkProcess from "@/sections/work-process";
+import DownloadApp from "@/sections/download-app";
+import Individual from "@/sections/individual";
+import OurTeam from "@/sections/our-team";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -18,6 +27,15 @@ export default function Home() {
   return (
     <Fragment>
       <Hero />
+      <Overall />
+      <Problem />
+      <OurProduct />
+      <Advantages />
+      <CompanyHistory />
+      <WorkProcess />
+      <DownloadApp />
+      <Individual />
+      <OurTeam />
       {/* <Benefits /> */}
       {/* <SingleRecommend /> */}
       {/* <Health /> */}

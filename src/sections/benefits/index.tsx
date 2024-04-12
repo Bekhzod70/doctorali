@@ -22,14 +22,12 @@ const Benefits = () => {
         <div className="hidden gap-[10px] sm:flex">
           <Button
             size="icon"
-            variant="warning"
             className="benefit-arrow-right arrow disabled:bg-gray-light disabled:opacity-100 group"
           >
             <ChevronLeft className="text-white group-disabled:text-gray" />
           </Button>
           <Button
             size="icon"
-            variant="warning"
             className="benefit-arrow-left arrow disabled:bg-gray-light disabled:opacity-100 group"
           >
             <ChevronRight className="text-white group-disabled:text-gray" />
@@ -74,14 +72,12 @@ const Benefits = () => {
         <div className="flex gap-[10px] sm:hidden justify-center mt-10">
           <Button
             size="icon"
-            variant="warning"
             className="benefit-arrow-right arrow disabled:bg-gray-light disabled:opacity-100 group"
           >
             <ChevronLeft className="text-white group-disabled:text-gray" />
           </Button>
           <Button
             size="icon"
-            variant="warning"
             className="benefit-arrow-left arrow disabled:bg-gray-light disabled:opacity-100 group"
           >
             <ChevronRight className="text-white group-disabled:text-gray" />

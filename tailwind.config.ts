@@ -54,7 +54,10 @@ const config = {
           light: "#F9F9F9",
         },
         red: "#F33333",
-        white: "#FFFFFF",
+        light: "rgba(249, 249, 249, 1)",
+        white: {
+          DEFAULT: "#FFFFFF",
+        },
         orange: "#D9A952",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
