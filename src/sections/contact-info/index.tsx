@@ -1,6 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import { socialLinks } from "@/constants/social-links";
 
 const ContactInfo = () => {
   return (
@@ -14,7 +15,7 @@ const ContactInfo = () => {
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Phone className="text-white" />
             </div>
-            <a href="tel:9209481722">(920) 948-1722</a>
+            <a href="tel:+998787773103"> +998 (78) 777-31-03</a>
           </div>
         </div>
         <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
@@ -22,7 +23,7 @@ const ContactInfo = () => {
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Mail className="text-white" />
             </div>
-            <a href="mailto:paula611@gmail.com">paula611@gmail.com</a>
+            <a href="mailto:support@doctorali.uz"> support@doctorali.uz</a>
           </div>
         </div>
         <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
@@ -30,27 +31,25 @@ const ContactInfo = () => {
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <MapPin className="text-white" />
             </div>
-            <a href="mailto:paula611@gmail.com">
-              199 Oakway Lane, Woodland Hills, CA 91303
-            </a>
+            <p>{"Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"}</p>
           </div>
         </div>
         <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
           <div className="flex items-center justify-between gap-[18px]">
             <a
-              href=""
+              href={socialLinks.instagram}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
               <img src="/images/icons/Instagram.svg" alt="Instagram" />
             </a>
             <a
-              href=""
+              href={socialLinks.facebook}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
               <img src="/images/icons/Facebook.svg" alt="Facebook" />
             </a>
             <a
-              href=""
+              href={socialLinks.youtube}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
               <img src="/images/icons/Youtube.svg" alt="Youtube" />
