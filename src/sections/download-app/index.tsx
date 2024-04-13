@@ -27,7 +27,7 @@ const DownloadApp = () => {
                   className="sm:h-[50px] h-10"
                 />
               </a>
-              <a href="">
+              <a href="https://apps.apple.com/uz/app/doctor-ali/id6469584476">
                 <img
                   src="/images/icons/appstore.svg"
                   alt="appstore"
