@@ -48,6 +48,7 @@ const Trusted = () => {
         </span>
         {data.map((item, i) => (
           <div
+            data-aos="fade-up"
             key={i}
             className={
               "flex flex-col sm:gap-4 gap-2 max-sm:rounded-[20px] max-sm:h-[169px] w-full border-2 items-center max-sm:shadow-card-shadow py-10 md:px-[30px] px-2 border-light"

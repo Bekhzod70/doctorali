@@ -18,7 +18,10 @@ const CompanyHistory = () => {
             {"An'analar va qadriyatlarga asoslangan kompaniyamiz tarixi"}
           </SectionTitle>
           <div className="grid gap-5">
-            <p className="text-gray sm:text-xl text-base">
+            <p
+              className="text-gray sm:text-xl text-base sm:hidden"
+              data-aos="fade-up"
+            >
               “Doctor Ali” brendiga 1992-yilda “Mehrigiyo” xalqaro kompaniyasi
               tomonidan asos solingan boʻlib, 32 yildan buyon organik
               mahsulotlar ishlab chiqarish va sogʻlom turmush tarzini targʻib
@@ -34,14 +37,20 @@ const CompanyHistory = () => {
             </p>
             {showAll && (
               <>
-                <p className="text-gray sm:text-xl text-base">
+                <p
+                  data-aos="fade-up"
+                  className="text-gray sm:text-xl text-base sm:hidden"
+                >
                   Kompaniya tomonidan bugungi kunga qadar ishlab chiqarilgan
                   mahsulotlar turi 100 dan oshadi, ularning tarkibini tashkil
                   etuvchi oʻsimlik va dorivor giyohlar esa 500 gektardan oshiq
                   maydonda, malakali mutaxassislar nazorati ostida
                   yetishtiriladi.
                 </p>
-                <p className="text-gray sm:text-xl text-base">
+                <p
+                  data-aos="fade-up"
+                  className="text-gray sm:text-xl text-base sm:hidden"
+                >
                   Jahon standartlari asosida ishlab chiqariladigan va xalqaro
                   sertifikatlarga ega boʻlgan mahsulotlarimiz Oʻzbekiston bilan
                   bir qatorda Qozogʻiston, Qirgʻiziston, Tojikiston, Saudiya
@@ -49,10 +58,38 @@ const CompanyHistory = () => {
                 </p>
               </>
             )}
+            <p
+              className="text-gray sm:text-xl text-base sm:block hidden"
+              data-aos="fade-up"
+            >
+              “Doctor Ali” brendiga 1992-yilda “Mehrigiyo” xalqaro kompaniyasi
+              tomonidan asos solingan boʻlib, 32 yildan buyon organik
+              mahsulotlar ishlab chiqarish va sogʻlom turmush tarzini targʻib
+              qilish bilan shugʻullanib keladi.{" "}
+            </p>
+            <p
+              data-aos="fade-up"
+              className="text-gray sm:text-xl text-base sm:block hidden"
+            >
+              Kompaniya tomonidan bugungi kunga qadar ishlab chiqarilgan
+              mahsulotlar turi 100 dan oshadi, ularning tarkibini tashkil
+              etuvchi oʻsimlik va dorivor giyohlar esa 500 gektardan oshiq
+              maydonda, malakali mutaxassislar nazorati ostida yetishtiriladi.
+            </p>
+            <p
+              data-aos="fade-up"
+              className="text-gray sm:text-xl text-base sm:block hidden"
+            >
+              Jahon standartlari asosida ishlab chiqariladigan va xalqaro
+              sertifikatlarga ega boʻlgan mahsulotlarimiz Oʻzbekiston bilan bir
+              qatorda Qozogʻiston, Qirgʻiziston, Tojikiston, Saudiya Arabistoni,
+              Xitoy va AQSh bozorlariga kirib borgan.
+            </p>
           </div>
         </div>
         <div>
           <img
+            data-aos="fade-up"
             src="/images/history-full.png"
             alt="history"
             className="object-cover xl:ml-auto mx-auto max-sm:rounded-[25px] sm:rounded-tr-[140px]"

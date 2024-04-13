@@ -37,7 +37,7 @@ const OurTeam = () => {
       <SectionTitle className="text-center sm:mb-[60px] mb-10">
         Jamoamiz bilan tanishing
       </SectionTitle>
-      <div>
+      <div data-aos="fade-up">
         <Swiper
           slidesPerView={2}
           spaceBetween={10}

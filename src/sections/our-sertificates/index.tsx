@@ -40,6 +40,7 @@ const OurSertificates = () => {
       <div className="grid max-sm:hidden xl:grid-cols-5 sm:grid-cols-3 grid-cols-2 sm:gap-5 gap-3">
         {data.map(({ imageUrl, name }, i) => (
           <div
+            data-aos="fade-up"
             className="border border-light rounded-tr-[40px] py-[30px] lg:px-12"
             key={i}
           >
@@ -56,7 +57,7 @@ const OurSertificates = () => {
           </div>
         ))}
       </div>
-      <div className="sm:hidden">
+      <div className="sm:hidden" data-aos="fade-up">
         <Swiper
           slidesPerView={3}
           pagination={{ clickable: true }}

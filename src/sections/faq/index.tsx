@@ -18,7 +18,11 @@ const Faq = () => {
       <div className="max-w-[1045px] mx-auto">
         <Accordion type="single" collapsible className="flex flex-col gap-y-4">
           {faqData.map(({ answer, question }, i) => (
-            <AccordionItem value={`item-${i}`} key={question}>
+            <AccordionItem
+              value={`item-${i}`}
+              key={question}
+              data-aos="fade-up"
+            >
               <AccordionTrigger className="max-sm:text-base">
                 <Translation text={question} />
               </AccordionTrigger>

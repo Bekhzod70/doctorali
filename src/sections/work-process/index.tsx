@@ -55,6 +55,7 @@ const WorkProcess = () => {
       <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
         {data.map(({ number, title, content }, i) => (
           <div
+            data-aos="fade-up"
             className="grid gap-[14px] sm:py-10 py-6 sm:px-[30px] px-5 border sm:border-light border-border max-sm:rounded-xl"
             key={i}
           >

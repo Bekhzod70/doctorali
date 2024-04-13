@@ -86,7 +86,7 @@ const OurProduct = () => {
           Bizning mahsulotlar
         </SectionTitle>
         <div>
-          <div className="max-sm:hidden">
+          <div className="max-sm:hidden" data-aos="fade-up">
             <Swiper
               slidesPerView={1}
               spaceBetween={10}
@@ -152,6 +152,7 @@ const OurProduct = () => {
             {data.map(({ benefits, imageUrl, title }, i) => (
               <div
                 className="w-full mx-auto bg-light h-full py-[30px] flex flex-col justify-between px-4 rounded-[10px]"
+                data-aos="fade-up"
                 key={i}
               >
                 <div>

@@ -10,7 +10,10 @@ const ContactInfo = () => {
         Kontaktlar
       </SectionTitle>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-5">
-        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
+        <div
+          className="md:py-10 py-5 lg:px-20 px-5 bg-light"
+          data-aos="fade-up"
+        >
           <div className="flex items-center gap-[18px]">
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Phone className="text-white" />
@@ -18,7 +21,10 @@ const ContactInfo = () => {
             <a href="tel:+998787773103"> +998 (78) 777-31-03</a>
           </div>
         </div>
-        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
+        <div
+          className="md:py-10 py-5 lg:px-20 px-5 bg-light"
+          data-aos="fade-up"
+        >
           <div className="flex items-center gap-[18px]">
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Mail className="text-white" />
@@ -26,7 +32,10 @@ const ContactInfo = () => {
             <a href="mailto:support@doctorali.uz"> support@doctorali.uz</a>
           </div>
         </div>
-        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
+        <div
+          className="md:py-10 py-5 lg:px-20 px-5 bg-light"
+          data-aos="fade-up"
+        >
           <div className="flex items-center gap-[18px]">
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <MapPin className="text-white" />
@@ -34,7 +43,10 @@ const ContactInfo = () => {
             <p>{"Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"}</p>
           </div>
         </div>
-        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
+        <div
+          className="md:py-10 py-5 lg:px-20 px-5 bg-light"
+          data-aos="fade-up"
+        >
           <div className="flex items-center justify-between gap-[18px]">
             <a
               href={socialLinks.instagram}

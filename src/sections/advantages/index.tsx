@@ -38,6 +38,7 @@ const Advantages = () => {
         <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
           {data.map(({ description, icon, title }, index) => (
             <div
+              data-aos="fade-up"
               className="bg-primary-gradient px-[30px] py-[35px] rounded-tr-[40px]"
               key={index}
             >

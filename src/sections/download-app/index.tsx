@@ -11,13 +11,17 @@ const DownloadApp = () => {
               <SectionTitle className="text-white">
                 Ilovamizni yuklab oling
               </SectionTitle>
-              <p className="sm:text-xl text-base text-white mt-6">
+              <p
+                className="sm:text-xl text-base text-white mt-6"
+                data-aos="fade-up"
+              >
                 Shifokorlarimizdan bepul konsultatsiya va mahsulotlar haqida
                 to‘liq ma’lumotga ega bo‘ling.
               </p>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
               <a
+                data-aos="fade-up"
                 href="https://play.google.com/store/apps/details?id=com.mehrigiyo.doctor_ali"
                 target="_blank"
               >
@@ -27,10 +31,14 @@ const DownloadApp = () => {
                   className="sm:h-[50px] h-10"
                 />
               </a>
-              <a href="https://apps.apple.com/uz/app/doctor-ali/id6469584476">
+              <a
+                href="https://apps.apple.com/uz/app/doctor-ali/id6469584476"
+                data-aos="fade-up"
+              >
                 <img
                   src="/images/icons/appstore.svg"
                   alt="appstore"
+                  data-aos="zoom-in"
                   className="sm:h-[50px] h-10"
                 />
               </a>
@@ -38,6 +46,7 @@ const DownloadApp = () => {
           </div>
           <div>
             <img
+              data-aos="zoom-in"
               src="/images/App Story.png"
               alt="app story"
               className="lg:absolute 2xl:w-[645.74px] w-[470px] 2xl:-bottom-20 -bottom-10"
@@ -46,14 +55,20 @@ const DownloadApp = () => {
         </div>
       </div>
       <div className="sm:hidden flex mt-6 lg:justify-start justify-center items-center gap-[11px]">
-        <a href="">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.mehrigiyo.doctor_ali"
+          data-aos="fade-up"
+        >
           <img
             src="/images/icons/googleplay.svg"
             alt="google play"
             className="sm:h-[50px] h-10"
           />
         </a>
-        <a href="">
+        <a
+          href="https://apps.apple.com/uz/app/doctor-ali/id6469584476"
+          data-aos="fade-up"
+        >
           <img
             src="/images/icons/appstore.svg"
             alt="appstore"

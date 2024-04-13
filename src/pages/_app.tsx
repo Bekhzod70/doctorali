@@ -1,7 +1,9 @@
 import "@/styles/globals.css";
+import "aos/dist/aos.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import AOS from "aos";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import Navbar from "@/components/navbar/index";
@@ -10,6 +12,7 @@ import { appWithTranslation } from "next-i18next";
 import { ArrowUp, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Translation from "@/components/translation";
+import { useEffect } from "react";
 
 const interFont = localFont({
   src: [
@@ -26,9 +29,19 @@ const interFont = localFont({
 });
 
 function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      once: true,
+      easing: "ease-in-out",
+      offset: 100,
+    });
+  }, []);
+
   const handleScrollUp = () => {
     window.scrollTo({ behavior: "smooth", top: 0 });
   };
+
   return (
     <>
       <style jsx global>{`

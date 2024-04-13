@@ -82,7 +82,7 @@ const VideoInformation = () => {
       <SectionTitle className="sm:mb-[50px] mb-7 text-center">
         Mijozlarimiz nima deydi?
       </SectionTitle>
-      <div className="hidden sm:block">
+      <div className="hidden sm:block" data-aos="fade-up">
         <Tabs defaultValue="client">
           <div className="flex justify-center sm:mb-20 mb-5">
             <TabsList>

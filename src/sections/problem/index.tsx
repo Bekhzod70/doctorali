@@ -122,6 +122,7 @@ const Problem = () => {
           /> */}
           {renderedData.map((item, index) => (
             <div
+              data-aos="fade-up"
               key={index}
               className="flex sm:hidden flex-col gap-[18px] max-sm:shadow-card-shadow max-sm:mx-auto max-sm:size-[169px] max-xs:size-[140px] max-xs:w-full max-sm:justify-center max-sm:rounded-[20px] items-center sm:w-[264px]"
             >
@@ -139,6 +140,7 @@ const Problem = () => {
           ))}
           {data.map((item, index) => (
             <div
+              data-aos="fade-up"
               key={index}
               className="sm:flex hidden flex-col gap-[18px] max-sm:shadow-card-shadow max-sm:mx-auto max-sm:size-[169px] max-xs:size-[140px] max-xs:w-full max-sm:justify-center max-sm:rounded-[20px] items-center sm:w-[264px]"
             >
