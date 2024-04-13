@@ -17,7 +17,7 @@ type ILanguage = "ru" | "uz";
 
 const languages = [
   {
-    label: "Ўзбек",
+    label: "O‘zbek",
     value: "uz",
   },
   {

@@ -32,7 +32,7 @@ const data = [
     iconUrl: "/images/icons/Frame-1.svg",
   },
   {
-    info: "Bog'im ogriqlari",
+    info: "Bog'im og'riqlari",
     iconUrl: "/images/icons/Frame-2.svg",
   },
   {
@@ -72,7 +72,7 @@ const data = [
     iconUrl: "/images/icons/Frame-11.svg",
   },
   {
-    info: "Soch Oqarishi",
+    info: "Soch oqarishi",
     iconUrl: "/images/icons/Frame-12.svg",
   },
   {

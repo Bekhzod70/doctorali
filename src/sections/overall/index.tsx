@@ -5,27 +5,27 @@ import SectionTitle from "../components/section-title";
 const data = [
   {
     title: "32",
-    subtitle: "Kompaniyamiz ochilganiga 32 yil dan oshdi",
+    subtitle: "Kompaniyaning ochilganiga 32 yil dan oshdi",
   },
   {
     title: "10+",
-    subtitle: "10 dan ziyod davlatga mahsulotlarimiz eksport qilinadi",
+    subtitle: "Mahsulotlarimiz 10 dan ziyod davlatlarga eksport qilinadi",
   },
   {
     title: "100+",
-    subtitle: "Dorivor o’simliklar yetishtirladi",
+    subtitle: "100 turdan ortiq dorivor giyohlar yetishtiriladi",
   },
   {
     title: "500+",
-    subtitle: "500 dan ziyod muahassislar va xodimlar faoliyat olib boradi",
+    subtitle: "500 nafardan ziyod mutaxassislar faoliyat olib boradi",
   },
   {
     title: "1 000 000",
-    subtitle: "Mamnun mijozlar: 1 000 000 dan ortiq",
+    subtitle: "Mamnun mijozlar soni 1 000 000 nafardan oshadi",
   },
   {
     title: "500+",
-    subtitle: "Gektar giyohlar yetishtiriladigan hudud",
+    subtitle: "Giyohlar 500 gektardan katta maydonda o'stiriladi",
   },
 ];
 

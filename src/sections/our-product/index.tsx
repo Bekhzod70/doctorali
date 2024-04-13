@@ -30,10 +30,10 @@ const data = [
     imageUrl: "/images/product/doctor-ali.jpg",
     title: "“Doctor Ali” kompleksi",
     benefits: [
-      "Qondagi qand miqdorini normallashtirishga yordam beradi;",
-      "Kamqonlikning oldin olishga koʻmaklashadi;",
-      "Asab tolalarini tinchlantirishda qoʻl keladi;",
-      "Qon bosimining oshib ketishiga qarshi kurashadi.",
+      "Qondagi qand miqdorini normallashtirishda;",
+      "Qon bosimini bir meʼyorda ushlab turishda;",
+      "Asabiylik va uyqusizlikning oldini olishda;",
+      "Kamqonlikka qarshi kurashishda yordam beradi.",
     ],
   },
   {
