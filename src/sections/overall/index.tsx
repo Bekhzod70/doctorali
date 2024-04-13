@@ -1,6 +1,8 @@
 import Seperation from "@/components/icons/seperation";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
 const data = [
   {
@@ -55,7 +57,23 @@ const Trusted = () => {
             }
           >
             <h1 className="md:text-heading2 sm:text-heading3 text-[26px] text-center gradient-text max-sm:font-semibold">
-              {item.title}
+              {/* {item.title} */}
+              {/* <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                {({ isVisible }: { isVisible: boolean }) => (
+                  <div style={{ height: 100 }}>
+                    {isVisible ? (
+                    ) : null}
+                  </div>
+                )}
+              </VisibilitySensor> */}
+              <CountUp
+                start={0}
+                duration={3}
+                separator=" "
+                enableScrollSpy
+                end={parseInt(item.title.replace(/\s/g, ""), 10)}
+              />
+              {item.title.includes("+") && "+"}
             </h1>
             <p className="lg:text-base text-sm text-center max-sm:font-medium max-sm:text-xs">
               {item.subtitle}
