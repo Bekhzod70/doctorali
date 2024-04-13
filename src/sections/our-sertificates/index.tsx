@@ -22,7 +22,7 @@ const data = [
     imageUrl: "/images/sertificate/usda.png",
   },
   {
-    name: "Organic Product",
+    name: "EU Organik",
     imageUrl: "/images/sertificate/organic.png",
   },
   {
