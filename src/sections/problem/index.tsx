@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 
@@ -93,30 +94,83 @@ const data = [
 ];
 
 const Problem = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  // Function to toggle showAll state
+  const toggleShowAll = () => {
+    setShowAll((prev) => !prev);
+  };
+
+  const renderedData = showAll ? data : data.slice(0, 6);
+
   return (
     <Section id="catalog">
       <div className="">
         <SectionTitle className="text-center sm:mb-20 mb-14">
           Sizni qanday muammo bezovta qilmoqda?
         </SectionTitle>
-        <div className="sm:flex sm:flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center grid grid-cols-2 gap-5">
-          {data.map((item, index) => (
+        <div className="sm:flex relative sm:flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center grid grid-cols-2 gap-5">
+          {/* <img
+            src="/images/icons/seperator.png"
+            alt="icon"
+            className="absolute -z-10 left-1/2 -translate-x-1/2 xs:top-[8.7rem] top-[6.8rem] sm:hidden"
+          />
+          <img
+            src="/images/icons/seperator.png"
+            alt="icon"
+            className="absolute -z-10 left-1/2 -translate-x-1/2 xs:top-[20.5rem] top-[16.8rem] sm:hidden"
+          /> */}
+          {renderedData.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col gap-[18px] items-center sm:w-[264px]"
+              className="flex sm:hidden flex-col gap-[18px] max-sm:shadow-card-shadow max-sm:mx-auto max-sm:size-[169px] max-xs:size-[140px] max-xs:w-full max-sm:justify-center max-sm:rounded-[20px] items-center sm:w-[264px]"
             >
-              <div className="sm:size-[114px] size-20 center-mode bg-light rounded-full">
+              <div className="sm:size-[114px] xs:size-20 size-16 center-mode bg-light rounded-full">
                 <img
                   src={item.iconUrl}
                   alt="icon"
-                  className="sm:size-16 size-12"
+                  className="sm:size-16 xs:size-12 size-10"
                 />
               </div>
-              <p className="sm:text-heading4 text-paragraph2 font-medium text-center">
+              <p className="sm:text-heading4 xs:text-paragraph2 text-sm font-medium text-center">
                 {item.info}
               </p>
             </div>
           ))}
+          {data.map((item, index) => (
+            <div
+              key={index}
+              className="sm:flex hidden flex-col gap-[18px] max-sm:shadow-card-shadow max-sm:mx-auto max-sm:size-[169px] max-xs:size-[140px] max-xs:w-full max-sm:justify-center max-sm:rounded-[20px] items-center sm:w-[264px]"
+            >
+              <div className="sm:size-[114px] xs:size-20 size-16 center-mode bg-light rounded-full">
+                <img
+                  src={item.iconUrl}
+                  alt="icon"
+                  className="sm:size-16 xs:size-12 size-10"
+                />
+              </div>
+              <p className="sm:text-heading4 xs:text-paragraph2 text-sm font-medium text-center">
+                {item.info}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="sm:hidden mt-5 flex justify-center">
+          {!showAll ? (
+            <p
+              onClick={toggleShowAll}
+              className="font-medium text-orange text-center underline"
+            >
+              {"Barchasini ko'rish"}
+            </p>
+          ) : (
+            <p
+              onClick={toggleShowAll}
+              className="font-medium text-orange text-center underline"
+            >
+              {"Orqaga qaytarish"}
+            </p>
+          )}
         </div>
       </div>
     </Section>

@@ -1,63 +1,66 @@
+import Seperation from "@/components/icons/seperation";
 import Section from "../components/section";
+import SectionTitle from "../components/section-title";
 
 const data = [
   {
-    title: "32yil",
-    subtitle: "Kompaniyamiz ochilganiga",
+    title: "32",
+    subtitle: "Kompaniyamiz ochilganiga 32 yil dan oshdi",
+  },
+  {
+    title: "10+",
+    subtitle: "10 dan ziyod davlatga mahsulotlarimiz eksport qilinadi",
   },
   {
     title: "100+",
-    subtitle: "Mahsulot turlari",
+    subtitle: "Dorivor o’simliklar yetishtirladi",
   },
   {
     title: "500+",
-    subtitle: "Bizning mutaxassislar",
+    subtitle: "500 dan ziyod muahassislar va xodimlar faoliyat olib boradi",
   },
   {
-    title: "1mln+",
-    subtitle: "Mamnun mijozlar",
+    title: "1 000 000",
+    subtitle: "Mamnun mijozlar: 1 000 000 dan ortiq",
   },
   {
-    title: "500+gektar",
-    subtitle: "Giyohlar yetishtiriladigan hudud",
+    title: "500+",
+    subtitle: "Gektar giyohlar yetishtiriladigan hudud",
   },
 ];
 
 const Trusted = () => {
-  const boxStyle =
-    "flex flex-col gap-4 max-w-[264px] w-full border-2 py-10 px-[30px] border-light";
+  const boxStyle = "";
   const boxTitleStyle =
     "sm:text-heading2 text-heading3 gradient-text font-times-new-roman";
 
   return (
-    <Section className="!mt-[100px]">
-      <div className="flex items-center flex-wrap gap-5 lg:justify-between justify-evenly">
-        <div className={boxStyle}>
-          <h1 className={boxTitleStyle}>
-            32<span className="text-[22px]">yil</span>
-          </h1>
-          <p>Kompaniyamiz ochilganiga</p>
-        </div>
-        <div className={boxStyle}>
-          <h1 className={boxTitleStyle}>100+</h1>
-          <p>Mahsulot turlari</p>
-        </div>
-        <div className={boxStyle}>
-          <h1 className={boxTitleStyle}>500+</h1>
-          <p>Bizning mutaxassislar</p>
-        </div>
-        <div className={boxStyle}>
-          <h1 className={boxTitleStyle}>
-            1<span className="text-[22px]">mln</span>+
-          </h1>
-          <p>Mamnun mijozlar</p>
-        </div>
-        <div className={boxStyle}>
-          <h1 className={boxTitleStyle}>
-            500+<span className="text-[22px]">gektar</span>
-          </h1>
-          <p>Giyohlar yetishtiriladigan hudud</p>
-        </div>
+    <Section className="">
+      <SectionTitle className="text-center sm:mb-10 mb-7">
+        Faoliyatimiz raqamlarda
+      </SectionTitle>
+      <div className="grid sm:grid-cols-3 relative grid-cols-2 flex-wrap gap-5 lg:justify-between justify-evenly">
+        <span className="sm:hidden absolute left-1/2 -translate-x-1/2 -z-10 top-[5rem]">
+          <Seperation />
+        </span>
+        <span className="sm:hidden absolute left-1/2 -translate-x-1/2 -z-10 top-[16.8rem]">
+          <Seperation />
+        </span>
+        {data.map((item, i) => (
+          <div
+            key={i}
+            className={
+              "flex flex-col sm:gap-4 gap-2 max-sm:rounded-[20px] max-sm:h-[169px] w-full border-2 items-center max-sm:shadow-card-shadow py-10 md:px-[30px] px-2 border-light"
+            }
+          >
+            <h1 className="md:text-heading2 sm:text-heading3 text-[26px] text-center gradient-text max-sm:font-semibold">
+              {item.title}
+            </h1>
+            <p className="lg:text-base text-sm text-center max-sm:font-medium max-sm:text-xs">
+              {item.subtitle}
+            </p>
+          </div>
+        ))}
       </div>
     </Section>
   );

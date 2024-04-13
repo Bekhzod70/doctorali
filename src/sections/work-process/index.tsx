@@ -55,14 +55,14 @@ const WorkProcess = () => {
       <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
         {data.map(({ number, title, content }, i) => (
           <div
-            className="grid gap-[14px] sm:py-10 py-6 sm:px-[30px] px-5 border border-light"
+            className="grid gap-[14px] sm:py-10 py-6 sm:px-[30px] px-5 border sm:border-light border-border max-sm:rounded-xl"
             key={i}
           >
-            <h2 className="text-heading4 gradient-text font-medium">
+            <h2 className="sm:text-heading4 text-5xl gradient-text font-medium">
               {number}
             </h2>
             <h1 className="text-green font-medium">{title}</h1>
-            <p className="text-gray text-base">{content}</p>
+            <p className="sm:text-gray text-gray-600 text-base">{content}</p>
           </div>
         ))}
       </div>

@@ -16,17 +16,23 @@ const Hero = () => {
               <span className="absolute bottom-0 left-0">
                 <GhostLogo />
               </span>
-              <h1 className="text-white font-alegreya sm:text-[70px] sm:leading-[70px] font-times-new-roman text-[34px] max-sm:leading-[34px]">
+              <h1 className="text-white sm:text-[70px] sm:text-start text-center sm:leading-[70px] font-times-new-roman text-[34px] max-sm:leading-[34px]">
                 {/* <Translation text="hero.title" /> */}
                 Mehrigiyo – biz bilan sogʻlom turmush tarzini tanlang!
               </h1>
-              <p className="text-paragraph1 text-gray-light sm:mt-[30px] mt-[14px] xl:mb-[120px]">
+              <p className="text-paragraph1 text-gray-light max-sm:text-center sm:mt-[30px] mt-[14px] xl:mb-[120px]">
                 <Translation text="hero.subtitle" />
               </p>
             </div>
-            <div className=" xl:hidden my-[30px]">
-              <Slider />
+            <div className="xl:hidden my-[30px] max-sm:h-[354px] overflow-hidden max-sm:rounded-3xl">
+              <img
+                src="/images/hero2.jpg"
+                alt=""
+                className="size-full object-cover"
+              />
+              {/* <Slider /> */}
             </div>
+
             <a href="#consultation1" className="sm:block hidden">
               <Button className="w-full">
                 <span className="sm:hidden">

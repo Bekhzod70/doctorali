@@ -55,7 +55,7 @@ function App({ Component, pageProps }: AppProps) {
           boxShadow: "0rem 0rem 0.1rem rgba(0,0,0,0.3)",
         }}
       >
-        <Button className="w-full rounded-none h-auto py-3 max-sm:text-sm">
+        <Button className="w-full !rounded-none h-auto py-3 max-sm:text-sm">
           <Phone className="shrink-0 max-sm:w-5 h-5" />
           <span className="sm:hidden">
             <Translation text="links.connect" />
@@ -72,7 +72,7 @@ function App({ Component, pageProps }: AppProps) {
           boxShadow: "0rem 0rem 0.1rem rgba(0,0,0,0.3)",
         }}
       >
-        <Button className="w-full rounded-none h-auto py-3 max-sm:text-sm">
+        <Button className="w-full h-auto py-3 max-sm:text-sm !rounded-none">
           <Phone className="shrink-0 max-sm:w-5 h-5" />
           <span className="sm:hidden">
             <Translation text="links.connect" />

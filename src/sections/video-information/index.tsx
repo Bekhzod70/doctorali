@@ -41,7 +41,7 @@ const FeedbackSlider = ({
       >
         {feedback.map(({ imageUrl, videoUrl }, i) => (
           <SwiperSlide key={i} className="!h-[unset] !w-auto">
-            <div className="sm:w-[690px] w-[325px] sm:h-[356px] h-[213px] relative sm:rounded-[48px] rounded-[38px] overflow-hidden group">
+            <div className="sm:w-[690px] w-[169px] sm:h-[356px] h-[95.21px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
               <Image
                 src={imageUrl}
                 alt="feedback image"
@@ -55,9 +55,9 @@ const FeedbackSlider = ({
                   setOpen(true);
                 }}
                 size="icon"
-                className="text-white absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+                className="text-white max-sm:size-[27px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
               >
-                <Play />
+                <Play className="max-sm:size-4 max-sm:ml-[2px]" />
               </Button>
             </div>
           </SwiperSlide>
@@ -82,7 +82,7 @@ const VideoInformation = () => {
       <SectionTitle className="sm:mb-[50px] mb-7 text-center">
         Mijozlarimiz nima deydi?
       </SectionTitle>
-      <div>
+      <div className="hidden sm:block">
         <Tabs defaultValue="client">
           <div className="flex justify-center sm:mb-20 mb-5">
             <TabsList>
@@ -111,6 +111,23 @@ const VideoInformation = () => {
             />
           </TabsContent>
         </Tabs>
+      </div>
+      <div className="sm:hidden">
+        <FeedbackSlider
+          number={2}
+          feedback={clientsFeedback}
+          setVideo={setSelectedVideo}
+          setOpen={setOpen}
+        />
+        <SectionTitle className="my-[30px] text-center">
+          Mutaxassislar fikri
+        </SectionTitle>
+        <FeedbackSlider
+          number={2}
+          feedback={expertsFeedback}
+          setVideo={setSelectedVideo}
+          setOpen={setOpen}
+        />
       </div>
       <VideoModal open={open} setOpen={setOpen} video={selectedVideo} />
     </Section>

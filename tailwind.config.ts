@@ -43,6 +43,9 @@ const config = {
         "primary-gradient":
           "linear-gradient(135.84deg, #DCBC55 15.91%, #C59F36 38.52%, #BF9A32 64.21%, #B9922D 84.42%)",
       },
+      boxShadow: {
+        "card-shadow": "3px 3px 20px 0px #0000000D",
+      },
       colors: {
         green: {
           DEFAULT: "#0B584D",

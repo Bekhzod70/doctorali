@@ -16,7 +16,7 @@ const DownloadApp = () => {
                 koʻproq maʼlumotga ega boʻling.
               </p>
             </div>
-            <div className="flex lg:justify-start justify-center items-center gap-[11px]">
+            <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
               <a href="">
                 <img
                   src="/images/icons/googleplay.svg"
@@ -41,6 +41,22 @@ const DownloadApp = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="sm:hidden flex mt-6 lg:justify-start justify-center items-center gap-[11px]">
+        <a href="">
+          <img
+            src="/images/icons/googleplay.svg"
+            alt="google play"
+            className="sm:h-[50px] h-10"
+          />
+        </a>
+        <a href="">
+          <img
+            src="/images/icons/appstore.svg"
+            alt="appstore"
+            className="sm:h-[50px] h-10"
+          />
+        </a>
       </div>
     </Section>
   );

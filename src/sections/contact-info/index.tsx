@@ -9,7 +9,7 @@ const ContactInfo = () => {
         Kontaktlar
       </SectionTitle>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-5">
-        <div className="md:py-10 py-5 lg:px-20 px-10 bg-light">
+        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
           <div className="flex items-center gap-[18px]">
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Phone className="text-white" />
@@ -17,7 +17,7 @@ const ContactInfo = () => {
             <a href="tel:9209481722">(920) 948-1722</a>
           </div>
         </div>
-        <div className="md:py-10 py-5 lg:px-20 px-10 bg-light">
+        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
           <div className="flex items-center gap-[18px]">
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Mail className="text-white" />
@@ -25,7 +25,7 @@ const ContactInfo = () => {
             <a href="mailto:paula611@gmail.com">paula611@gmail.com</a>
           </div>
         </div>
-        <div className="md:py-10 py-5 lg:px-20 px-10 bg-light">
+        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
           <div className="flex items-center gap-[18px]">
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <MapPin className="text-white" />
@@ -35,7 +35,7 @@ const ContactInfo = () => {
             </a>
           </div>
         </div>
-        <div className="md:py-10 py-5 lg:px-20 px-10 bg-light">
+        <div className="md:py-10 py-5 lg:px-20 px-5 bg-light">
           <div className="flex items-center justify-between gap-[18px]">
             <a
               href=""

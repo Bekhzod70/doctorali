@@ -5,7 +5,7 @@ const Individual = () => {
   return (
     <Section>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-5 gap-y-8">
-        <div className="max-lg:order-2">
+        <div className="max-lg:order-2 max-sm:hidden">
           <img
             src="/images/individual.jpg"
             alt="individual"
@@ -16,7 +16,14 @@ const Individual = () => {
           <SectionTitle className="max-sm:text-center">
             Siz uchun induvidial yondashuv
           </SectionTitle>
-          <ul className="text-gray sm:text-xl text-base grid gap-5">
+          <div className="sm:hidden">
+            <img
+              src="/images/individual.jpg"
+              alt="individual"
+              className="sm:h-[415px] w-full object-cover lg:rounded-tl-[150px]"
+            />
+          </div>
+          <ul className="sm:text-gray text-gray-600 sm:text-xl text-base grid gap-5">
             <li className="flex gap-3">
               <div className="size-1.5 bg-gray shrink-0 rounded-full mt-3" />
               <span>
