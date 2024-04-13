@@ -23,6 +23,7 @@ import OurTeam from "@/sections/our-team";
 import OurSertificates from "@/sections/our-sertificates";
 import VideoInformation from "@/sections/video-information";
 import ContactInfo from "@/sections/contact-info";
+import World from "@/sections/world";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -35,6 +36,7 @@ export default function Home() {
       <OurProduct />
       <Advantages />
       <CompanyHistory />
+      <World />
       <WorkProcess />
       <DownloadApp />
       <Individual />
