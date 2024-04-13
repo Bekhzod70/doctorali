@@ -3,7 +3,7 @@ import SectionTitle from "../components/section-title";
 
 const data = [
   {
-    title: "Tarkibiy qism",
+    title: "Tarkibiy komponentlar",
     description:
       "Bizning barcha mahsulotlar tabiiy giyohlardan va dorivor oʻsimliklardan tayyorlangan.",
     icon: "/images/icons/Medical Shield.svg",
@@ -23,7 +23,7 @@ const data = [
   {
     title: "Universal vosita",
     description:
-      "Mahsulotlar bir yoki ikki emas, bir nechta xil kasalliklarning oldini olishda samarali natija koʻrsatadi.",
+      "Mahsulotlar bir yoki ikki emas, bir necha xil kasalliklarning oldini olishda ijobiy natija koʻrsatadi.",
     icon: "/images/icons/Stethoscope.svg",
   },
 ];

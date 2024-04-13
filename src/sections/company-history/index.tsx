@@ -15,7 +15,7 @@ const CompanyHistory = () => {
       <div className="grid xl:grid-cols-2 grid-cols-1 sm:gap-5 gap-8">
         <div>
           <SectionTitle className="sm:mb-[61px] mb-10 max-sm:text-center">
-            Ananalar va qadriyatlarga asoslangan kompaniyamiz tarixi
+            {"An'analar va qadriyatlarga asoslangan kompaniyamiz tarixi"}
           </SectionTitle>
           <div className="grid gap-5">
             <p className="text-gray sm:text-xl text-base">

@@ -123,24 +123,24 @@
   "faq": {
     "title": "Eng ko'p beriladigan savollar",
     "item1": {
-      "question": "Mahsulotning narxi qancha?",
-      "answer": "Biz mijozlarga mahsulotimizni tavsiya qilishdan avval ularning salomatliklaridagi muammolarni to'liq urg'anib, shifokor nazorati ostida konsultatsiya taqdim etamiz. Mijozlarga davolash kursini ularning umumiy holatidan kelib chiqib individual tarzda belgilaymiz. Mahsulot narxi esa bevosita mana shunga bog'liq bo'ladi."
+      "question": "Mahsulotlarning narxi qancha?",
+      "answer": "Biz mijozlarga mahsulotlarimizni tavsiya qilishdan avval ularning salomatliklaridagi muammolarni toʻliq oʻrganib, shifokor nazorati ostida konsultatsiya taqdim etamiz. Mijozlarga davolanish kursini ularning umumiy holatidan kelib chiqib individual tarzda belgilaymiz. Mahsulotlar narxi esa bevosita mana shunga bogʻliq boʻladi."
     },
     "item2": {
-      "question": "Mahsulot sifatiga kafolat berasizmi?",
-      "answer": "Mahsulotimiz xalqaro sifat sertifikatlariga ega bo'lib, tarkibini tabiiy giyohlari tashkil etadi. Biz ishlab chiqarish jarayonida har bir mahsulotga alohida e'tibor qaratamiz. Dunyo tan olgan sertifikatlar mahsulotimiz oliy darajadagi sifatga ega ekanligini tasdiqlaydi."
+      "question": "Mahsulotlar sifatiga kafolat berasizmi?",
+      "answer": "Mahsulotlarimiz xalqaro sifat sertifikatlariga ega boʻlib, tarkibini tabiiy giyohlar tashkil etadi. Biz ishlab chiqarish jarayonida har bir mahsulotga alohida eʼtibor qaratamiz. Xalqaro sertifikatlar mahsulotlarimiz oliy darajadagi sifatga ega ekanligini tasdiqlaydi."
     },
     "item3": {
       "question": "Konsultatsiya olish pullikmi?",
-      "answer": "Muta'xassislarimizdan konsultatsiya olish va qimmatli tavsiyalarga ega bo'lish mutlaqo bepul."
+      "answer": "Mutaxassislarimizdan konsultatsiya olish va qimmatli tavsiyalarga ega boʻlish mutlaqo bepul."
     },
     "item4": {
-      "question": "Etkazib berish xizmati bormi?",
-      "answer": "Mahsulotni buyurtma qilganingizdan keyin uningni O'zbekistonning istalgan nuqtasiga bepul etkazib berishni o'z zimmasizga olamiz."
+      "question": "Yetkazib berish xizmati bormi?",
+      "answer": "Mahsulotlarni buyurtma qilganingizdan keyin ularni Oʻzbekistonning istalgan nuqtasiga bepul yetkazib berishni oʻz zimmamizga olamiz."
     },
     "item5": {
       "question": "To'lovni qanday qilib amalga oshirish mumkin?",
-      "answer": "Mahsulot uchun to'lovni buyurtmangiz siz aytingan manzilga etkazib berilganidan keyin o'zingizga qulay bo'lgan usulda – Click, PayMe ilovalari orqali yoki naqd pul ko'rinishiida amalga oshirishingiz mumkin."
+      "answer": "Mahsulotlar uchun toʻlovni buyurtmangiz siz aytgan manzilga yetkazib berilganidan keyin oʻzingizga qulay boʻlgan usulda – Click, PayMe ilovalari orqali yoki naqd pul koʻrinishida amalga oshirishingiz mumkin."
     }
   },
   "sertificate": {

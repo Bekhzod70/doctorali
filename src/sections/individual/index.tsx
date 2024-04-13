@@ -14,7 +14,7 @@ const Individual = () => {
         </div>
         <div className="flex flex-col lg:justify-between max-lg:gap-4">
           <SectionTitle className="max-sm:text-center">
-            Siz uchun induvidial yondashuv
+            Har bir mijozga individual yondashuv
           </SectionTitle>
           <div className="sm:hidden">
             <img
@@ -27,16 +27,15 @@ const Individual = () => {
             <li className="flex gap-3">
               <div className="size-1.5 bg-gray shrink-0 rounded-full mt-3" />
               <span>
-                Doctor Ali” klinikasi …-yildan buyon kasalliklarga aniq tashxis
-                qoʻyish, tabiiy va organik mahsulotlar yordamida salomatlikni
-                qayta tiklashda yurtdoshlarimizga koʻmak berib kelmoqda.
+                “Doctor Ali” kompaniyasi koʻp yillardan buyon yurtdoshlarimizga
+                salomatlikni qayta tiklash masalasida koʻmak berib kelmoqda.
               </span>
             </li>
             <li className="flex gap-3">
               <div className="size-1.5 bg-gray shrink-0 rounded-full mt-3" />
               <span>
-                Klinikamizda faoliyat yurituvchi va ulkan ish tajribasiga ega
-                boʻlgan oliy toifali shifokorlar soni … nafardan oshadi.
+                Bizning oliy toifali shifokorlar har bir bemorga individual
+                yondashuvni taʼminlashadi.
               </span>
             </li>
           </ul>

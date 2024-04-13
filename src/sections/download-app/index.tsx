@@ -12,12 +12,15 @@ const DownloadApp = () => {
                 Ilovamizni yuklab oling
               </SectionTitle>
               <p className="sm:text-xl text-base text-white mt-6">
-                shifokorlarimzdan bepul konsultatsiya va mahsulotlar haqida yana
-                koʻproq maʼlumotga ega boʻling.
+                Shifokorlarimizdan bepul konsultatsiya va mahsulotlar haqida
+                to‘liq ma’lumotga ega bo‘ling.
               </p>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
-              <a href="">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mehrigiyo.doctor_ali"
+                target="_blank"
+              >
                 <img
                   src="/images/icons/googleplay.svg"
                   alt="google play"

@@ -65,6 +65,17 @@ const data = [
       "Ortiqcha vaznga qarshi kurashishda yordam beradi.",
     ],
   },
+  // TODO: change image
+  {
+    imageUrl: "/images/product/sustaviy.jpg",
+    title: "“Суставный доктор” kompleksi:",
+    benefits: [
+      "Qoʻl, oyoq, bel va tizzalardagi ogʻriq bilan kurashishda;",
+      "Boʻgʻimlarda yigʻilib qolgan tuzlarni eritishda;",
+      "Harakatchanlikni qayta tiklashda;",
+      "Toʻqimalar oziqlanishini taʼminlashda yordam beradi.",
+    ],
+  },
 ];
 
 const OurProduct = () => {
