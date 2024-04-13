@@ -44,33 +44,6 @@ const Footer = () => {
                   {"Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"}
                 </div>
               </li>
-              <li>
-                <a
-                  href={socialLinks.instagram}
-                  className="footer-contact-link"
-                  target="_blank"
-                >
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a
-                  href={socialLinks.youtube}
-                  className="footer-contact-link"
-                  target="_blank"
-                >
-                  YouTube
-                </a>
-              </li>
-              <li>
-                <a
-                  href={socialLinks.telegram}
-                  className="footer-contact-link"
-                  target="_blank"
-                >
-                  Telegram
-                </a>
-              </li>
             </ul>
           </div>
           <div className="lg:w-[335px] max-sm:text-center">
