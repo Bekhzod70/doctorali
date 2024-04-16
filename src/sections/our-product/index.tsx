@@ -154,7 +154,7 @@ const OurProduct = () => {
             </Swiper>
           </div>
           <div className="sm:hidden">
-            {data.map(({ benefits, imageUrl, title }, i) => (
+            {data.map(({ benefits, imageUrl, title, connect }, i) => (
               <div
                 className="w-full mx-auto bg-light h-full py-[30px] flex flex-col justify-between px-4 rounded-[10px]"
                 data-aos="fade-up"
@@ -187,7 +187,11 @@ const OurProduct = () => {
                 </div>
                 <div className="pb-5 mt-7 px-[15px]">
                   <div className="">
-                    <Button className="w-full">Batafsil</Button>
+                    <a href={`tel:${connect}`} className="block w-full">
+                      <Button className="w-full" variant="outline">
+                        Batafsil
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
