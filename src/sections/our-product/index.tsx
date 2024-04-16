@@ -29,6 +29,7 @@ const data = [
   {
     imageUrl: "/images/product/doctor-ali.jpg",
     title: "“Doctor Ali” kompleksi",
+    connect: "+998787773103",
     benefits: [
       "Qondagi qand miqdorini normallashtirishda;",
       "Qon bosimini bir meʼyorda ushlab turishda;",
@@ -39,6 +40,7 @@ const data = [
   {
     imageUrl: "/images/product/rohat.jpg",
     title: "“Rohat” kompleksi",
+    connect: "+998984447077",
     benefits: [
       "Prostata bezi kasalliklarining oldini olishda;",
       "Jinsiy zaiflik muammosiga qarshi kurashishda;",
@@ -49,6 +51,7 @@ const data = [
   {
     imageUrl: "/images/product/safo.jpg",
     title: "Safo kompleksi",
+    connect: "+998982227077",
     benefits: [
       "Qazgʻoqlarni bartaraf etishda;",
       "Sochlar toʻkilishining oldini olishda;",
@@ -59,6 +62,7 @@ const data = [
   {
     imageUrl: "/images/product/detoxioma.jpg",
     title: "Detoxioma",
+    connect: "+998982227077",
     benefits: [
       "Organizmni toksin va gijjalardan tozalashda;",
       "Jigar kasalliklarining oldini olishda;",
@@ -69,6 +73,7 @@ const data = [
   {
     imageUrl: "/images/product/sustaviy.jpg",
     title: "“Суставный доктор” kompleksi:",
+    connect: "+998984447077",
     benefits: [
       "Qoʻl, oyoq, bel va tizzalardagi ogʻriq bilan kurashishda;",
       "Boʻgʻimlarda yigʻilib qolgan tuzlarni eritishda;",
@@ -111,7 +116,7 @@ const OurProduct = () => {
               className="!pb-10 h-full"
               id="pagination-slider"
             >
-              {data.map(({ benefits, imageUrl, title }, i) => (
+              {data.map(({ benefits, imageUrl, title, connect }, i) => (
                 <SwiperSlide key={i} className="!h-[unset]">
                   <div className="xs:w-[335px] mx-auto bg-light h-full flex flex-col justify-between">
                     <div>
@@ -137,11 +142,11 @@ const OurProduct = () => {
                       </div>
                     </div>
                     <div className="pb-5 mt-7 px-[15px]">
-                      <div className="">
+                      <a href={`tel:${connect}`} className="block w-full">
                         <Button className="w-full" variant="outline">
                           Batafsil
                         </Button>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
