@@ -112,7 +112,7 @@ const Connect = (props: Props) => {
         {image ? (
           <div className="w-full overflow-hidden rounded-2xl mb-[22px] sm:hidden">
             <img
-              src="/images/contact.jpg"
+              src="/mehrigiyo/images/contact.jpg"
               alt="contact"
               className="w-full h-full object-cover"
             />

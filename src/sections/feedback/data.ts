@@ -5,27 +5,27 @@ interface Feedback {
 
 export const feedbackData = [
   {
-    imageUrl: "/images/feedback/card-4.png",
+    imageUrl: "/mehrigiyo/images/feedback/card-4.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Малинин Роман Сергеевич",
   },
   {
-    imageUrl: "/images/feedback/card-1.png",
+    imageUrl: "/mehrigiyo/images/feedback/card-1.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Жданов Кирилл Романович",
   },
   {
-    imageUrl: "/images/feedback/card-2.png",
+    imageUrl: "/mehrigiyo/images/feedback/card-2.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Поликарпова Мирослава Максимовна",
   },
   {
-    imageUrl: "/images/feedback/card-3.png",
+    imageUrl: "/mehrigiyo/images/feedback/card-3.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Фомин Ярослав Львович",
   },
   {
-    imageUrl: "/images/feedback/card-3.png",
+    imageUrl: "/mehrigiyo/images/feedback/card-3.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Фомин Ярослав Львович",
   },
@@ -87,7 +87,7 @@ export const clientsFeedback: Feedback[] = [
 
 export const starFeedback: Feedback[] = [
   {
-    imageUrl: "/images/feedback/Abror_Muxtor_Aliy.jpg",
+    imageUrl: "/mehrigiyo/images/feedback/Abror_Muxtor_Aliy.jpg",
     videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
   },
   {
@@ -99,7 +99,7 @@ export const starFeedback: Feedback[] = [
     videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE",
   },
   {
-    imageUrl: "/images/feedback/Muhammadali_Eshonqulov.jpg",
+    imageUrl: "/mehrigiyo/images/feedback/Muhammadali_Eshonqulov.jpg",
     videoUrl: "https://www.youtube.com/watch?v=de4DJwdGQMA",
   },
 ];

@@ -11,12 +11,12 @@ const Product = () => {
   return (
     <Section className="bg-green relative" id="about">
       <img
-        src="/images/bg/product-bg.png"
+        src="/mehrigiyo/images/bg/product-bg.png"
         alt="bg image"
         className="absolute right-0 top-0 sm:block hidden"
       />
       <img
-        src="/images/bg/product-bg-sm.png"
+        src="/mehrigiyo/images/bg/product-bg-sm.png"
         alt="bg image"
         className="absolute right-0 top-[60px] sm:hidden"
       />

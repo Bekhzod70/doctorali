@@ -90,7 +90,7 @@ const CompanyHistory = () => {
         <div>
           <img
             data-aos="fade-up"
-            src="/images/history-full.png"
+            src="/mehrigiyo/images/history-full.png"
             alt="history"
             className="object-cover xl:ml-auto mx-auto max-sm:rounded-[25px] sm:rounded-tr-[140px]"
           />

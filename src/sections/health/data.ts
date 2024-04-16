@@ -5,17 +5,17 @@ import ThirdCircle from "@/components/icons/third-circle";
 import Vector from "@/components/icons/vector";
 
 export const healthData = [
-  { imageUrl: "/images/health/1.png", info: "health.tea" },
+  { imageUrl: "/mehrigiyo/images/health/1.png", info: "health.tea" },
   {
-    imageUrl: "/images/health/4.png",
+    imageUrl: "/mehrigiyo/images/health/4.png",
     info: "health.eliksir",
   },
   {
-    imageUrl: "/images/health/3.png",
+    imageUrl: "/mehrigiyo/images/health/3.png",
     info: "health.marmelad",
   },
   {
-    imageUrl: "/images/health/2.png",
+    imageUrl: "/mehrigiyo/images/health/2.png",
     info: "health.capsula",
   },
 ];

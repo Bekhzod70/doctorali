@@ -6,25 +6,25 @@ const data = [
     title: "Tarkibiy komponentlar",
     description:
       "Bizning barcha mahsulotlar tabiiy giyohlardan va dorivor oʻsimliklardan tayyorlangan.",
-    icon: "/images/icons/Medical Shield.svg",
+    icon: "/mehrigiyo/images/icons/Medical Shield.svg",
   },
   {
     title: "Yosh-u qariga birdek mos keladi",
     description:
       "Mahsulotlarni nafaqat yoshi kattalar, balki yoshlar va kichik yoshdagi bolalar ham isteʼmol qilishlari mumkin.",
-    icon: "/images/icons/Pill.svg",
+    icon: "/mehrigiyo/images/icons/Pill.svg",
   },
   {
     title: "Nojoʻya taʼsiri yoʻq",
     description:
       "Tarkibida kimyoviy moddalar yoʻqligi sabab nojoʻya taʼsirlarni keltirib chiqarmaydi.",
-    icon: "/images/icons/Body.svg",
+    icon: "/mehrigiyo/images/icons/Body.svg",
   },
   {
     title: "Universal vosita",
     description:
       "Mahsulotlar bir yoki ikki emas, bir necha xil kasalliklarning oldini olishda ijobiy natija koʻrsatadi.",
-    icon: "/images/icons/Stethoscope.svg",
+    icon: "/mehrigiyo/images/icons/Stethoscope.svg",
   },
 ];
 

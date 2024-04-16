@@ -26,7 +26,7 @@ const DownloadApp = () => {
                 target="_blank"
               >
                 <img
-                  src="/images/icons/googleplay.svg"
+                  src="/mehrigiyo/images/icons/googleplay.svg"
                   alt="google play"
                   className="sm:h-[50px] h-10"
                 />
@@ -36,7 +36,7 @@ const DownloadApp = () => {
                 data-aos="fade-up"
               >
                 <img
-                  src="/images/icons/appstore.svg"
+                  src="/mehrigiyo/images/icons/appstore.svg"
                   alt="appstore"
                   data-aos="zoom-in"
                   className="sm:h-[50px] h-10"
@@ -47,7 +47,7 @@ const DownloadApp = () => {
           <div>
             <img
               data-aos="zoom-in"
-              src="/images/App Story.png"
+              src="/mehrigiyo/images/App Story.png"
               alt="app story"
               className="lg:absolute 2xl:w-[645.74px] w-[470px] 2xl:-bottom-20 -bottom-10"
             />
@@ -60,7 +60,7 @@ const DownloadApp = () => {
           data-aos="fade-up"
         >
           <img
-            src="/images/icons/googleplay.svg"
+            src="/mehrigiyo/images/icons/googleplay.svg"
             alt="google play"
             className="sm:h-[50px] h-10"
           />
@@ -70,7 +70,7 @@ const DownloadApp = () => {
           data-aos="fade-up"
         >
           <img
-            src="/images/icons/appstore.svg"
+            src="/mehrigiyo/images/icons/appstore.svg"
             alt="appstore"
             className="sm:h-[50px] h-10"
           />

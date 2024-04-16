@@ -3,12 +3,12 @@ import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 
 const countries = [
-  "/images/flag/qirgi.png",
-  "/images/flag/america.png",
-  "/images/flag/china.png",
-  "/images/flag/qozoq.png",
-  "/images/flag/russia.png",
-  "/images/flag/tojik.png",
+  "/mehrigiyo/images/flag/qirgi.png",
+  "/mehrigiyo/images/flag/america.png",
+  "/mehrigiyo/images/flag/china.png",
+  "/mehrigiyo/images/flag/qozoq.png",
+  "/mehrigiyo/images/flag/russia.png",
+  "/mehrigiyo/images/flag/tojik.png",
 ];
 
 const World = () => {
@@ -33,7 +33,7 @@ const World = () => {
       </ScrollArea>
       <div className="mt-14">
         <img
-          src="/images/icons/map-base.png"
+          src="/mehrigiyo/images/icons/map-base.png"
           alt="map"
           className="object-cover mx-auto pointer-events-none"
         />

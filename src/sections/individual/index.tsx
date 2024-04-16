@@ -7,7 +7,7 @@ const Individual = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-5 gap-y-8">
         <div className="max-lg:order-2 max-sm:hidden">
           <img
-            src="/images/individual.jpg"
+            src="/mehrigiyo/images/individual.jpg"
             alt="individual"
             className="sm:h-[415px] w-full object-cover lg:rounded-tl-[150px]"
           />
@@ -19,7 +19,7 @@ const Individual = () => {
           <div className="sm:hidden">
             <img
               data-aos="fade-up"
-              src="/images/individual.jpg"
+              src="/mehrigiyo/images/individual.jpg"
               alt="individual"
               className="sm:h-[415px] w-full object-cover lg:rounded-tl-[150px]"
             />

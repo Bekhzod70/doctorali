@@ -27,7 +27,7 @@ Ortiqcha vaznga qarshi kurashda yordam beradi.
 
 const data = [
   {
-    imageUrl: "/images/product/doctor-ali.jpg",
+    imageUrl: "/mehrigiyo/images/product/doctor-ali.jpg",
     title: "“Doctor Ali” kompleksi",
     connect: "+998787773103",
     benefits: [
@@ -38,7 +38,7 @@ const data = [
     ],
   },
   {
-    imageUrl: "/images/product/rohat.jpg",
+    imageUrl: "/mehrigiyo/images/product/rohat.jpg",
     title: "“Rohat” kompleksi",
     connect: "+998984447077",
     benefits: [
@@ -49,7 +49,7 @@ const data = [
     ],
   },
   {
-    imageUrl: "/images/product/safo.jpg",
+    imageUrl: "/mehrigiyo/images/product/safo.jpg",
     title: "Safo kompleksi",
     connect: "+998982227077",
     benefits: [
@@ -60,7 +60,7 @@ const data = [
     ],
   },
   {
-    imageUrl: "/images/product/detoxioma.jpg",
+    imageUrl: "/mehrigiyo/images/product/detoxioma.jpg",
     title: "Detoxioma",
     connect: "+998982227077",
     benefits: [
@@ -71,7 +71,7 @@ const data = [
   },
   // TODO: change image
   {
-    imageUrl: "/images/product/sustaviy.jpg",
+    imageUrl: "/mehrigiyo/images/product/sustaviy.jpg",
     title: "“Суставный доктор” kompleksi:",
     connect: "+998984447077",
     benefits: [

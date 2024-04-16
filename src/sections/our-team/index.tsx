@@ -5,22 +5,22 @@ import { Pagination } from "swiper/modules";
 
 const data = [
   {
-    imageUrl: "/images/doctors/zokirnew.png",
+    imageUrl: "/mehrigiyo/images/doctors/zokirnew.png",
     name: "Muhammedjonov Zokirjon",
     profession: "Professor",
   },
   {
-    imageUrl: "/images/doctors/shahobiddin.png",
+    imageUrl: "/mehrigiyo/images/doctors/shahobiddin.png",
     name: "Nasriddinov Shahobiddin",
     profession: "Oliy toifali shifokor",
   },
   {
-    imageUrl: "/images/doctors/xojimurod.png",
+    imageUrl: "/mehrigiyo/images/doctors/xojimurod.png",
     name: "Mo'minov Xojimurod",
     profession: "Oliy toifali shifokor",
   },
   {
-    imageUrl: "/images/doctors/dilshodbek.png",
+    imageUrl: "/mehrigiyo/images/doctors/dilshodbek.png",
     name: "Ergashev Dilshodbek",
     profession: "Oliy toifali shifokor",
   },

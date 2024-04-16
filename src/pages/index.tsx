@@ -52,8 +52,8 @@ export default function Home() {
         title={t("connect2.title")}
         subtitle={t("connect2.subtitle")}
         bgColor="bg-orange"
-        desktopImg="/images/bg/connect-2.png"
-        mobileImg="/images/bg/connect-2.png"
+        desktopImg="/mehrigiyo/images/bg/connect-2.png"
+        mobileImg="/mehrigiyo/images/bg/connect-2.png"
         buttonClass="bg-green hover:bg-green/90"
       /> */}
       {/* <Feedback /> */}
@@ -64,8 +64,8 @@ export default function Home() {
         title={t("connect1.title")}
         subtitle={t("connect1.subtitle")}
         bgColor="bg-green"
-        desktopImg="/images/bg/connect-1.png"
-        mobileImg="/images/bg/connect-1-sm.png"
+        desktopImg="/mehrigiyo/images/bg/connect-1.png"
+        mobileImg="/mehrigiyo/images/bg/connect-1-sm.png"
       /> */}
       <Faq />
       <Connect
@@ -75,8 +75,8 @@ export default function Home() {
         }
         subtitle={" va sogʻlom hayot tomon ilk qadamni qoʻying! "}
         bgColor="bg-green"
-        desktopImg="/images/bg/connect-3.png"
-        mobileImg="/images/bg/connect-3-sm.png"
+        desktopImg="/mehrigiyo/images/bg/connect-3.png"
+        mobileImg="/mehrigiyo/images/bg/connect-3-sm.png"
       />
       <ContactInfo />
       {/* <Address /> */}

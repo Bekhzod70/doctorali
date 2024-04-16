@@ -31,7 +31,7 @@ const SingleRecommend = () => {
               <div>
                 <div className="h-[516px] flex items-end p-5 relative w-full rounded-[40px] overflow-hidden">
                   <img
-                    src="/images/professor.jpg"
+                    src="/mehrigiyo/images/professor.jpg"
                     alt="recommend image"
                     className="w-full h-full object-cover absolute -z-[2] left-0 top-0"
                   />

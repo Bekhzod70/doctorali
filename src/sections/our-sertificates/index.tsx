@@ -11,23 +11,23 @@ import { Pagination } from "swiper/modules";
 const data = [
   {
     name: "Halal",
-    imageUrl: "/images/sertificate/halal.png",
+    imageUrl: "/mehrigiyo/images/sertificate/halal.png",
   },
   {
     name: "ISO 9001",
-    imageUrl: "/images/sertificate/iso.png",
+    imageUrl: "/mehrigiyo/images/sertificate/iso.png",
   },
   {
     name: "USDA organic",
-    imageUrl: "/images/sertificate/usda.png",
+    imageUrl: "/mehrigiyo/images/sertificate/usda.png",
   },
   {
     name: "EU Organik",
-    imageUrl: "/images/sertificate/organic.png",
+    imageUrl: "/mehrigiyo/images/sertificate/organic.png",
   },
   {
     name: "Non GMO",
-    imageUrl: "/images/sertificate/non.png",
+    imageUrl: "/mehrigiyo/images/sertificate/non.png",
   },
 ];
 

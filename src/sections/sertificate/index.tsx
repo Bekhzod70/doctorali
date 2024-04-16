@@ -12,25 +12,25 @@ import { Button } from "@/components/ui/button";
 const data = [
   {
     id: 1,
-    image_url: "/images/sertificate/iso-sert.png",
+    image_url: "/mehrigiyo/images/sertificate/iso-sert.png",
     title: "sertificate.item1.title",
     info: "sertificate.item1.info",
   },
   {
     id: 2,
-    image_url: "/images/sertificate/usda.png",
+    image_url: "/mehrigiyo/images/sertificate/usda.png",
     title: "sertificate.item2.title",
     info: "sertificate.item2.info",
   },
   {
     id: 3,
-    image_url: "/images/sertificate/halal.png",
+    image_url: "/mehrigiyo/images/sertificate/halal.png",
     title: "sertificate.item3.title",
     info: "sertificate.item3.info",
   },
   {
     id: 4,
-    image_url: "/images/sertificate/euro-leaf.png",
+    image_url: "/mehrigiyo/images/sertificate/euro-leaf.png",
     title: "sertificate.item4.title",
     info: "sertificate.item4.info",
   },
