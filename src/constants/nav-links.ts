@@ -1,10 +1,10 @@
 export const navLinks = [
   {
     label: "links.about",
-    to: "#about",
+    to: "#company-history",
   },
   {
     label: "links.catalog",
-    to: "#catalog",
+    to: "#our-product",
   },
 ];

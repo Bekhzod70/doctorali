@@ -5,7 +5,7 @@ import { Pagination } from "swiper/modules";
 
 const data = [
   {
-    imageUrl: "/images/doctors/zokirjon.png",
+    imageUrl: "/images/doctors/zokirnew.png",
     name: "Muhammedjonov Zokirjon",
     profession: "Professor",
   },
@@ -22,11 +22,6 @@ const data = [
   {
     imageUrl: "/images/doctors/dilshodbek.png",
     name: "Ergashev Dilshodbek",
-    profession: "Oliy toifali shifokor",
-  },
-  {
-    imageUrl: "/images/doctors/zokirjon.png",
-    name: "Muhammedjonov Zokirjon",
     profession: "Oliy toifali shifokor",
   },
 ];
@@ -65,7 +60,7 @@ const OurTeam = () => {
           {data.map(({ imageUrl, name, profession }, i) => (
             <SwiperSlide key={i}>
               <div className="sm:w-[335px] max-sm:mx-auto">
-                <div className="sm:h-[335px] h-[163px] bg-light">
+                <div className="sm:h-[335px] h-[163px] bg-light overflow-hidden">
                   <img src={imageUrl} alt="" className="max-sm:h-full" />
                 </div>
                 <h1 className="sm:text-xl text-xs max-sm:text-center gradient-text font-medium mt-[26px]">

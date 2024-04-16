@@ -1,11 +1,11 @@
 export const footerLinks = [
   {
     label: "links.about",
-    url: "#about",
+    url: "#company-history",
   },
   {
     label: "links.catalog",
-    url: "#catalog",
+    url: "#our-product",
   },
   {
     label: "links.contact",

@@ -80,7 +80,7 @@ const data = [
 
 const OurProduct = () => {
   return (
-    <Section id="about">
+    <Section id="our-product">
       <div>
         <SectionTitle className="text-center sm:mb-[60px] mb-7">
           Bizning mahsulotlar

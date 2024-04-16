@@ -11,7 +11,7 @@ const CompanyHistory = () => {
   };
 
   return (
-    <Section>
+    <Section id="company-history">
       <div className="grid xl:grid-cols-2 grid-cols-1 sm:gap-5 gap-8">
         <div>
           <SectionTitle className="sm:mb-[61px] mb-10 max-sm:text-center">
