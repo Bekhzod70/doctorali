@@ -61,7 +61,11 @@ const OurTeam = () => {
             <SwiperSlide key={i}>
               <div className="sm:w-[335px] max-sm:mx-auto">
                 <div className="sm:h-[335px] h-[163px] bg-light overflow-hidden">
-                  <img src={imageUrl} alt="" className="max-sm:h-full" />
+                  <img
+                    src={imageUrl}
+                    alt=""
+                    className="max-sm:h-full object-cover"
+                  />
                 </div>
                 <h1 className="sm:text-xl text-xs max-sm:text-center gradient-text font-medium mt-[26px]">
                   {name}
