@@ -10,24 +10,24 @@ const data = [
     subtitle: "Kompaniyaning ochilganiga 32 yil dan oshdi",
   },
   {
-    title: "10+",
+    title: "10",
     subtitle: "Mahsulotlarimiz 10 dan ziyod davlatlarga eksport qilinadi",
   },
   {
-    title: "100+",
+    title: "100",
     subtitle: "100 turdan ortiq dorivor giyohlar yetishtiriladi",
   },
   {
-    title: "500+",
+    title: "500",
     subtitle: "500 nafardan ziyod mutaxassislar faoliyat olib boradi",
+  },
+  {
+    title: "500",
+    subtitle: "Giyohlar 500 gektardan katta maydonda o'stiriladi",
   },
   {
     title: "1 000 000",
     subtitle: "Mamnun mijozlar soni 1 000 000 nafardan oshadi",
-  },
-  {
-    title: "500+",
-    subtitle: "Giyohlar 500 gektardan katta maydonda o'stiriladi",
   },
 ];
 
@@ -56,16 +56,7 @@ const Trusted = () => {
               "flex flex-col sm:gap-4 gap-2 max-sm:rounded-[20px] max-sm:h-[169px] w-full border-2 items-center max-sm:shadow-card-shadow py-10 md:px-[30px] px-2 border-light"
             }
           >
-            <h1 className="md:text-heading2 sm:text-heading3 text-[26px] text-center gradient-text max-sm:font-semibold">
-              {/* {item.title} */}
-              {/* <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-                {({ isVisible }: { isVisible: boolean }) => (
-                  <div style={{ height: 100 }}>
-                    {isVisible ? (
-                    ) : null}
-                  </div>
-                )}
-              </VisibilitySensor> */}
+            <h1 className="md:text-heading2 sm:text-heading3 xs:text-[26px] text-xl text-center gradient-text max-sm:font-semibold">
               <CountUp
                 start={0}
                 duration={3}
