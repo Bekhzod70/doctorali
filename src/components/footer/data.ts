@@ -13,6 +13,6 @@ export const footerLinks = [
   },
   {
     label: "links.connect",
-    url: "#consultation2",
+    url: "#consultation1",
   },
 ];
