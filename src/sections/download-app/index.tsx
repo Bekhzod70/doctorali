@@ -19,7 +19,7 @@ const DownloadApp = () => {
               </p>
               <div className="py-[8px] mt-[6px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">1</span></h3>
-                <p className="text-white text-[14px]">Mahsulotlarga toʻgʻridan-toʻgʻri buyurtma berish</p>
+                <p className="text-white text-[14px]">Mahsulotlarga t'g'ridan-to'g'ri buyurtma berish</p>
               </div>
                 <img src="/mehrigiyo/images/icons/line.svg" />
                 <div className="py-[8px]">
@@ -29,7 +29,7 @@ const DownloadApp = () => {
               <img src="/mehrigiyo/images/icons/line.svg" />
                 <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">3</span></h3>
-                <p className="text-white text-[14px]">Oʻzingizga qulay vaqtda shifokor qabuliga yozilish.</p>
+                <p className="text-white text-[14px]">O'zingizga qulay vaqtda shifokor qabuliga yozilish.</p>
               </div>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
