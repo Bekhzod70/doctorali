@@ -18,7 +18,7 @@ const ContactInfo = () => {
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Phone className="text-white" />
             </div>
-            <a href="tel:+998787773103"> +998 (78) 777-31-03</a>
+            <a href="tel:+998787773103" className="underline"> +998 (78) 777-31-03</a>
           </div>
         </div>
         <div
@@ -29,7 +29,7 @@ const ContactInfo = () => {
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <Mail className="text-white" />
             </div>
-            <a href="mailto:support@doctorali.uz"> support@doctorali.uz</a>
+            <a href="mailto:support@doctorali.uz" className="underline"> support@doctorali.uz</a>
           </div>
         </div>
         <div
@@ -47,7 +47,13 @@ const ContactInfo = () => {
           className="md:py-10 py-5 lg:px-20 px-5 bg-light"
           data-aos="fade-up"
         >
-          <div className="flex items-center justify-between gap-[18px]">
+          <div className="flex items-center justify-between px-[40px] gap-[18px]">
+            <a
+              href={socialLinks.facebook}
+              className="md:size-14 size-12 shrink-0 rounded-full center-mode"
+            >
+              <img src="/mehrigiyo/images/icons/Facebook.svg" alt="Facebook" />
+            </a>
             <a
               href={socialLinks.instagram}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
@@ -56,12 +62,6 @@ const ContactInfo = () => {
                 src="/mehrigiyo/images/icons/Instagram.svg"
                 alt="Instagram"
               />
-            </a>
-            <a
-              href={socialLinks.facebook}
-              className="md:size-14 size-12 shrink-0 rounded-full center-mode"
-            >
-              <img src="/mehrigiyo/images/icons/Facebook.svg" alt="Facebook" />
             </a>
             <a
               href={socialLinks.youtube}

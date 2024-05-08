@@ -56,7 +56,7 @@ const Trusted = () => {
               "flex flex-col sm:gap-4 gap-2 max-sm:rounded-[20px] max-sm:h-[169px] w-full border-2 items-center max-sm:shadow-card-shadow py-10 md:px-[30px] px-2 border-light"
             }
           >
-            <h1 className="md:text-heading2 sm:text-heading3 xs:text-[26px] text-xl text-center gradient-text max-sm:font-semibold">
+            <h1 className="unbounded font-medium md:text-heading2 sm:text-heading3 xs:text-[26px] text-xl text-center gradient-text max-sm:font-semibold">
               <CountUp
                 start={0}
                 duration={3}

@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { Pagination } from "swiper/modules";
 import { Play } from "lucide-react";
-import { clientsFeedback, expertsFeedback } from "../feedback/data";
+import { clientsFeedback, expertsFeedback, famousFeedback } from "../feedback/data";
 import VideoModal from "@/components/video-modal";
 
 interface FeedbackSliderPorps {
@@ -35,13 +35,64 @@ const FeedbackSlider = ({
           clickable: true,
         }}
         slidesPerView={"auto"}
-        spaceBetween={30}
+        spaceBetween={15}
         id="pagination-slider"
         className="!pb-10"
       >
         {feedback.map(({ imageUrl, videoUrl }, i) => (
           <SwiperSlide key={i} className="!h-[unset] !w-auto">
             <div className="sm:w-[690px] w-[169px] sm:h-[356px] h-[95.21px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
+              <Image
+                src={imageUrl}
+                alt="feedback image"
+                className="h-full w-full object-cover group-hover:scale-105 transition"
+                width={1000}
+                height={1000}
+              />
+              <Button
+                onClick={() => {
+                  setVideo(videoUrl);
+                  setOpen(true);
+                }}
+                size="icon"
+                className="text-white max-sm:size-[27px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+              >
+                <Play className="max-sm:size-4 max-sm:ml-[2px]" />
+              </Button>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  );
+};
+
+
+const FeedbackSlider2 = ({
+  feedback,
+  setVideo,
+  setOpen,
+  number,
+}: FeedbackSliderPorps) => {
+  return (
+    <div>
+      <Swiper
+        modules={[Pagination]}
+        navigation={{
+          nextEl: ".feedback-arrow-left",
+          prevEl: ".feedback-arrow-right",
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        slidesPerView={"auto"}
+        spaceBetween={12}
+        id="pagination-slider"
+        className="!pb-10"
+      >
+        {feedback.map(({ imageUrl, videoUrl }, i) => (
+          <SwiperSlide key={i} className="!h-[unset] !w-auto">
+            <div className="sm:w-[690px] w-[156px] sm:h-[356px] h-[244px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
               <Image
                 src={imageUrl}
                 alt="feedback image"
@@ -80,7 +131,8 @@ const VideoInformation = () => {
   return (
     <Section>
       <SectionTitle className="sm:mb-[50px] mb-7 text-center">
-        Mijozlarimiz nima deydi?
+      Mahsulotdan olingan
+      natijalar bilan tanishing
       </SectionTitle>
       <div className="hidden sm:block" data-aos="fade-up">
         <Tabs defaultValue="client">
@@ -128,10 +180,20 @@ const VideoInformation = () => {
           setVideo={setSelectedVideo}
           setOpen={setOpen}
         />
+        <SectionTitle className="my-[30px] text-center">
+          Mashhurlar tavsiya etadi
+        </SectionTitle>
+        <FeedbackSlider2
+          number={2}
+          feedback={famousFeedback}
+          setVideo={setSelectedVideo}
+          setOpen={setOpen}
+        />
       </div>
       <VideoModal open={open} setOpen={setOpen} video={selectedVideo} />
     </Section>
-  );
+
+);
 };
 
 export default VideoInformation;

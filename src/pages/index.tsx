@@ -71,9 +71,9 @@ export default function Home() {
       <Connect
         id="consultation1"
         title={
-          "Mutaxassislarimizdan mahsulotlar boʻyicha bepul konsultatsiya oling"
+          "Konsultatsiya oling"
         }
-        subtitle={" va sogʻlom hayot tomon ilk qadamni qoʻying! "}
+        subtitle={" Mutaxassislarimizdan mahsulotlar boʻyicha bepul konsultatsiya oling va sogʻlom hayot tomon ilk qadamni qoʻying!  "}
         bgColor="bg-green"
         desktopImg="/mehrigiyo/images/bg/connect-3.png"
         mobileImg="/mehrigiyo/images/bg/connect-3-sm.png"

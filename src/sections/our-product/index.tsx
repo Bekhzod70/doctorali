@@ -31,9 +31,9 @@ const data = [
     title: "“Doctor Ali” kompleksi",
     connect: "+998787773103",
     benefits: [
-      "Qondagi qand miqdorini normallashtirishda;",
-      "Qon bosimini bir meʼyorda ushlab turishda;",
-      "Asabiylik va uyqusizlikning oldini olishda;",
+      "Infarkt va insultdan keyingi reabilitatsiyada",
+      "Qon bosimini bir meʼyorda ushlab turishda",
+      "Asabiylik va uyqusizlikning oldini olishda",
       "Kamqonlikka qarshi kurashishda yordam beradi.",
     ],
   },
@@ -60,7 +60,7 @@ const data = [
     ],
   },
   {
-    imageUrl: "/mehrigiyo/images/product/detoxioma.jpg",
+    imageUrl: "/mehrigiyo/images/product/detoxioma.jpeg",
     title: "Detoxioma",
     connect: "+998982227077",
     benefits: [
@@ -71,7 +71,7 @@ const data = [
   },
   // TODO: change image
   {
-    imageUrl: "/mehrigiyo/images/product/sustaviy.jpg",
+    imageUrl: "/mehrigiyo/images/product/sustav.jpeg",
     title: "“Суставный доктор” kompleksi:",
     connect: "+998984447077",
     benefits: [
@@ -131,7 +131,7 @@ const OurProduct = () => {
                         <h1 className="text-xl text-green font-medium">
                           {title}
                         </h1>
-                        <ul className="mt-[14px] text-gray grid gap-3">
+                        <ul className="mt-[14px] text-black grid gap-3">
                           {benefits.map((item, i) => (
                             <li key={i} className="flex gap-2">
                               <div className="size-1.5 bg-gray shrink-0 rounded-full mt-2" />
@@ -156,7 +156,7 @@ const OurProduct = () => {
           <div className="sm:hidden">
             {data.map(({ benefits, imageUrl, title, connect }, i) => (
               <div
-                className="w-full mx-auto bg-light h-full py-[30px] flex flex-col justify-between px-4 rounded-[10px]"
+                className="w-full mx-auto mb-7 bg-light h-full py-[20px] flex flex-col justify-between px-4 rounded-[10px]"
                 data-aos="fade-up"
                 key={i}
               >
@@ -168,15 +168,15 @@ const OurProduct = () => {
                       className="size-full object-cover"
                     />
                   </div>
-                  <div className="pt-5 px-[15px]">
-                    <h1 className="text-xl text-green font-medium">{title}</h1>
-                    <ul className="mt-[14px] text-gray grid gap-3">
+                  <div className="pt-5">
+                    <h1 className="text-[18px] text-green font-medium font-times-new-roman font-bold">{title}</h1>
+                    <ul className="mt-[14px] text-[#262626] text-[14px] font-times-new-roman grid gap-3">
                       {benefits.map((item, i) => (
                         <li
                           key={i}
                           className="flex gap-2 border-b border-[#C4C4C4] pb-3 last:border-b-0"
                         >
-                          <div className="size-4 center-mode border border-orange shrink-0 rounded-full mt-1">
+                          <div className="size-4 ml-2 center-mode border border-orange shrink-0 rounded-full mt-1">
                             <Check className="text-orange size-3" />
                           </div>
                           <span>{item}</span>
@@ -185,11 +185,11 @@ const OurProduct = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="pb-5 mt-7 px-[15px]">
+                <div className="pb-5 mt-2 px-[15px]">
                   <div className="">
                     <a href={`tel:${connect}`} className="block w-full">
-                      <Button className="w-full" variant="outline">
-                        Batafsil
+                      <Button className="w-full h-[70px] text-[20px] bg-white" variant="outline">
+                        Bepul konsultatsiya
                       </Button>
                     </a>
                   </div>

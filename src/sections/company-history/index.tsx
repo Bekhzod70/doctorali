@@ -15,21 +15,18 @@ const CompanyHistory = () => {
       <div className="grid xl:grid-cols-2 grid-cols-1 sm:gap-5 gap-8">
         <div>
           <SectionTitle className="sm:mb-[61px] mb-10 max-sm:text-center">
-            {"An'analar va qadriyatlarga asoslangan kompaniyamiz tarixi"}
+            {"Kompaniya tarixiga nazar tashlaymiz"}
           </SectionTitle>
           <div className="grid gap-5">
             <p
               className="text-gray sm:text-xl text-base sm:hidden"
               data-aos="fade-up"
             >
-              “Doctor Ali” brendiga 1992-yilda “Mehrigiyo” xalqaro kompaniyasi
-              tomonidan asos solingan boʻlib, 32 yildan buyon organik
-              mahsulotlar ishlab chiqarish va sogʻlom turmush tarzini targʻib
-              qilish bilan shugʻullanib keladi.{" "}
+              “Dostor Ali” brendiga 1992 yilda “Mehrigiyo” xalqaro kompaniyasi tomonidan asos solingan bo‘lib, 32 yildan buyon organik mahsulotlar ishlab chiqarish va sog‘lom turmush tarzini targ‘ib qilish bilan shug‘ullanib keladi... {" "}
               {!showAll && (
                 <span
                   onClick={toggleShowAll}
-                  className="text-orange font-medium underline"
+                  className="text-black font-medium"
                 >
                   Yana
                 </span>
@@ -90,9 +87,9 @@ const CompanyHistory = () => {
         <div>
           <img
             data-aos="fade-up"
-            src="/mehrigiyo/images/history-full.png"
+            src="/mehrigiyo/images/history.jpeg"
             alt="history"
-            className="object-cover xl:ml-auto mx-auto max-sm:rounded-[25px] sm:rounded-tr-[140px]"
+            className="h-[225px] object-cover xl:ml-auto mx-auto max-sm:rounded-[25px] sm:rounded-tr-[140px]"
           />
         </div>
       </div>

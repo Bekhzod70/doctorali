@@ -4,20 +4,33 @@ import SectionTitle from "../components/section-title";
 const DownloadApp = () => {
   return (
     <Section className="sm:!mt-[250px]">
-      <div className="bg-primary-gradient sm:py-[60px] py-10 sm:px-[70px] px-3 rounded-tr-[50px] rounded-bl-[50px] relative">
+      <div className="bg-primary-gradient sm:py-[60px] pt-10 sm:px-[70px] px-[20px] rounded-tr-[50px] rounded-bl-[50px] relative">
         <div className="flex lg:flex-row lg:items-start items-center flex-col gap-4">
           <div className="lg:w-1/2">
-            <div className="lg:mb-[121px] mb-10 lg:text-start text-center">
-              <SectionTitle className="text-white">
-                Ilovamizni yuklab oling
+            <div className="lg:mb-[121px] mb-1 lg:text-start">
+              <SectionTitle className="text-white font-bold text-center">
+                “Doctor Ali” ilovasini yuklab oling.
               </SectionTitle>
               <p
-                className="sm:text-xl text-base text-white mt-6"
+                className="sm:text-xl text-[18px] text-white mt-6 font-[600]"
                 data-aos="fade-up"
               >
-                Shifokorlarimizdan bepul konsultatsiya va mahsulotlar haqida
-                to‘liq ma’lumotga ega bo‘ling.
+                Yangi imkoniyatlarga ega bo'ling
               </p>
+              <div className="py-[8px] mt-[6px]">
+                <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">1</span></h3>
+                <p className="text-white text-[14px]">Mahsulotlarga toʻgʻridan-toʻgʻri buyurtma berish</p>
+              </div>
+                <img src="/mehrigiyo/images/icons/line.svg" />
+                <div className="py-[8px]">
+                <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">2</span></h3>
+                <p className="text-white text-[14px]">Mutaxassislarimizdan bepul konsultatsiya olish</p>
+              </div>
+              <img src="/mehrigiyo/images/icons/line.svg" />
+                <div className="py-[8px]">
+                <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">3</span></h3>
+                <p className="text-white text-[14px]">Oʻzingizga qulay vaqtda shifokor qabuliga yozilish.</p>
+              </div>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
               <a
@@ -49,7 +62,7 @@ const DownloadApp = () => {
               data-aos="zoom-in"
               src="/mehrigiyo/images/App Story.png"
               alt="app story"
-              className="lg:absolute 2xl:w-[645.74px] w-[470px] 2xl:-bottom-20 -bottom-10"
+              className="lg:absolute 2xl:w-[645.74px] w-[274px] 2xl:-bottom-20 -bottom-10"
             />
           </div>
         </div>
@@ -62,7 +75,7 @@ const DownloadApp = () => {
           <img
             src="/mehrigiyo/images/icons/googleplay.svg"
             alt="google play"
-            className="sm:h-[50px] h-10"
+            className="h-[50px]"
           />
         </a>
         <a
@@ -72,7 +85,7 @@ const DownloadApp = () => {
           <img
             src="/mehrigiyo/images/icons/appstore.svg"
             alt="appstore"
-            className="sm:h-[50px] h-10"
+            className="h-[50px]"
           />
         </a>
       </div>

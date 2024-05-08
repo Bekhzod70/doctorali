@@ -2,41 +2,49 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 
-const countries = [
-  "/mehrigiyo/images/flag/qirgi.png",
-  "/mehrigiyo/images/flag/america.png",
-  "/mehrigiyo/images/flag/china.png",
-  "/mehrigiyo/images/flag/qozoq.png",
-  "/mehrigiyo/images/flag/russia.png",
-  "/mehrigiyo/images/flag/tojik.png",
+const data = [
+  {
+    src: "/mehrigiyo/images/flag/russia.png",
+    title: "Rossiya",
+  },
+  {
+    src: "/mehrigiyo/images/flag/america.png",
+    title: "AQSH",
+  },
+  {
+    src: "/mehrigiyo/images/flag/saudi.png",
+    title: "Xitoy",
+  },
+  {
+    src: "/mehrigiyo/images/flag/qirgi.png",
+    title: "Qirg'iziston",
+  },
+  {
+    src: "/mehrigiyo/images/flag/tojik.png",
+    title: "Tajikistan",
+  },
+  {
+    src: "/mehrigiyo/images/flag/qozoq.png",
+    title: "Qozog’iston",
+  },
 ];
 
 const World = () => {
   return (
     <Section>
       <SectionTitle className="text-center">
-        Bizni butun dunyo tan olmoqda
+      “Doctor Ali” mahsulotlari jahon bozorini egallamoqda
       </SectionTitle>
 
-      <ScrollArea className="relative !overflow-auto">
-        <div className="flex justify-center mt-10 gap-5 overflow-auto">
-          {countries.map((country, index) => (
-            <div key={index} className="size-[60px]">
-              <img src={country} alt="country" />
+      <div className="relative ">
+        <div className="flex flex-wrap justify-between mt-10 gap-10">
+          {data.map(({ src, title }, index) => (
+            <div key={index} className="size-[75px]">
+              <img src={src} alt="country" />
+              <p className="text-center text-[14px] font-times-new-roman">{title}</p>
             </div>
           ))}
         </div>
-        <ScrollBar
-          className="w-[100%] h-[2px] bg-border"
-          orientation="horizontal"
-        />
-      </ScrollArea>
-      <div className="mt-14">
-        <img
-          src="/mehrigiyo/images/icons/map-base.png"
-          alt="map"
-          className="object-cover mx-auto pointer-events-none"
-        />
       </div>
     </Section>
   );

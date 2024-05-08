@@ -8,21 +8,31 @@ const data = [
     imageUrl: "/mehrigiyo/images/doctors/zokirnew.png",
     name: "Muhammedjonov Zokirjon",
     profession: "Professor",
+    experence: "30 yillik tajribaga ega Oliy toifali shifokor. Minglab bemorlarning sevimli shifokori.",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/shahobiddin.png",
     name: "Nasriddinov Shahobiddin",
     profession: "Oliy toifali shifokor",
+    experence: "30 yillik tajribaga ega Oliy toifali shifokor. Infeksionist. Ko'plab bemorlarning salomatligiga hissa qo'shib kelayotgan inson.",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/xojimurod.png",
     name: "Mo'minov Xojimurod",
     profession: "Oliy toifali shifokor",
+    experence: "6 yillik tajribaga ega shifokor. Terapevt. Xalqimiz salomatligi uchun mehnat qilib kelayotgan professional mutaxassis.",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/dilshodbek.png",
     name: "Ergashev Dilshodbek",
     profession: "Oliy toifali shifokor",
+    experence: "29 yillik tajribaga ega Oliy toifali shifokor. Okulist. Xalqimiz xizmatidagi shifokor. ",
+  },
+  {
+    imageUrl: "/mehrigiyo/images/doctors/Axror.png",
+    name: "Mahsudov Axror",
+    profession: "Shifokor",
+    experence: "15 yillik tajribaga ega Shifokor. Dotsent (jigar kasalliklari bo'yicha).",
   },
 ];
 
@@ -57,7 +67,7 @@ const OurTeam = () => {
           className="!pb-10 h-full"
           id="pagination-slider"
         >
-          {data.map(({ imageUrl, name, profession }, i) => (
+          {data.map(({ imageUrl, name, profession, experence }, i) => (
             <SwiperSlide key={i}>
               <div className="sm:w-[335px] max-sm:mx-auto">
                 <div className="sm:h-[335px] h-[163px] bg-light overflow-hidden">
@@ -72,6 +82,9 @@ const OurTeam = () => {
                 </h1>
                 <p className="max-sm:text-xs text-base max-sm:text-center mt-1">
                   {profession}
+                </p>
+                <p className="text-[10px] text-center mt-1">
+                  {experence}
                 </p>
               </div>
             </SwiperSlide>

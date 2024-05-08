@@ -48,21 +48,21 @@ const data = [
 
 const WorkProcess = () => {
   return (
-    <Section>
-      <SectionTitle className="md:mb-20 mb-5 text-center">
+    <Section className="px-[20px]">
+      <SectionTitle className="md:mb-20 mb-9 text-center">
         Ish jarayoni bilan tanishing
       </SectionTitle>
-      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
+      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8">
         {data.map(({ number, title, content }, i) => (
           <div
             data-aos="fade-up"
-            className="grid gap-[14px] sm:py-10 py-6 sm:px-[30px] px-5 border sm:border-light border-border max-sm:rounded-xl"
+            className="bg-white grid gap-[14px] sm:py-10 py-4 sm:px-[30px] px-5 border sm:border-light border-border max-sm:rounded-xl"
             key={i}
           >
-            <h2 className="sm:text-heading4 text-5xl gradient-text font-medium">
+            <h2 className="sm:text-heading4 text-5xl gradient-text font-medium unbounded">
               {number}
             </h2>
-            <h1 className="text-green font-medium">{title}</h1>
+            <h1 className="text-green font-medium text-[19px]">{title}</h1>
             <p className="sm:text-gray text-gray-600 text-base">{content}</p>
           </div>
         ))}

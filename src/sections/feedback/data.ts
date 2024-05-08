@@ -103,3 +103,18 @@ export const starFeedback: Feedback[] = [
     videoUrl: "https://www.youtube.com/watch?v=de4DJwdGQMA",
   },
 ];
+
+export const famousFeedback: Feedback[] = [
+  {
+    imageUrl: "/mehrigiyo/images/feedback/feedback2.jpeg",
+    videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
+  },
+  {
+    imageUrl: "/mehrigiyo/images/feedback/hamdam.jpeg",
+    videoUrl: "https://www.youtube.com/watch?v=u6VfTzNZ6EM",
+  },
+  {
+    imageUrl: "/mehrigiyo/images/feedback/feedback3.jpeg",
+    videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE",
+  },
+];

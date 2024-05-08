@@ -3,28 +3,49 @@ import SectionTitle from "../components/section-title";
 
 const data = [
   {
-    title: "Tarkibiy komponentlar",
     description:
-      "Bizning barcha mahsulotlar tabiiy giyohlardan va dorivor oʻsimliklardan tayyorlangan.",
-    icon: "/mehrigiyo/images/icons/Medical Shield.svg",
+      "32 yillik izlanishlar natijasida ishlab chiqilgan mahsulotlar",
+    icon: "/mehrigiyo/images/icons/32.svg",
   },
   {
-    title: "Yosh-u qariga birdek mos keladi",
     description:
-      "Mahsulotlarni nafaqat yoshi kattalar, balki yoshlar va kichik yoshdagi bolalar ham isteʼmol qilishlari mumkin.",
-    icon: "/mehrigiyo/images/icons/Pill.svg",
+      "Organik komponentlardan tashkil topgan tabiiy mahsulotlar",
+    icon: "/mehrigiyo/images/icons/leaf.svg",
   },
   {
-    title: "Nojoʻya taʼsiri yoʻq",
     description:
-      "Tarkibida kimyoviy moddalar yoʻqligi sabab nojoʻya taʼsirlarni keltirib chiqarmaydi.",
-    icon: "/mehrigiyo/images/icons/Body.svg",
+      "Xomashyo yetishtirish, ishlab chiqarish, hammasi nazoratliligi",
+    icon: "/mehrigiyo/images/icons/box.svg",
   },
   {
-    title: "Universal vosita",
     description:
-      "Mahsulotlar bir yoki ikki emas, bir necha xil kasalliklarning oldini olishda ijobiy natija koʻrsatadi.",
-    icon: "/mehrigiyo/images/icons/Stethoscope.svg",
+      "Tarkibida kimyoviy moddalar yo‘qligi sabab nojo‘ya taʼsirlarni keltirib chiqarmaydi.",
+    icon: "/mehrigiyo/images/icons/body2.svg",
+  },
+  {
+    description:
+      "Dunyo tan olgan xalqaro sertifikatlar",
+    icon: "/mehrigiyo/images/icons/list.svg",
+  },
+  {
+    description:
+      "Mutaxassislikdan konsultatsiya olish bepul",
+    icon: "/mehrigiyo/images/icons/call.svg",
+  },
+  {
+    description:
+      "O‘zbekiston bo‘ylab bepul yetkazib berish xizmati",
+    icon: "/mehrigiyo/images/icons/uzb.svg",
+  },
+  {
+    description:
+      "Mijozlarimizni natijaga chiqarish uchun doim aloqadamiz",
+    icon: "/mehrigiyo/images/icons/4.svg",
+  },
+  {
+    description:
+      "Doimiy mijozlar uchun sovg‘alar",
+    icon: "/mehrigiyo/images/icons/gift.svg",
   },
 ];
 
@@ -33,19 +54,18 @@ const Advantages = () => {
     <Section>
       <div>
         <SectionTitle className="sm:mb-20 mb-14 text-center">
-          Bizning afzalliklar
+          Afzalliklarimiz
         </SectionTitle>
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
-          {data.map(({ description, icon, title }, index) => (
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-3 gap-y-4">
+          {data.map(({ description, icon }, index) => (
             <div
               data-aos="fade-up"
-              className="bg-primary-gradient px-[30px] py-[35px] rounded-tr-[40px]"
+              className="bg-white px-[10px] py-[15px] border-[1px] border-[#EBEBEB] rounded-[11px] text-center "
               key={index}
             >
-              <img src={icon} alt="icon" className="size-[72px]" />
+              <img src={icon} alt="icon" className="size-[46px] mx-auto" />
               <div className="mt-[15px]">
-                <h1 className="text-white font-medium text-xl">{title}</h1>
-                <p className="mt-[10px] text-base text-light">{description}</p>
+                <p className="mt-[10px] text-base text-green">{description}</p>
               </div>
             </div>
           ))}

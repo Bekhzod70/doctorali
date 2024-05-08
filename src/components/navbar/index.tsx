@@ -33,7 +33,7 @@ const Navbar = () => {
     >
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="sm:w-[92px] w-[70px]">
+          <div className="sm:w-[52px] w-[70px]">
             <Logo />
           </div>
           <div className="lg:block hidden">
@@ -63,8 +63,8 @@ const Navbar = () => {
               </Button>
             </a>
             <a href="tel:+998787773103">
-              <Button size="icon" className="sm:hidden">
-                <Phone className="h-6 w-6" />
+              <Button size="icon" className="sm:hidden w-[42px] h-[42px]">
+                <Phone className="h-[21px] w-[21px]" />
               </Button>
             </a>
             <a href="#consultation1">

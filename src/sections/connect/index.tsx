@@ -18,7 +18,7 @@ import { useForm } from "react-hook-form";
 import { FormSchema, formSchema } from "./formSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Pencil from "@/components/icons/pencil";
-import { ChevronRight, Loader2Icon } from "lucide-react";
+import { ChevronRight, Loader2Icon, PhoneIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { sendMessage } from "@/utils/send-data";
 import { useRouter } from "next/router";
@@ -95,7 +95,7 @@ const Connect = (props: Props) => {
     <Section id={id}>
       <div
         className={cn(
-          "w-full sm:py-[60px] py-10 sm:px-[50px] px-5 rounded-tr-[50px] rounded-bl-[50px] relative",
+          "w-full sm:py-[60px] py-10 sm:px-[50px] px-5 rounded-tr-[30px] rounded-bl-[30px] relative",
           bgColor
         )}
       >
@@ -118,11 +118,11 @@ const Connect = (props: Props) => {
             />
           </div>
         ) : null}
-        <div className="flex lg:flex-row flex-col xl:gap-24 gap-y-10 text-white relative z-10">
-          <div className="lg:w-1/2">
-            <SectionTitle className="mb-[26px]">{title}</SectionTitle>
+        <div className="flex lg:flex-row flex-col xl:gap-24 gap-y-7 text-white relative z-10">
+          <div className="lg:w-1/2 text-center">
+            <SectionTitle className="mb-[14px]">{title}</SectionTitle>
             <p
-              className="sm:text-paragraph1 text-base mb-[38px]"
+              className="sm:text-paragraph1 text-base"
               data-aos="fade-up"
             >
               {subtitle}
@@ -176,7 +176,7 @@ const Connect = (props: Props) => {
                   type="submit"
                   disabled={pending}
                   className={cn(
-                    "w-full sm:py-[27px] py-5 !mt-10 sm:text-button1",
+                    "w-full h-[76px] sm:py-[27px] py-5 !mt-10 sm:text-button1",
                     buttonClass
                   )}
                 >
@@ -189,8 +189,10 @@ const Connect = (props: Props) => {
                   {pending ? (
                     <Loader2Icon className="animate-spin" />
                   ) : (
-                    <ChevronRight />
-                  )}
+                  <PhoneIcon
+                    width={18}
+                    />
+                    )}
                 </Button>
               </form>
             </Form>

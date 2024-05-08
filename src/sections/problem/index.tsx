@@ -106,20 +106,20 @@ const Problem = () => {
   return (
     <Section id="catalog">
       <div className="">
-        <SectionTitle className="text-center sm:mb-20 mb-14">
+        <SectionTitle className="text-center sm:mb-20 mb-2">
           Sizni qanday muammo bezovta qilmoqda?
         </SectionTitle>
         <div className="sm:flex relative sm:flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center grid grid-cols-2 gap-5">
-          {/* <img
-            src="/mehrigiyo/images/icons/seperator.png"
+          <img
+            src="/mehrigiyo/images/icons/seperator.svg"
             alt="icon"
             className="absolute -z-10 left-1/2 -translate-x-1/2 xs:top-[8.7rem] top-[6.8rem] sm:hidden"
           />
           <img
-            src="/mehrigiyo/images/icons/seperator.png"
+            src="/mehrigiyo/images/icons/seperator.svg"
             alt="icon"
             className="absolute -z-10 left-1/2 -translate-x-1/2 xs:top-[20.5rem] top-[16.8rem] sm:hidden"
-          /> */}
+          />
           {renderedData.map((item, index) => (
             <div
               data-aos="fade-up"
@@ -133,7 +133,7 @@ const Problem = () => {
                   className="sm:size-16 xs:size-12 size-10"
                 />
               </div>
-              <p className="sm:text-heading4 xs:text-paragraph2 text-sm font-medium text-center">
+              <p className="sm:text-heading4 xs:text-paragraph2 text-green font-times-new-roman text-sm text-center">
                 {item.info}
               </p>
             </div>
@@ -161,7 +161,7 @@ const Problem = () => {
           {!showAll ? (
             <p
               onClick={toggleShowAll}
-              className="font-medium text-orange text-center underline"
+              className="font-medium text-black text-center underline"
             >
               {"Barchasini ko'rish"}
             </p>

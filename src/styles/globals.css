@@ -66,6 +66,15 @@
   }
 }
 
+@font-face {
+  font-family: Unbounded;
+  src: url("../fonts/Unbounded.ttf");
+}
+
+.unbounded {
+  font-family: Unbounded;
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -112,6 +121,7 @@
     #bf9a32 64.21%,
     #b9922d 84.42%
   ); */
+
   background: linear-gradient(
     135.84deg,
     #dcbc55 15.91%,
@@ -120,22 +130,53 @@
     #b9922d 84.42%
   );
 
+  /* background: linear-gradient(
+    135.84deg, #DCBC55 15.91%,
+    #C59F36 38.52%, 
+    #BF9A32 64.21%, 
+    #B9922D 84.42%
+    ); */
+
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .gradient-border {
-  border-width: 2px;
-  border-style: solid;
-  border-image: 1;
+  position: relative;
+}
 
-  border-image-source: linear-gradient(
+.gradient-border:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px; 
+    padding: 2px; 
+    background:linear-gradient(
+      135.84deg,
+      #dcbc55 15.91%,
+      #c59f36 38.52%,
+      #bf9a32 64.21%,
+      #b9922d 84.42%
+    ); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+}
+
+.gradient-border:hover {
+  background:linear-gradient(
     135.84deg,
     #dcbc55 15.91%,
     #c59f36 38.52%,
     #bf9a32 64.21%,
     #b9922d 84.42%
-  );
+  ); 
+
+  border-radius: 15px;
+  color: white;
 }
 
 .phone-input .PhoneInputCountry {

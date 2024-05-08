@@ -1,4 +1,3 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 import { Pagination } from "swiper/modules";
@@ -58,30 +57,27 @@ const OurSertificates = () => {
         ))}
       </div>
       <div className="sm:hidden" data-aos="fade-up">
-        <Swiper
-          slidesPerView={3}
-          pagination={{ clickable: true }}
-          modules={[Pagination]}
-          className="!pb-10 h-full"
+        <div
+          className="!pb-10 h-full grid grid-cols-2 gap-6"
           id="pagination-slider"
         >
           {data.map(({ imageUrl, name }, i) => (
-            <SwiperSlide key={i}>
-              <div className="py-[30px] lg:px-12" key={i}>
+            <div key={i}>
+              <div className="w-[100%] border border-[#F9F9F9] py-[20px] lg:px-12 rounded-tr-[25px] bg-white" key={i}>
                 <div className="flex flex-col gap-3 items-center">
                   <img
                     src={imageUrl}
                     alt="Halal"
-                    className="md:size-[136px] sm:size-[100px] size-[75px] rounded-full"
+                    className="md:size-[136px] sm:size-[100px] size-[84px] rounded-full"
                   />
-                  <h1 className="md:text-heading4 sm:text-2xl text-xs text-green font-medium text-center">
+                  <h1 className="md:text-heading4 sm:text-2xl text-[18px] text-green font-medium text-center">
                     {name}
                   </h1>
                 </div>
               </div>
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
       </div>
     </Section>
   );
