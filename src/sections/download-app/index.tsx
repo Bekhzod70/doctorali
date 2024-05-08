@@ -15,11 +15,11 @@ const DownloadApp = () => {
                 className="sm:text-xl text-[18px] text-white mt-6 font-[600]"
                 data-aos="fade-up"
               >
-                Yangi imkoniyatlarga ega bo'ling
+                Yangi imkoniyatlarga ega bo&#39;ling
               </p>
               <div className="py-[8px] mt-[6px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">1</span></h3>
-                <p className="text-white text-[14px]">Mahsulotlarga t'g'ridan-to'g'ri buyurtma berish</p>
+                <p className="text-white text-[14px]">Mahsulotlarga t&#39;g&#39;ridan-to&#39;g&#39;ri buyurtma berish</p>
               </div>
                 <img src="/mehrigiyo/images/icons/line.svg" />
                 <div className="py-[8px]">
