@@ -20,7 +20,7 @@ const Hero = () => {
                 {/* <Translation text="hero.title" /> */}
                 Tabiat inomi <br /> Soglom turmush tarzi <span className="gradient-text font-[700]"> mehrigiyo </span> bilan
               </h1>
-              <p className="md:block hidden text-paragraph1 text-gray-light max-sm:text-center sm:mt-[30px] mt-[14px] xl:mb-[120px]">
+              <p className="md:block hidden text-paragraph1 text-black max-sm:text-center sm:mt-[30px] mt-[14px] xl:mb-[120px]">
                 <Translation text="hero.subtitle" />
               </p>
             </div>
