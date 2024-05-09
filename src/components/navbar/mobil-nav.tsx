@@ -41,9 +41,9 @@ const MobilNav = ({
                 <ChevronRight className="h-5 w-5" />
               </Button>
             </a>
-            <div className="lg:hidden">
+            {/* <div className="lg:hidden">
               <SwitchLanguage />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

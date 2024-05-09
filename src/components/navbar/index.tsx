@@ -36,9 +36,9 @@ const Navbar = () => {
           <div className="sm:w-[52px] w-[70px]">
             <Logo />
           </div>
-          <div className="lg:block hidden">
+          {/* <div className="lg:block hidden">
             <SwitchLanguage />
-          </div>
+          </div> */}
 
           <nav className="xlg:block hidden">
             <ul className="flex gap-5">
