@@ -180,15 +180,15 @@ const VideoInformation = () => {
           setVideo={setSelectedVideo}
           setOpen={setOpen}
         />
-        <SectionTitle className="my-[30px] text-center">
+        {/* <SectionTitle className="my-[30px] text-center">
           Mashhurlar tavsiya etadi
-        </SectionTitle>
-        <FeedbackSlider2
+        </SectionTitle> */}
+        {/* <FeedbackSlider2
           number={2}
           feedback={famousFeedback}
           setVideo={setSelectedVideo}
           setOpen={setOpen}
-        />
+        /> */}
       </div>
       <VideoModal open={open} setOpen={setOpen} video={selectedVideo} />
     </Section>

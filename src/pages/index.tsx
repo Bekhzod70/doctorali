@@ -18,7 +18,7 @@ import Advantages from "@/sections/advantages";
 import CompanyHistory from "@/sections/company-history";
 import WorkProcess from "@/sections/work-process";
 import DownloadApp from "@/sections/download-app";
-import Individual from "@/sections/individual";
+// import Individual from "@/sections/individual";
 import OurTeam from "@/sections/our-team";
 import OurSertificates from "@/sections/our-sertificates";
 import VideoInformation from "@/sections/video-information";
@@ -39,7 +39,7 @@ export default function Home() {
       <World />
       <WorkProcess />
       <DownloadApp />
-      <Individual />
+      {/* <Individual /> */}
       <OurTeam />
       <OurSertificates />
       <VideoInformation />
