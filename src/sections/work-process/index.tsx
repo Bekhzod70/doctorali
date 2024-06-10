@@ -1,48 +1,32 @@
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import Translation from "@/components/translation";
 
-/*
-01
-Shifobaxsh giyohlarni oʻzimiz yetishtiramiz
-Jarayonni tajribali mutaxassislarimiz yordamida toʻliq nazorat qilamiz va sifatning oliy darajasini taʼminlaymiz.
-
-02
-Oʻsimliklarga zamonaviy usullar bilan ishlov beramiz
-Ularni tayyor mahsulot koʻrinishiga keltirishda ilgʻor texnologiyalardan foydalanamiz.
-
-03
-Qulay koʻrinishda qadoqlaymiz
-Mahsulotlarimizning barchasi isteʼmolingiz uchun qulay qadoqlarda boʻlishi haqida qaygʻuramiz.
-
-04
-Buyurtmangizni bepul yetkazib beramiz
-Oʻzbekistonning qaysi hududida istiqomat qilishingizdan qatʼiy nazr buyurtmangizni uyingizgacha eltib berishni oʻz zimmamizga olamiz.
-*/
 
 const data = [
   {
     number: "01",
-    title: "Shifobaxsh giyohlarni oʻzimiz yetishtiramiz",
+    title: "workProcess.item1.title",
     content:
-      "Jarayonni tajribali mutaxassislarimiz yordamida toʻliq nazorat qilamiz va sifatning oliy darajasini taʼminlaymiz.",
+      "workProcess.item1.content",
   },
   {
     number: "02",
-    title: "Oʻsimliklarga zamonaviy usullar bilan ishlov beramiz",
+    title: "workProcess.item2.title",
     content:
-      "Ularni tayyor mahsulot koʻrinishiga keltirishda ilgʻor texnologiyalardan foydalanamiz.",
+    "workProcess.item2.content",
   },
   {
     number: "03",
-    title: "Qulay koʻrinishda qadoqlaymiz",
+    title: "workProcess.item3.title",
     content:
-      "Mahsulotlarimizning barchasi isteʼmolingiz uchun qulay qadoqlarda boʻlishi haqida qaygʻuramiz.",
+    "workProcess.item3.content",
   },
   {
     number: "04",
-    title: "Buyurtmangizni bepul yetkazib beramiz",
+    title: "workProcess.item4.title",
     content:
-      "Oʻzbekistonning qaysi hududida istiqomat qilishingizdan qatʼiy nazr buyurtmangizni uyingizgacha eltib berishni oʻz zimmamizga olamiz.",
+    "workProcess.item4.content",
   },
 ];
 
@@ -50,7 +34,7 @@ const WorkProcess = () => {
   return (
     <Section className="px-[20px]">
       <SectionTitle className="md:mb-20 mb-9 text-center">
-        Ish jarayoni bilan tanishing
+        <Translation text="workProcess.title" />
       </SectionTitle>
       <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8">
         {data.map(({ number, title, content }, i) => (
@@ -62,8 +46,8 @@ const WorkProcess = () => {
             <h2 className="sm:text-heading4 text-5xl gradient-text font-medium unbounded">
               {number}
             </h2>
-            <h1 className="text-green font-medium text-[19px]">{title}</h1>
-            <p className="sm:text-gray text-gray-600 text-base">{content}</p>
+            <h1 className="text-green font-medium text-[19px]"><Translation text={title} /></h1>
+            <p className="sm:text-gray text-gray-600 text-base"><Translation text={content} /></p>
           </div>
         ))}
       </div>

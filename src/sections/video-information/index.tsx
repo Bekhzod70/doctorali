@@ -9,6 +9,7 @@ import { Pagination } from "swiper/modules";
 import { Play } from "lucide-react";
 import { clientsFeedback, expertsFeedback, famousFeedback } from "../feedback/data";
 import VideoModal from "@/components/video-modal";
+import Translation from "@/components/translation";
 
 interface FeedbackSliderPorps {
   feedback: { imageUrl: string; videoUrl: string }[];
@@ -131,18 +132,17 @@ const VideoInformation = () => {
   return (
     <Section>
       <SectionTitle className="sm:mb-[50px] mb-7 text-center">
-      Mahsulotdan olingan
-      natijalar bilan tanishing
+        <Translation text="videoInformation.title"/>
       </SectionTitle>
       <div className="hidden sm:block" data-aos="fade-up">
         <Tabs defaultValue="client">
           <div className="flex justify-center sm:mb-20 mb-5">
             <TabsList>
               <TabsTrigger value="client">
-                Mijozlar ({clientsFeedback.length})
+              <Translation text="videoInformation.clients"/> ({clientsFeedback.length})
               </TabsTrigger>
               <TabsTrigger value="experts">
-                Tajribali Mutaxassislar ({expertsFeedback.length})
+              <Translation text="videoInformation.experts"/> ({expertsFeedback.length})
               </TabsTrigger>
             </TabsList>
           </div>

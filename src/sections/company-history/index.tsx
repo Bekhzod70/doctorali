@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import Translation from "@/components/translation";
 
 const CompanyHistory = () => {
   const [showAll, setShowAll] = useState(false);
@@ -15,20 +16,20 @@ const CompanyHistory = () => {
       <div className="grid xl:grid-cols-2 grid-cols-1 sm:gap-5 gap-8">
         <div>
           <SectionTitle className="sm:mb-[61px] mb-10 max-sm:text-center">
-            {"Kompaniya tarixiga nazar tashlaymiz"}
+            <Translation text="companyHistory.title" />
           </SectionTitle>
           <div className="grid gap-5">
             <p
               className="text-gray sm:text-xl text-base sm:hidden"
               data-aos="fade-up"
             >
-              “Dostor Ali” brendiga 1992 yilda “Mehrigiyo” xalqaro kompaniyasi tomonidan asos solingan bo‘lib, 32 yildan buyon organik mahsulotlar ishlab chiqarish va sog‘lom turmush tarzini targ‘ib qilish bilan shug‘ullanib keladi... {" "}
+            <Translation text="companyHistory.info1" /> {" "}
               {!showAll && (
                 <span
                   onClick={toggleShowAll}
                   className="text-black font-medium"
                 >
-                  Yana
+                <Translation text="companyHistory.again" />
                 </span>
               )}
             </p>
@@ -38,20 +39,13 @@ const CompanyHistory = () => {
                   data-aos="fade-up"
                   className="text-gray sm:text-xl text-base sm:hidden"
                 >
-                  Kompaniya tomonidan bugungi kunga qadar ishlab chiqarilgan
-                  mahsulotlar turi 100 dan oshadi, ularning tarkibini tashkil
-                  etuvchi oʻsimlik va dorivor giyohlar esa 500 gektardan oshiq
-                  maydonda, malakali mutaxassislar nazorati ostida
-                  yetishtiriladi.
+                  <Translation text="companyHistory.info2" />
                 </p>
                 <p
                   data-aos="fade-up"
                   className="text-gray sm:text-xl text-base sm:hidden"
                 >
-                  Jahon standartlari asosida ishlab chiqariladigan va xalqaro
-                  sertifikatlarga ega boʻlgan mahsulotlarimiz Oʻzbekiston bilan
-                  bir qatorda Qozogʻiston, Qirgʻiziston, Tojikiston, Saudiya
-                  Arabistoni, Xitoy va AQSh bozorlariga kirib borgan.
+                  <Translation text="companyHistory.info3" />
                 </p>
               </>
             )}
@@ -59,28 +53,19 @@ const CompanyHistory = () => {
               className="text-gray sm:text-xl text-base sm:block hidden"
               data-aos="fade-up"
             >
-              “Doctor Ali” brendiga 1992-yilda “Mehrigiyo” xalqaro kompaniyasi
-              tomonidan asos solingan boʻlib, 32 yildan buyon organik
-              mahsulotlar ishlab chiqarish va sogʻlom turmush tarzini targʻib
-              qilish bilan shugʻullanib keladi.{" "}
+              <Translation text="companyHistory.info1" />{" "}
             </p>
             <p
               data-aos="fade-up"
               className="text-gray sm:text-xl text-base sm:block hidden"
             >
-              Kompaniya tomonidan bugungi kunga qadar ishlab chiqarilgan
-              mahsulotlar turi 100 dan oshadi, ularning tarkibini tashkil
-              etuvchi oʻsimlik va dorivor giyohlar esa 500 gektardan oshiq
-              maydonda, malakali mutaxassislar nazorati ostida yetishtiriladi.
+              <Translation text="companyHistory.info2" />
             </p>
             <p
               data-aos="fade-up"
               className="text-gray sm:text-xl text-base sm:block hidden"
             >
-              Jahon standartlari asosida ishlab chiqariladigan va xalqaro
-              sertifikatlarga ega boʻlgan mahsulotlarimiz Oʻzbekiston bilan bir
-              qatorda Qozogʻiston, Qirgʻiziston, Tojikiston, Saudiya Arabistoni,
-              Xitoy va AQSh bozorlariga kirib borgan.
+              <Translation text="companyHistory.info3" />
             </p>
           </div>
         </div>

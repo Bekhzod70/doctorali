@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 import { Pagination } from "swiper/modules";
+import Translation from "@/components/translation";
 
 const data = [
   {
@@ -40,7 +41,7 @@ const OurTeam = () => {
   return (
     <Section>
       <SectionTitle className="text-center sm:mb-[60px] mb-10">
-        Jamoamiz bilan tanishing
+        <Translation text="ourTeam.title" />
       </SectionTitle>
       <div data-aos="fade-up">
         <Swiper
@@ -83,7 +84,7 @@ const OurTeam = () => {
                 <p className="max-sm:text-xs text-base max-sm:text-center mt-1">
                   {profession}
                 </p>
-                <p className="text-[10px] text-center mt-1">
+                <p className="text-[10px] text-center md:text-left mt-1">
                   {experence}
                 </p>
               </div>

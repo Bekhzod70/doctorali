@@ -3,33 +3,8 @@ import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-
-const data = [
-  {
-    title: "32",
-    subtitle: "Kompaniyaning ochilganiga 32 yil dan oshdi",
-  },
-  {
-    title: "10",
-    subtitle: "Mahsulotlarimiz 10 dan ziyod davlatlarga eksport qilinadi",
-  },
-  {
-    title: "100",
-    subtitle: "100 turdan ortiq dorivor giyohlar yetishtiriladi",
-  },
-  {
-    title: "500",
-    subtitle: "500 nafardan ziyod mutaxassislar faoliyat olib boradi",
-  },
-  {
-    title: "500",
-    subtitle: "Giyohlar 500 gektardan katta maydonda o'stiriladi",
-  },
-  {
-    title: "1 000 000",
-    subtitle: "Mamnun mijozlar soni 1 000 000 nafardan oshadi",
-  },
-];
+import Translation from "@/components/translation";
+import { overallData } from "./overall-data";
 
 const Trusted = () => {
   const boxStyle = "";
@@ -39,7 +14,7 @@ const Trusted = () => {
   return (
     <Section className="">
       <SectionTitle className="text-center sm:mb-10 mb-7">
-        Faoliyatimiz raqamlarda
+        <Translation text="overall.title" />
       </SectionTitle>
       <div className="grid sm:grid-cols-3 relative grid-cols-2 flex-wrap gap-5 lg:justify-between justify-evenly">
         <span className="sm:hidden absolute left-1/2 -translate-x-1/2 -z-10 top-[5rem]">
@@ -48,7 +23,8 @@ const Trusted = () => {
         <span className="sm:hidden absolute left-1/2 -translate-x-1/2 -z-10 top-[16.8rem]">
           <Seperation />
         </span>
-        {data.map((item, i) => (
+        {/* {overallData.map((item, i) => ( */}
+        {overallData.map(({ title, subtitle }, i) => (
           <div
             data-aos="fade-up"
             key={i}
@@ -62,12 +38,12 @@ const Trusted = () => {
                 duration={3}
                 separator=" "
                 enableScrollSpy
-                end={parseInt(item.title.replace(/\s/g, ""), 10)}
+                end={parseInt(title.replace(/\s/g, ""), 10)}
               />
-              {item.title.includes("+") && "+"}
+              {title.includes("+") && "+"}
             </h1>
             <p className="lg:text-base text-sm text-center max-sm:font-medium max-sm:text-xs">
-              {item.subtitle}
+              <Translation text={subtitle} />
             </p>
           </div>
         ))}

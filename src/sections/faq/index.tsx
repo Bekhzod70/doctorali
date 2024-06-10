@@ -25,7 +25,7 @@ const Faq = () => {
             >
               <AccordionTrigger className="max-sm:text-base">
                 <Translation text={question} />
-              </AccordionTrigger>
+              </AccordionTrigger> 
               <AccordionContent>
                 <Translation text={answer} />
               </AccordionContent>

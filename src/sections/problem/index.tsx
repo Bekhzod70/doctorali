@@ -1,94 +1,75 @@
 import { useState } from "react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
-
-/* 
-Qandli diabet
-Qon bosimi oshishi
-Bog'im ogriqlari
-Uyqusizlik
-Asabiylik
-Ortiqcha vazn
-Gepatit
-Buyraklar shamollashi
-Prostatit
-Sistit
-Jinsiy zaiflik
-Soch to'kilishi
-Soch Oqarishi
-Oq dog'lar
-Gijjalar
-Revmatizm
-Ko'z xiralashishi
-*/
+import Translation from "@/components/translation";
 
 const data = [
   {
-    info: "Qandli diabet",
+    info: "problem.item1.info",
     iconUrl: "/mehrigiyo/images/icons/Frame.svg",
   },
   {
-    info: "Qon bosimi oshishi",
+    info: "problem.item2.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-1.svg",
   },
   {
-    info: "Bog'im og'riqlari",
+    info: "problem.item3.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-2.svg",
   },
   {
-    info: "Uyqusizlik",
+    info: "problem.item4.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-3.svg",
   },
   {
-    info: "Asabiylik",
+    info: "problem.item5.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-4.svg",
   },
   {
-    info: "Ortiqcha vazn",
+    info: "problem.item6.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-5.svg",
   },
   {
-    info: "Gepatit",
+    info: "problem.item7.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-6.svg",
   },
   {
-    info: "Buyraklar shamollashi",
+    info: "problem.item8.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-7.svg",
   },
   {
-    info: "Prostatit",
+    info: "problem.item9.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-8.svg",
   },
   {
-    info: "Sistit",
+    info: "problem.item10.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-9.svg",
   },
   {
-    info: "Jinsiy zaiflik",
+    info: "problem.item11.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-10.svg",
   },
   {
-    info: "Soch to'kilishi",
+    info: "problem.item12.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-11.svg",
   },
   {
-    info: "Soch oqarishi",
+    info: "problem.item13.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-12.svg",
   },
   {
-    info: "Oq dog'lar",
+    info: "problem.item14.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-13.svg",
   },
   {
-    info: "Gijjalar",
+    info: "problem.item15.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-14.svg",
   },
   {
-    info: "Revmatizm",
+    info: "problem.item16.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-15.svg",
   },
   {
-    info: "Ko'z xiralashishi",
+    info: "problem.item17.info",
     iconUrl: "/mehrigiyo/images/icons/Frame-16.svg",
   },
 ];
@@ -107,7 +88,7 @@ const Problem = () => {
     <Section id="catalog">
       <div className="">
         <SectionTitle className="text-center sm:mb-20 mb-2">
-          Sizni qanday muammo bezovta qilmoqda?
+          <Translation text="problem.title" />
         </SectionTitle>
         <div className="sm:flex relative sm:flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center grid grid-cols-2 gap-5">
           <img
@@ -134,7 +115,7 @@ const Problem = () => {
                 />
               </div>
               <p className="sm:text-heading4 xs:text-paragraph2 text-green font-times-new-roman text-sm text-center">
-                {item.info}
+              <Translation text={item.info} />
               </p>
             </div>
           ))}
@@ -152,7 +133,7 @@ const Problem = () => {
                 />
               </div>
               <p className="sm:text-heading4 xs:text-paragraph2 text-sm font-medium text-center">
-                {item.info}
+                <Translation text={item.info} />
               </p>
             </div>
           ))}
@@ -163,14 +144,14 @@ const Problem = () => {
               onClick={toggleShowAll}
               className="font-medium text-black text-center underline"
             >
-              {"Barchasini ko'rish"}
+              {<Translation text="problem.seeAll" />}
             </p>
           ) : (
             <p
               onClick={toggleShowAll}
               className="font-medium text-orange text-center underline"
             >
-              {"Orqaga qaytarish"}
+              {<Translation text="problem.hidden" />}
             </p>
           )}
         </div>

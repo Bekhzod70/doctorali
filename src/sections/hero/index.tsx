@@ -17,8 +17,10 @@ const Hero = () => {
                 <GhostLogo />
               </span>
               <h1 className=" text-black leading-[49px] sm:text-[70px] sm:text-start text-center sm:leading-[70px] font-times-new-roman text-[36px]">
-                {/* <Translation text="hero.title" /> */}
-                Tabiat inomi <br /> Soglom turmush tarzi <span className="gradient-text font-[700]"> mehrigiyo </span> bilan
+                <Translation text="hero.title_line1" /> <br />
+                <Translation text="hero.title_line2" />
+                <span className="gradient-text font-[700]"> Mehrigiyo </span>
+                <Translation text="hero.title_line3" />
               </h1>
               <p className="md:block hidden text-paragraph1 text-black max-sm:text-center sm:mt-[30px] mt-[14px] xl:mb-[120px]">
                 <Translation text="hero.subtitle" />

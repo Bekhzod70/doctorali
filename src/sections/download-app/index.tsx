@@ -1,5 +1,6 @@
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import Translation from "@/components/translation";
 
 const DownloadApp = () => {
   return (
@@ -9,27 +10,28 @@ const DownloadApp = () => {
           <div className="lg:w-1/2">
             <div className="lg:mb-[121px] mb-1 lg:text-start">
               <SectionTitle className="text-white font-bold text-center">
-                “Doctor Ali” ilovasini yuklab oling.
+                <Translation text="downloadApp.title"/>
               </SectionTitle>
               <p
                 className="sm:text-xl text-[18px] text-white mt-6 font-[600]"
                 data-aos="fade-up"
               >
-                Yangi imkoniyatlarga ega bo&#39;ling
+                <Translation text="downloadApp.description"/>
+
               </p>
               <div className="py-[8px] mt-[6px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">1</span></h3>
-                <p className="text-white text-[14px]">Mahsulotlarga t&#39;g&#39;ridan-to&#39;g&#39;ri buyurtma berish</p>
+                <p className="text-white text-[14px]"><Translation text="downloadApp.1"/></p>
               </div>
                 <img src="/mehrigiyo/images/icons/line.svg" />
                 <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">2</span></h3>
-                <p className="text-white text-[14px]">Mutaxassislarimizdan bepul konsultatsiya olish</p>
+                <p className="text-white text-[14px]"><Translation text="downloadApp.2"/></p>
               </div>
               <img src="/mehrigiyo/images/icons/line.svg" />
                 <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">3</span></h3>
-                <p className="text-white text-[14px]">Ozingizga qulay vaqtda shifokor qabuliga yozilish.</p>
+                <p className="text-white text-[14px]"><Translation text="downloadApp.3"/>.</p>
               </div>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">

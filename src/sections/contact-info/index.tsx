@@ -2,12 +2,13 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 import { socialLinks } from "@/constants/social-links";
+import Translation from "@/components/translation";
 
 const ContactInfo = () => {
   return (
     <Section id="contacts">
       <SectionTitle className="sm:mb-20 mb-10 text-center">
-        Kontaktlar
+        <Translation text="links.contact" />
       </SectionTitle>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-5">
         <div
@@ -40,7 +41,8 @@ const ContactInfo = () => {
             <div className="md:size-14 size-12 shrink-0 rounded-full bg-primary-gradient center-mode">
               <MapPin className="text-white" />
             </div>
-            <p>{"Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"}</p>
+            <p>{""}
+            <Translation text="contacts.address" /></p>
           </div>
         </div>
         <div

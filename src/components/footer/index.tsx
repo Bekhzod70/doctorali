@@ -41,7 +41,8 @@ const Footer = () => {
               </li>
               <li>
                 <div className="footer-contact-link hover:no-underline">
-                  {"Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"}
+                  {""}
+                  <Translation text="contacts.address" />
                 </div>
               </li>
             </ul>

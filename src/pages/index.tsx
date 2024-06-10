@@ -70,10 +70,8 @@ export default function Home() {
       <Faq />
       <Connect
         id="consultation1"
-        title={
-          "Konsultatsiya oling"
-        }
-        subtitle={" Mutaxassislarimizdan mahsulotlar boʻyicha bepul konsultatsiya oling va sogʻlom hayot tomon ilk qadamni qoʻying!  "}
+        title={t("lead.title")}
+        subtitle={t("lead.info")}
         bgColor="bg-green"
         desktopImg="/mehrigiyo/images/bg/connect-3.png"
         mobileImg="/mehrigiyo/images/bg/connect-3-sm.png"

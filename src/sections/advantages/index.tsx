@@ -1,50 +1,51 @@
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import Translation from "@/components/translation";
 
 const data = [
   {
     description:
-      "32 yillik izlanishlar natijasida ishlab chiqilgan mahsulotlar",
+      "advantage.item1.description",
     icon: "/mehrigiyo/images/icons/32.svg",
   },
   {
     description:
-      "Organik komponentlardan tashkil topgan tabiiy mahsulotlar",
+      "advantage.item2.description",
     icon: "/mehrigiyo/images/icons/leaf.svg",
   },
   {
     description:
-      "Xomashyo yetishtirish, ishlab chiqarish, hammasi nazoratliligi",
+      "advantage.item3.description",
     icon: "/mehrigiyo/images/icons/box.svg",
   },
   {
     description:
-      "Tarkibida kimyoviy moddalar yo‘qligi sabab nojo‘ya taʼsirlarni keltirib chiqarmaydi.",
+      "advantage.item4.description",
     icon: "/mehrigiyo/images/icons/body2.svg",
   },
   {
     description:
-      "Dunyo tan olgan xalqaro sertifikatlar",
+      "advantage.item5.description",
     icon: "/mehrigiyo/images/icons/list.svg",
   },
   {
     description:
-      "Mutaxassislikdan konsultatsiya olish bepul",
+      "advantage.item6.description",
     icon: "/mehrigiyo/images/icons/call.svg",
   },
   {
     description:
-      "O‘zbekiston bo‘ylab bepul yetkazib berish xizmati",
+      "advantage.item7.description",
     icon: "/mehrigiyo/images/icons/uzb.svg",
   },
   {
     description:
-      "Mijozlarimizni natijaga chiqarish uchun doim aloqadamiz",
+      "advantage.item8.description",
     icon: "/mehrigiyo/images/icons/4.svg",
   },
   {
     description:
-      "Doimiy mijozlar uchun sovg‘alar",
+      "advantage.item9.description",
     icon: "/mehrigiyo/images/icons/gift.svg",
   },
 ];
@@ -54,7 +55,7 @@ const Advantages = () => {
     <Section>
       <div>
         <SectionTitle className="sm:mb-20 mb-14 text-center">
-          Afzalliklarimiz
+          <Translation text="advantage.title" />
         </SectionTitle>
         <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-3 gap-y-4">
           {data.map(({ description, icon }, index) => (
@@ -65,7 +66,7 @@ const Advantages = () => {
             >
               <img src={icon} alt="icon" className="size-[46px] mx-auto" />
               <div className="mt-[15px]">
-                <p className="mt-[10px] text-base text-green">{description}</p>
+                <p className="mt-[10px] text-base text-green"><Translation text={description}/></p>
               </div>
             </div>
           ))}

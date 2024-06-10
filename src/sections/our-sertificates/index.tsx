@@ -1,11 +1,7 @@
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
 import { Pagination } from "swiper/modules";
-// Halal
-// ISO 9001
-// USDA organic
-// Organic Product
-// Non GMO
+import Translation from "@/components/translation";
 
 const data = [
   {
@@ -33,8 +29,8 @@ const data = [
 const OurSertificates = () => {
   return (
     <Section>
-      <SectionTitle className="sm:mb-20 mb-14 max-sm:text-center">
-        Bizning sertifikatlar
+      <SectionTitle className="sm:mb-20 mb-14 text-center">
+        <Translation text="ourSertificates.title"/>
       </SectionTitle>
       <div className="grid max-sm:hidden xl:grid-cols-5 sm:grid-cols-3 grid-cols-2 sm:gap-5 gap-3">
         {data.map(({ imageUrl, name }, i) => (

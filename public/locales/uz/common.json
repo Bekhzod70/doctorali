@@ -6,9 +6,210 @@
     "catalog": "Katalog"
   },
   "hero": {
-    "title": "So'g'lom hayot uchun tabiat in'omi",
+    "title_line1": "Tabiat inomi",
+    "title_line2": "Soglom turmush tarzi",
+    "title_line3": "bilan",
     "subtitle": "Tabiiy va shifobahsh giyohlardan tarkib topgan premium to'plamlar",
     "collection_ali": "Doctor Ali to'plami"
+  },
+  "overall": {
+    "title": "Faoliyatimiz raqamlarda",
+    "item1": {
+      "subtitle": "Kompaniyaning ochilganiga 32 yil dan oshdi"
+    },
+    "item2": {
+      "subtitle": "Mahsulotlarimiz 10 dan ziyod davlatlarga eksport qilinadi"
+    },
+    "item3": {
+      "subtitle": "100 turdan ortiq dorivor giyohlar yetishtiriladi"
+    },
+    "item4": {
+      "subtitle": "500 nafardan ziyod mutaxassislar faoliyat olib boradi"
+    },
+    "item5": {
+      "subtitle": "Giyohlar 500 gektardan katta maydonda o'stiriladi"
+    },
+    "item6": {
+      "subtitle": "Mamnun mijozlar soni 1 000 000 nafardan oshadi"
+    }
+  },
+  "problem": {
+    "title": "Sizni qanday muammo bezovta qilmoqda?",
+    "seeAll": "Barchasini ko'rish",
+    "hidden": "Orqaga qaytarish",
+    "item1": {
+      "info": "Qandli diabet"
+    },
+    "item2": {
+      "info": "Qon bosimi oshishi"
+    },
+    "item3": {
+      "info": "Bog'im og'riqlari"
+    },
+    "item4": {
+      "info": "Uyqusizlik"
+    },
+    "item5": {
+      "info": "Asabiylik"
+    },
+    "item6": {
+      "info": "Ortiqcha vazn"
+    },
+    "item7": {
+      "info": "Gepatit"
+    },
+    "item8": {
+      "info": "Buyraklar shamollashi"
+    },
+    "item9": {
+      "info": "Prostatit"
+    },
+    "item10": {
+      "info": "Sistit"
+    },
+    "item11": {
+      "info": "Jinsiy zaiflik"
+    },
+    "item12": {
+      "info": "Soch to'kilishi"
+    },
+    "item13": {
+      "info": "Soch oqarishi"
+    },
+    "item14": {
+      "info": "Oq dog'lar"
+    },
+    "item15": {
+      "info": "Gijjalar"
+    },
+    "item16": {
+      "info": "Revmatizm"
+    },
+    "item17": {
+      "info": "Ko'z xiralashishi"
+    }
+  },
+  "ourProduct": {
+    "title": "Bizning mahsulotlar",
+    "button": "Batafsil",
+    "buttonMobile": "Bepul konsultatsiya",
+    "product1": {
+      "title" : "“Doctor Ali” kompleksi",
+      "benefits1": "Infarkt va insultdan keyingi reabilitatsiyada",
+      "benefits2": "Qon bosimini bir meʼyorda ushlab turishda",
+      "benefits3": "Asabiylik va uyqusizlikning oldini olishda",
+      "benefits4": "Kamqonlikka qarshi kurashishda yordam beradi."
+    },
+    "product2": {
+      "title" : "“Rohat” kompleksi",
+      "benefits1": "Prostata bezi kasalliklarining oldini olishda",
+      "benefits2": "Jinsiy zaiflik muammosiga qarshi kurashishda",
+      "benefits3": "Erkaklarda testosteron gormonini oshirishda",
+      "benefits4": "Reproduktiv salomatlikni yaxshilashda yordam beradi."
+    },
+    "product3": {
+      "title" : "“Safo” kompleksi",
+      "benefits1": "Qazgʻoqlarni bartaraf etishda",
+      "benefits2": "Sochlar toʻkilishining oldini olishda",
+      "benefits3": "Tolalarning erta oqarishiga qarshi kurashishda",
+      "benefits4": "Soch ildizlarini mustahkamlashda yordam beradi."
+    },
+    "product4": {
+      "title" : "Detoxioma",
+      "benefits1": "Organizmni toksin va gijjalardan tozalashda",
+      "benefits2": "Jigar kasalliklarining oldini olishda",
+      "benefits3": "Ortiqcha vaznga qarshi kurashishda yordam beradi."
+    },
+    "product5": {
+      "title" : "“Суставный доктор” kompleksi",
+      "benefits1": "Qoʻl, oyoq, bel va tizzalardagi ogʻriq bilan kurashishda",
+      "benefits2": "Boʻgʻimlarda yigʻilib qolgan tuzlarni eritishda",
+      "benefits3": "Harakatchanlikni qayta tiklashda",
+      "benefits4": "Toʻqimalar oziqlanishini taʼminlashda yordam beradi."
+    }
+  },
+  "advantage": {
+    "title": "Afzalliklarimiz",
+    "item1": {
+      "description": "32 yillik izlanishlar natijasida ishlab chiqilgan mahsulotlar"
+    },
+    "item2": {
+      "description": "Organik komponentlardan tashkil topgan tabiiy mahsulotlar"
+    },
+    "item3": {
+      "description": "Xomashyo yetishtirish, ishlab chiqarish, hammasi nazoratliligi"
+    },
+    "item4": {
+      "description": "Tarkibida kimyoviy moddalar yo‘qligi sabab nojo‘ya taʼsirlarni keltirib chiqarmaydi."
+    },
+    "item5": {
+      "description": "Dunyo tan olgan xalqaro sertifikatlar"
+    },
+    "item6": {
+      "description": "Mutaxassislikdan konsultatsiya olish bepul"
+    },
+    "item7": {
+      "description": "O‘zbekiston bo‘ylab bepul yetkazib berish xizmati"
+    },
+    "item8": {
+      "description": "Mijozlarimizni natijaga chiqarish uchun doim aloqadamiz"
+    },
+    "item9": {
+      "description": "Doimiy mijozlar uchun sovg‘alar"
+    }
+  },
+  "companyHistory": {
+    "title": "Kompaniya tarixiga nazar tashlaymiz",
+    "again": "Yana",
+    "info1": "“Doctor Ali” brendiga 1992-yilda “Mehrigiyo” xalqaro kompaniyasi tomonidan asos solingan boʻlib, 32 yildan buyon organik mahsulotlar ishlab chiqarish va sogʻlom turmush tarzini targʻib qilish bilan shugʻullanib keladi.", 
+    "info2": "Kompaniya tomonidan bugungi kunga qadar ishlab chiqarilgan mahsulotlar turi 100 dan oshadi, ularning tarkibini tashkil etuvchi oʻsimlik va dorivor giyohlar esa 500 gektardan oshiq maydonda, malakali mutaxassislar nazorati ostida yetishtiriladi.", 
+    "info3": "Jahon standartlari asosida ishlab chiqariladigan va xalqaro sertifikatlarga ega boʻlgan mahsulotlarimiz Oʻzbekiston bilan bir qatorda Qozogʻiston, Qirgʻiziston, Tojikiston, Saudiya Arabistoni, Xitoy va AQSh bozorlariga kirib borgan." 
+  },
+  "world": {
+    "title": "“Doctor Ali” mahsulotlari jahon bozorini egallamoqda",
+    "state1": "Rossiya",
+    "state2": "AQSH",
+    "state3": "Xitoy",
+    "state4": "Qirg'iziston",
+    "state5": "Tajikistan",
+    "state6": "Qozog’iston"
+  },
+  "workProcess": {
+    "title": "Ish jarayoni bilan tanishing",
+    "item1": {
+      "title": "Shifobaxsh giyohlarni oʻzimiz yetishtiramiz",
+      "content": "Jarayonni tajribali mutaxassislarimiz yordamida toʻliq nazorat qilamiz va sifatning oliy darajasini taʼminlaymiz."
+    },
+    "item2": {
+      "title": "Oʻsimliklarga zamonaviy usullar bilan ishlov beramiz",
+      "content": "Ularni tayyor mahsulot koʻrinishiga keltirishda ilgʻor texnologiyalardan foydalanamiz."
+    },
+    "item3": {
+      "title": "Qulay koʻrinishda qadoqlaymiz",
+      "content": "Mahsulotlarimizning barchasi isteʼmolingiz uchun qulay qadoqlarda boʻlishi haqida qaygʻuramiz."
+    },
+    "item4": {
+      "title": "Buyurtmangizni bepul yetkazib beramiz",
+      "content": "Oʻzbekistonning qaysi hududida istiqomat qilishingizdan qatʼiy nazr buyurtmangizni uyingizgacha eltib berishni oʻz zimmamizga olamiz."
+    }
+  },
+  "downloadApp": {
+    "title": "“Doctor Ali” ilovasini yuklab oling.",
+    "description": "Yangi imkoniyatlarga ega bo'ling",
+    "1": "Mahsulotlarga to'g'ridan-to'g'ri buyurtma berish",
+    "2": "Mutaxassislarimizdan bepul konsultatsiya olish",
+    "3": "Ozingizga qulay vaqtda shifokor qabuliga yozilish."
+  },
+  "ourTeam": {
+    "title": "Jamoamiz bilan tanishing"
+  },
+  "ourSertificates": {
+    "title": "Bizning sertifikatlar"
+  },
+  "videoInformation": {
+    "title": "Mahsulotdan olingan natijalar bilan tanishing",
+    "clients": "Mijozlar",
+    "experts": "Tajribali Mutaxassislar"
   },
   "connect": {
     "btn": "Bepul konsultatsiya olish",
@@ -142,6 +343,14 @@
       "question": "To'lovni qanday qilib amalga oshirish mumkin?",
       "answer": "Mahsulotlar uchun toʻlovni buyurtmangiz siz aytgan manzilga yetkazib berilganidan keyin oʻzingizga qulay boʻlgan usulda – Click, PayMe ilovalari orqali yoki naqd pul koʻrinishida amalga oshirishingiz mumkin."
     }
+  },
+  "lead": {
+    "title": "Konsultatsiya oling",
+    "info": "Mutaxassislarimizdan mahsulotlar boʻyicha bepul konsultatsiya oling va sogʻlom hayot tomon ilk qadamni qoʻying!"
+  },
+  "contacts": {
+    "title": "Kontaktlar",
+    "address": "Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"
   },
   "sertificate": {
     "item1": {

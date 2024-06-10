@@ -1,31 +1,32 @@
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
+import Translation from "@/components/translation";
 
 const data = [
   {
     src: "/mehrigiyo/images/flag/russia.png",
-    title: "Rossiya",
+    title: "world.state1",
   },
   {
     src: "/mehrigiyo/images/flag/america.png",
-    title: "AQSH",
+    title: "world.state2",
   },
   {
     src: "/mehrigiyo/images/flag/saudi.png",
-    title: "Xitoy",
+    title: "world.state3",
   },
   {
     src: "/mehrigiyo/images/flag/qirgi.png",
-    title: "Qirg'iziston",
+    title: "world.state4",
   },
   {
     src: "/mehrigiyo/images/flag/tojik.png",
-    title: "Tajikistan",
+    title: "world.state5",
   },
   {
     src: "/mehrigiyo/images/flag/qozoq.png",
-    title: "Qozog’iston",
+    title: "world.state6",
   },
 ];
 
@@ -33,7 +34,7 @@ const World = () => {
   return (
     <Section>
       <SectionTitle className="text-center">
-      “Doctor Ali” mahsulotlari jahon bozorini egallamoqda
+      <Translation text="world.title"/>
       </SectionTitle>
 
       <div className="relative ">
@@ -41,7 +42,7 @@ const World = () => {
           {data.map(({ src, title }, index) => (
             <div key={index} className="size-[75px]">
               <img src={src} alt="country" />
-              <p className="text-center text-[14px] font-times-new-roman">{title}</p>
+              <p className="text-center text-[14px] font-times-new-roman"><Translation text={title}/></p>
             </div>
           ))}
         </div>
