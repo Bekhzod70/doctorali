@@ -1,0 +1,374 @@
+{
+    "links": {
+      "contact": "Contact us",
+      "connect": "Free consultation",
+      "about": "About Us",
+      "catalog": "Catalog"
+    },
+    "hero": {
+      "title_line1": "Nature's gift",
+      "title_line2": "Healthy live with",
+      "title_line3": "",
+      "subtitle": "Premium sets of natural and medicinal herbs.",
+      "collection_ali": "Doctor Ali collection"
+    },
+    "overall": {
+      "title": "Our activities in numbers",
+      "item1": {
+        "subtitle": "More than 32 years have passed since the company was founded."
+      },
+      "item2": {
+        "subtitle": "Our products are exported to more than 10 countries around the world."
+      },
+      "item3": {
+        "subtitle": "More than 100 types of medicinal herbs are grown."
+      },
+      "item4": {
+        "subtitle": "More than 500 specialists work"
+      },
+      "item5": {
+        "subtitle": "Herbs are grown on an area of ​​more than 500 hectares."
+      },
+      "item6": {
+        "subtitle": "More than 1,000,000 happy clients"
+      }
+    },
+    "problem": {
+      "title": "What is your problem?",
+      "seeAll": "See all",
+      "hidden": "Return",
+      "item1": {
+        "info": "Diabetes"
+      },
+      "item2": {
+        "info": "High blood pressure"
+      },
+      "item3": {
+        "info": "Joint pain"
+      },
+      "item4": {
+        "info": "Insomnia"
+      },
+      "item5": {
+        "info": "Nervousness"
+      },
+      "item6": {
+        "info": "Excess weight"
+      },
+      "item7": {
+        "info": "Hepatitis"
+      },
+      "item8": {
+        "info": "Kidney inflammation"
+      },
+      "item9": {
+        "info": "Prostatitis"
+      },
+      "item10": {
+        "info": "Cystitis"
+      },
+      "item11": {
+        "info": "Impotence"
+      },
+      "item12": {
+        "info": "Hair loss"
+      },
+      "item13": {
+        "info": "Gray hair"
+      },
+      "item14": {
+        "info": "White spots"
+      },
+      "item15": {
+        "info": "Worms"
+      },
+      "item16": {
+        "info": "Rheumatism"
+      },
+      "item17": {
+        "info": "Vision deterioration"
+      }
+    },
+    "ourProduct": {
+      "title": "Our Products",
+      "button": "More",
+      "buttonMobile": "Free consultation",
+      "product1": {
+        "title" : "Doctor Ali Complex",
+        "benefits1": "Helps with rehabilitation after heart attacks and strokes",   
+        "benefits2": "Maintains normal blood pressure levels",
+        "benefits3": "Prevents nervousness and insomnia",
+        "benefits4": "Prevents anemia"
+      },
+      "product2": {
+        "title" : "Rohat Complex",
+        "benefits1": "Prevents prostate diseases",
+        "benefits2": "Fights impotence",
+        "benefits3": "Increases testosterone levels in men",
+        "benefits4": "Improves reproductive health"
+      },
+      "product3": {
+        "title" : "Safo Complex",
+        "benefits1": "Eliminates dandruff",
+        "benefits2": "Prevents hair loss",
+        "benefits3": "Fights premature graying",
+        "benefits4": "Strengthens hair roots"
+      },
+      "product4": {
+        "title" : "Detoxioma",
+        "benefits1": "Cleanses the body of toxins and worms",
+        "benefits2": "Prevents liver diseases",
+        "benefits3": "Helps combat excess weight"
+      },
+      "product5": {
+        "title" : "“Joint Doctor” Complex",
+        "benefits1": "Relieves pain in hands, legs, back, and knees",
+        "benefits2": "Dissolves salts accumulated in joints",
+        "benefits3": "Restores mobility",
+        "benefits4": "Nourishes tissues"
+      }
+    },
+    "advantage": {
+      "title": "Our Advantages",
+      "item1": {
+        "description": "Products developed through 32 years of research"
+      },
+      "item2": {
+        "description": "Natural products consisting of organic components"
+      },
+      "item3": {
+        "description": "Production and manufacturing control"
+      },
+      "item4": {
+        "description": "No side effects due to the absence of chemicals"
+      },
+      "item5": {
+        "description": "International certificates recognized worldwide"
+      },
+      "item6": {
+        "description": "Free consultation with specialists"
+      },
+      "item7": {
+        "description": "Free delivery across Uzbekistan"
+      },
+      "item8": {
+        "description": "We are available to help our clients achieve results"
+      },
+      "item9": {
+        "description": "Gifts for regular customers"
+      }
+    },
+    "companyHistory": {
+      "title": "Let us tell you the story about our company",
+      "again": "More",
+      "info1": "The Doctor Ali brand was founded in 1992 by the international company Mehrigiyo, and for 32 years has been producing organic products and promoting a healthy lifestyle.", 
+      "info2": "The company produces over 100 product varieties, and the plants and medicinal herbs used are grown on over 500 hectares under the supervision of qualified specialists.", 
+      "info3": "Our products, manufactured to international standards with certifications, have entered the markets of Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan, Saudi Arabia, China and the USA." 
+    },
+    "world": {
+      "title": "Doctor Ali's products conquer the world market",
+      "state1": "Russia",
+      "state2": "USA",
+      "state3": "China",
+      "state4": "Kyrgyzstan",
+      "state5": "Tajikistan",
+      "state6": "Kazakhstan"
+    },
+    "workProcess": {
+      "title": "Get to know our working process",
+      "item1": {
+        "title": "We grow medicinal herbs ourselves",
+        "content": "We fully control the process with the help of our experienced specialists, ensuring the highest level of quality."
+      },
+      "item2": {
+        "title": "We process the plants using modern methods",
+        "content": "We use advanced technologies to transform them into ready products."
+      },
+      "item3": {
+        "title": "We package for your convenience",
+        "content": "We ensure all our products are packaged conveniently for your use."
+      },
+      "item4": {
+        "title": "We deliver your order for free",
+        "content": "No matter where you live in Uzbekistan, we will deliver your order to your home."       
+      }
+    },
+    "downloadApp": {
+      "title": "Download the Doctor Ali app!",
+      "description": "Unlock new opportunities",
+      "1": "Order products directly",
+      "2": "Receive a free consultation from our specialists",
+      "3": "Schedule an appointment with a doctor at a convenient time."
+    },
+    "ourTeam": {
+      "title": "Meet our team"
+    },
+    "ourSertificates": {
+      "title": "Our certificates"
+    },
+    "videoInformation": {
+      "title": "Discover the reviews",
+      "clients": "Clients",
+      "experts": "Experienced Specialists"
+    },
+    "connect": {
+      "btn": "Get a free consultation",
+      "chip": "We will contact you soon",
+      "name": "Your name",
+      "phone": "Phone"
+    },
+    "connect1": {
+      "title": "Kasalliklarni o'z vaqtida jilovlang",
+      "subtitle": "Hoziroq ariza qoldiring va shifokor nazorati ostida bepul konsultatsiya olish imkoniyatiga ega boling!"
+    },
+    "connect2": {
+      "title": "So'g'lom hayot tomon ilk qadamni tashlashga tayyormisiz?",
+      "subtitle": "Hoziroq ariza qoldiring va salomatligingiz haqida qayg'urishni bugundan boshlang!"
+    },
+    "connect3": {
+      "title": "Salomatligingiz haqida qayg'urishni bugundan boshlang",
+      "subtitle": "Hoziroq ariza qoldiring va shifokor nazorati ostida bepul konsultatsiya oling!"
+    },
+    "address": {
+      "phone": "Aloqa uchun",
+      "email": "Elektron pochta",
+      "social": "Ijtimoiy tarmoqlar",
+      "map": "Manzil"
+    },
+    "footer": {
+      "quote": "Dr. Ali – Take a step towards a healthy life with us!"
+    },
+    "product": {
+      "title": "Mahsulotimizning afzalliklarini kashf eting",
+      "card1": "32 yillik izlanishlar natijasida ishlab chiqilgan mahsulot",
+      "card2": "Ekologik jihatdan mutloq to'za komponentlar",
+      "card3": "Dunyo tan olgan xalqaro sertifikatlar",
+      "card4": "O'zbekiston bo'ylab bepul etkazib berish xizmati",
+      "card5": "Doimiy mijozlar uchun sovg'alar",
+      "card6": "Shifokor nazorati ostidagi bepul konsultatsiya"
+    },
+    "health": {
+      "title": "Salomatlik uchun no'yob kompleks",
+      "subtitle": "70 hil shifobahsh giyohdan tarkib topgan kompleksning o'ziga xos xususiyatlari",
+      "eliksir": "Eliksir",
+      "marmelad": "Marmelad",
+      "capsula": "Kapsulalar",
+      "tea": "Choy",
+      "card1": {
+        "title": "Yurak-qontmir tizimi faoliyatini raqbatlantiradi",
+        "subtitle": "Kompleks tarkibidagi guava yurak faoliyatini qo'llab-quvvatlash, yurak urishi va qon bosimini normallashishga yordam beradi."
+      },
+      "card2": {
+        "title": "Qandli diabet",
+        "subtitle": "Kompleks tarkibidagi mingbarg, papaya va chakanda osimligi qondagi qand miqdori va qon quyukligini me'yoriy holatda ushlab turish, sano esa qonni tozalashda ijobiy natija ko'rsatadi."
+      },
+      "card3": {
+        "title": "Asabiylik va uyqusizlik",
+        "subtitle": "Kompleks tarkibidagi lavanda markaziy asab tizimiga tinchlantiruvchi ta'sir ko'rsatib, uyqu sifatini yaxshilashga yordam beradi."
+      },
+      "card4": {
+        "title": "O'shqozon kasalliklari",
+        "subtitle": "Kompleks tarkibidagi limon o'ti, rozmarin, tol va chakanda o'shqozon va o'n ikki barmoqli ichak kasalliklarida ijobiy natija ko'rsatadi."
+      },
+      "card5": {
+        "title": "Jinsiy kasalliklar",
+        "subtitle": "Kompleks tarkibidagi gingo biloba, er bodomi, tukli ervak, papaya kabi komponentlar erkaklar va ayollarda uchrashuvchi jinsiy kasalliklarning oldini olishtirishga ko'maklashadi."
+      }
+    },
+    "benefits": {
+      "title": "Sizni qanday kasallik qiyinamoqda?",
+      "card1": {
+        "title": "Qon bosimi",
+        "subtitle": "Qon bosimini normal holatda ushlab turish va yurak-qontmir tizimi faoliyatini raqbatlantirishga yordam beradi."
+      },
+      "card2": {
+        "title": "Qandli diabet",
+        "subtitle": "Organizmdagi ortiqcha holesterin miqdorini kamaytiradi va tomirlar elastikligini oshiradi."
+      },
+      "card3": {
+        "title": "Asabiylik",
+        "subtitle": "Markaziy asab tizimiga tinchlantiruvchi ta'sir ko'rsatadi va asab kasalliklarining oldini olishtirishga ko'maklashadi."
+      },
+      "card4": {
+        "title": "Uyqusizlik",
+        "subtitle": "Uyqu sifatini oshiradi va buning hisobiga hotiraga ijobiy ta'sir ko'rsatadi."
+      },
+      "card5": {
+        "title": "O'shqozon kasalliklari",
+        "subtitle": "O'shqozon-ichak trakti kasalliklari – gastrit, kolit va qabziyatda yordam beradi."
+      },
+      "card6": {
+        "title": "Shamollash va yalliglanishlar",
+        "subtitle": "Prostata bezi, buyraklar va tananing boshqa a'zolari dagi yalliglanish jarayoniga qarshi kurashda ijobiy natija ko'rsatadi."
+      },
+      "card7": {
+        "title": "Imunitet pastligi",
+        "subtitle": "Imunitetni mustahkamlash, organizmning kasalliklarga nisbatan kurashuvchanligini oshirishga ko'maklashadi."
+      },
+      "card8": {
+        "title": "Jinsiy kasalliklar",
+        "subtitle": "Erkaklar va ayollardagi jinsiy kasalliklar, sidik yo'lida muammolarining oldini olishtirishda samarali vosita hisoblanadi."
+      }
+    },
+    "label": {
+      "language": "Til",
+      "sertificate": "Bizning sertifikatlar",
+      "recommend": "Professor Zokirjon Muhammadjonov \"Doctor Ali\" kompleksini tavsiya qiladi"
+    },
+    "feedback": {
+      "title": "Mahsulot haqidagi fikrlar",
+      "experts": "Muta'xassislar fikri",
+      "clients": "Mijozlarimiz olgan natijalar",
+      "star": "Mashhurlardan tavsiya"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "item1": {
+        "question": "How do I choose the right product for me?",
+        "answer": "Before recommending our products to customers, we thoroughly study their health issues and conduct consultations under a doctor's supervision. We determine the treatment course for clients individually based on their overall condition. The product price depends directly on this."
+      },
+      "item2": {
+        "question": "Do you guarantee product quality?",
+        "answer": "Our products have international quality certificates and consist of natural herbs. During production, we pay special attention to each product. International certificates confirm the high quality of our products."
+      },
+      "item3": {
+        "question": "Is the consultation paid?",
+        "answer": "Consultations and valuable recommendations from our specialists are absolutely free."
+      },
+      "item4": {
+        "question": "Is there a delivery service?",
+        "answer": "After ordering the products, we deliver them for free to any city of Uzbekistan."
+      },
+      "item5": {
+        "question": "How can I make a payment?",
+        "answer": "Once your order is delivered to the address you specified, you can pay for the products using a convenient method – through the Click or PayMe apps or in cash."        
+      }
+    },
+    "lead": {
+      "title": "Get a consultation",
+      "info": "Receive a free consultation about the product from our specialists and take the first step toward a healthy life!"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "address": "Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"
+    },
+    "sertificate": {
+      "item1": {
+        "title": "ISO",
+        "info": "Xalqaro standartlashgich tashkiloti (ISO) tomonidan ta'sis etilgan bo'lib, sifat darajasini ko'rsatib beruvchi dunyodagi eng mashhur sertifikat sanaladi."
+      },
+      "item2": {
+        "title": "USDA Organic",
+        "info": "AQSh Qishloq xozirgiyoq departamenti tomonidan taqdim etiladigan mazkur sertifikat organik mahsulotlarining sifat standartlariga muvofiqlik darajasini belgilab beradi."
+      },
+      "item3": {
+        "title": "HALAL",
+        "info": "Ushbu xalqaro hujjat mahsulot tarkibidagi komponentlar, shuningdek uning ishlab chiqarish jarayonining Islom dini va sharoit ahkomiiga muvofiq ekanligini tasdiqlaydi."
+      },
+      "item4": {
+        "title": "EU Organic",
+        "info": "Mazkur sertifikat mahsulotning Evropa bio standartlariga muvofiq ekanligini bildiradi. Bio va organik mahsulotlarining dunyo miqyosida tan olgan umumiy belgisi hisoblanadi."
+      }
+    }
+  }
+  

@@ -11,9 +11,10 @@ import { useState } from "react";
 
 import RussiaFlag from "./icons/russia-flag";
 import UzbekFlag from "./icons/uzbek-flag";
+import EnglishFlag from "./icons/england-flag";
 import Translation from "./translation";
 
-type ILanguage = "ru" | "uz";
+type ILanguage = "ru" | "uz" | "en";
 
 const languages = [
   {
@@ -23,6 +24,10 @@ const languages = [
   {
     label: "Русский",
     value: "ru",
+  },
+  {
+    label: "English",
+    value: "en",
   },
 ];
 
@@ -52,6 +57,10 @@ const SwitchLanguage = () => {
     uz: {
       icon: <UzbekFlag />,
       label: "Ўзбек",
+    },
+    en: {
+      icon: <EnglishFlag />,
+      label: "English",
     },
   };
 
