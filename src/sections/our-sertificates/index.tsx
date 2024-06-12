@@ -59,7 +59,7 @@ const OurSertificates = () => {
           id="pagination-slider"
         >
           {data.map(({ imageUrl, name }, i) => (
-            <div key={i} className="w-[48%]">
+            <div key={i} className="w-[45%]">
               <div className="w-[100%] border border-[#F9F9F9] py-[20px] lg:px-12 rounded-tr-[25px] bg-white" key={i}>
                 <div className="flex flex-col gap-3 items-center">
                   <img
