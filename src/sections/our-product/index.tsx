@@ -23,10 +23,10 @@ const data = [
     title: "ourProduct.product2.title",
     connect: "+998984447077",
     benefits: [
-      "ourProduct.product1.benefits1",
-      "ourProduct.product1.benefits2",
-      "ourProduct.product1.benefits3",
-      "ourProduct.product1.benefits4"
+      "ourProduct.product2.benefits1",
+      "ourProduct.product2.benefits2",
+      "ourProduct.product2.benefits3",
+      "ourProduct.product2.benefits4"
     ],
   },
   {
@@ -34,10 +34,10 @@ const data = [
     title: "ourProduct.product3.title",
     connect: "+998982227077",
     benefits: [
-      "ourProduct.product1.benefits1",
-      "ourProduct.product1.benefits2",
-      "ourProduct.product1.benefits3",
-      "ourProduct.product1.benefits4"
+      "ourProduct.product3.benefits1",
+      "ourProduct.product3.benefits2",
+      "ourProduct.product3.benefits3",
+      "ourProduct.product3.benefits4"
     ],
   },
   {
@@ -45,9 +45,9 @@ const data = [
     title: "ourProduct.product4.title",
     connect: "+998982227077",
     benefits: [
-      "ourProduct.product1.benefits1",
-      "ourProduct.product1.benefits2",
-      "ourProduct.product1.benefits3"
+      "ourProduct.product4.benefits1",
+      "ourProduct.product4.benefits2",
+      "ourProduct.product4.benefits3"
     ],
   },
   // TODO: change image
@@ -56,10 +56,10 @@ const data = [
     title: "ourProduct.product5.title",
     connect: "+998984447077",
     benefits: [
-      "ourProduct.product1.benefits1",
-      "ourProduct.product1.benefits2",
-      "ourProduct.product1.benefits3",
-      "ourProduct.product1.benefits4"
+      "ourProduct.product5.benefits1",
+      "ourProduct.product5.benefits2",
+      "ourProduct.product5.benefits3",
+      "ourProduct.product5.benefits4"
     ],
   },
 ];
