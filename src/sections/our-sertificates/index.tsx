@@ -54,11 +54,12 @@ const OurSertificates = () => {
       </div>
       <div className="sm:hidden" data-aos="fade-up">
         <div
-          className="!pb-10 h-full grid grid-cols-2 gap-6"
+          // className="!pb-10 h-full grid grid-cols-2 gap-6"
+          className="!pb-10 h-full flex flex-wrap justify-center gap-6"
           id="pagination-slider"
         >
           {data.map(({ imageUrl, name }, i) => (
-            <div key={i}>
+            <div key={i} className="w-[48%]">
               <div className="w-[100%] border border-[#F9F9F9] py-[20px] lg:px-12 rounded-tr-[25px] bg-white" key={i}>
                 <div className="flex flex-col gap-3 items-center">
                   <img

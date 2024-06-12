@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="">
       <div className="grid grid-cols-12">
         <div className="xl:col-span-6 col-span-12 xl:h-[640px]">
-          <div className="w-full h-full bg-white overflow-hidden flex flex-col justify-between sm:p-[50px] xl:!pl-[100px] px-5 py-10 relative z-10">
+          <div className="w-full h-full bg-white overflow-hidden flex flex-col justify-between sm:p-[50px] xl:!pl-[100px] px-5 pb-10 relative z-10">
             <div>
               <span className="absolute bottom-0 left-0 -z-10">
                 <GhostLogo />

@@ -90,7 +90,7 @@ const Problem = () => {
         <SectionTitle className="text-center sm:mb-20 mb-2">
           <Translation text="problem.title" />
         </SectionTitle>
-        <div className="sm:flex relative sm:flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center grid grid-cols-2 gap-5">
+        <div className="flex relative flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center gap-5">
           <img
             src="/mehrigiyo/images/icons/seperator.svg"
             alt="icon"

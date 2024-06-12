@@ -57,11 +57,11 @@ const Advantages = () => {
         <SectionTitle className="sm:mb-20 mb-14 text-center">
           <Translation text="advantage.title" />
         </SectionTitle>
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-3 gap-y-4">
+        <div className="flex flex-wrap justify-center gap-3 gap-y-4">
           {data.map(({ description, icon }, index) => (
             <div
               data-aos="fade-up"
-              className="bg-white px-[10px] py-[15px] border-[1px] border-[#EBEBEB] rounded-[11px] text-center "
+              className="lg:w-[24%] md:w-[48%] w-[48%] h-auto bg-white px-[10px] py-[15px] border-[1px] border-[#EBEBEB] rounded-[11px] text-center "
               key={index}
             >
               <img src={icon} alt="icon" className="size-[46px] mx-auto" />
