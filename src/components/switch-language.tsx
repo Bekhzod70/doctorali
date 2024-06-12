@@ -56,7 +56,7 @@ const SwitchLanguage = () => {
     },
     uz: {
       icon: <UzbekFlag />,
-      label: "Ўзбек",
+      label: "O‘zbek",
     },
     en: {
       icon: <EnglishFlag />,

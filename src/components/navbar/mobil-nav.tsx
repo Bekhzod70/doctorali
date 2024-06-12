@@ -19,9 +19,12 @@ const MobilNav = ({
         !isOpen ? "h-0" : "h-[calc(100vh_-_84px)] max-h-screen"
       )}
     >
-      <div className="max-w-md mx-auto h-[calc(100vh_-_84px)] py-[26px] px-4">
+      <div className="max-w-md mx-auto h-[calc(100vh_-_184px)] pb-[26px] px-4">
         <div className="w-full flex flex-col lg:justify-evenly justify-center h-full">
           {/* <div></div> */}
+          <div className="lg:hidden mb-5">
+              <SwitchLanguage />
+            </div>
           <div className="flex flex-col gap-[18px]">
             {navLinks.map(({ label, to }) => (
               <a href={to} key={label + to}>
@@ -41,9 +44,6 @@ const MobilNav = ({
                 <ChevronRight className="h-5 w-5" />
               </Button>
             </a>
-            <div className="lg:hidden">
-              <SwitchLanguage />
-            </div>
           </div>
         </div>
       </div>
