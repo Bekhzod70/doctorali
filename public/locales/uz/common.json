@@ -201,7 +201,32 @@
     "3": "Ozingizga qulay vaqtda shifokor qabuliga yozilish."
   },
   "ourTeam": {
-    "title": "Jamoamiz bilan tanishing"
+    "title": "Jamoamiz bilan tanishing",
+    "doctor1": {
+      "name": "Muhammedjonov Zokirjon",
+      "profession": "Professor",
+      "experence": "30 yillik tajribaga ega Oliy toifali shifokor. Minglab bemorlarning sevimli shifokori."
+    },
+    "doctor2": {
+      "name": "Nasriddinov Shahobiddin",
+      "profession": "Oliy toifali shifokor",
+      "experence": "30 yillik tajribaga ega Oliy toifali shifokor. Minglab bemorlarning sevimli shifokori."
+    },
+    "doctor3": {
+      "name": "Mo'minov Xojimurod",
+      "profession": "Oliy toifali shifokor",
+      "experence": "6 yillik tajribaga ega shifokor. Terapevt. Xalqimiz salomatligi uchun mehnat qilib kelayotgan professional mutaxassis."
+    },
+    "doctor4": {
+      "name": "Ergashev Dilshodbek",
+      "profession": "Oliy toifali shifokor",
+      "experence": "29 yillik tajribaga ega Oliy toifali shifokor. Okulist. Xalqimiz xizmatidagi shifokor. "
+    },
+    "doctor5": {
+      "name": "Mahsudov Axror",
+      "profession": "Shifokor",
+      "experence": "15 yillik tajribaga ega Shifokor. Dotsent (jigar kasalliklari bo'yicha)."
+    }
   },
   "ourSertificates": {
     "title": "Bizning sertifikatlar"
@@ -209,7 +234,8 @@
   "videoInformation": {
     "title": "Mahsulotdan olingan natijalar bilan tanishing",
     "clients": "Mijozlar",
-    "experts": "Tajribali Mutaxassislar"
+    "experts": "Tajribali Mutaxassislar",
+    "thought": "Mutaxassislar fikri"
   },
   "connect": {
     "btn": "Bepul konsultatsiya olish",

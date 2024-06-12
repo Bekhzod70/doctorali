@@ -7,33 +7,33 @@ import Translation from "@/components/translation";
 const data = [
   {
     imageUrl: "/mehrigiyo/images/doctors/zokirnew.png",
-    name: "Muhammedjonov Zokirjon",
-    profession: "Professor",
-    experence: "30 yillik tajribaga ega Oliy toifali shifokor. Minglab bemorlarning sevimli shifokori.",
+    name: "ourTeam.doctor1.name",
+    profession: "ourTeam.doctor1.profession",
+    experence: "ourTeam.doctor1.experence",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/shahobiddin.png",
-    name: "Nasriddinov Shahobiddin",
-    profession: "Oliy toifali shifokor",
-    experence: "30 yillik tajribaga ega Oliy toifali shifokor. Infeksionist. Ko'plab bemorlarning salomatligiga hissa qo'shib kelayotgan inson.",
+    name: "ourTeam.doctor2.name",
+    profession: "ourTeam.doctor2.profession",
+    experence: "ourTeam.doctor2.experence",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/xojimurod.png",
-    name: "Mo'minov Xojimurod",
-    profession: "Oliy toifali shifokor",
-    experence: "6 yillik tajribaga ega shifokor. Terapevt. Xalqimiz salomatligi uchun mehnat qilib kelayotgan professional mutaxassis.",
+    name: "ourTeam.doctor3.name",
+    profession: "ourTeam.doctor3.profession",
+    experence: "ourTeam.doctor3.experence",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/dilshodbek.png",
-    name: "Ergashev Dilshodbek",
-    profession: "Oliy toifali shifokor",
-    experence: "29 yillik tajribaga ega Oliy toifali shifokor. Okulist. Xalqimiz xizmatidagi shifokor. ",
+    name: "ourTeam.doctor4.name",
+    profession: "ourTeam.doctor4.profession",
+    experence: "ourTeam.doctor4.experence",
   },
   {
     imageUrl: "/mehrigiyo/images/doctors/Axror.png",
-    name: "Mahsudov Axror",
-    profession: "Shifokor",
-    experence: "15 yillik tajribaga ega Shifokor. Dotsent (jigar kasalliklari bo'yicha).",
+    name: "ourTeam.doctor5.name",
+    profession: "ourTeam.doctor5.profession",
+    experence: "ourTeam.doctor5.experence",
   },
 ];
 
@@ -79,13 +79,13 @@ const OurTeam = () => {
                   />
                 </div>
                 <h1 className="sm:text-xl text-xs max-sm:text-center gradient-text font-medium mt-[26px]">
-                  {name}
+                  <Translation text={name}/>
                 </h1>
                 <p className="max-sm:text-xs text-base max-sm:text-center mt-1">
-                  {profession}
+                  <Translation text={profession}/>
                 </p>
                 <p className="text-[10px] text-center md:text-left mt-1">
-                  {experence}
+                  <Translation text={experence}/>
                 </p>
               </div>
             </SwiperSlide>

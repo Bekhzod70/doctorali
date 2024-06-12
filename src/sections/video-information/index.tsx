@@ -172,7 +172,7 @@ const VideoInformation = () => {
           setOpen={setOpen}
         />
         <SectionTitle className="my-[30px] text-center">
-          Mutaxassislar fikri
+          <Translation text="videoInformation.thought"/>
         </SectionTitle>
         <FeedbackSlider
           number={2}

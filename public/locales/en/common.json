@@ -201,15 +201,41 @@
       "3": "Schedule an appointment with a doctor at a convenient time."
     },
     "ourTeam": {
-      "title": "Meet our team"
+    "title": "Meet our team",
+    "doctor1": {
+      "name": "Mukhammedzhanov Zokirzhon",
+      "profession": "Professor",
+      "experence": "30 years of experience, doctor of the highest category. The choice of thousands of satisfied patients."
     },
+    "doctor2": {
+      "name": "Nasriddinov Sakhobiddin",
+      "profession": "Doctor of the highest category ",
+      "experence": "Doctor of the highest category with 30 years of experience. Infectious disease specialist. Helps many patients regain their health."
+    },
+    "doctor3": {
+      "name": "Muminov Khodzhimurod.",
+      "profession": "Doctor of the highest category ",
+      "experence": "Doctor with 6 years of experience, therapist. A professional specialist who provides medical services for our people."
+    },
+    "doctor4": {
+      "name": "Ergashev Dilshodbek.",
+      "profession": "Doctor of the highest category ",
+      "experence": "Doctor of the highest category with 29 years of experience. An ophthalmologist, provides medical services for our people."
+    },
+    "doctor5": {
+      "name": "Makhsudov Akhror",
+      "profession": "Doctor ",
+      "experence": "Doctor with 15 years of experience. Associate Professor, specialist in liver diseases."
+    }
+  },
     "ourSertificates": {
       "title": "Our certificates"
     },
     "videoInformation": {
       "title": "Discover the reviews",
       "clients": "Clients",
-      "experts": "Experienced Specialists"
+      "experts": "Experienced Specialists",
+      "thought": "Opinion of specialists"
     },
     "connect": {
       "btn": "Get a free consultation",
@@ -350,7 +376,7 @@
     },
     "contacts": {
       "title": "Contacts",
-      "address": "Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"
+      "address": "Fergana region, Uchkoprik distirct, Orozmergan 94"
     },
     "sertificate": {
       "item1": {
