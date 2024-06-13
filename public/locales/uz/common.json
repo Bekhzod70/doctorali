@@ -7,7 +7,7 @@
   },
   "hero": {
     "title_line1": "Tabiat inomi",
-    "title_line2": "Soglom turmush tarzi",
+    "title_line2": "Sog'lom, shifobaxsh turmush tarzi",
     "title_line3": "bilan",
     "subtitle": "Tabiiy va shifobahsh giyohlardan tarkib topgan premium to'plamlar",
     "collection_ali": "Doctor Ali to'plami"
@@ -171,7 +171,7 @@
     "state2": "AQSH",
     "state3": "Xitoy",
     "state4": "Qirg'iziston",
-    "state5": "Tajikistan",
+    "state5": "Tojikiston",
     "state6": "Qozog’iston"
   },
   "workProcess": {
@@ -190,7 +190,7 @@
     },
     "item4": {
       "title": "Buyurtmangizni bepul yetkazib beramiz",
-      "content": "Oʻzbekistonning qaysi hududida istiqomat qilishingizdan qatʼiy nazr buyurtmangizni uyingizgacha eltib berishni oʻz zimmamizga olamiz."
+      "content": "Oʻzbekistonning qaysi hududida istiqomat qilishingizdan qatʼiy nazr buyurtmangizni uyingizgacha yetkazib berishni oʻz zimmamizga olamiz."
     }
   },
   "downloadApp": {
@@ -198,7 +198,7 @@
     "description": "Yangi imkoniyatlarga ega bo'ling",
     "1": "Mahsulotlarga to'g'ridan-to'g'ri buyurtma berish",
     "2": "Mutaxassislarimizdan bepul konsultatsiya olish",
-    "3": "Ozingizga qulay vaqtda shifokor qabuliga yozilish."
+    "3": "O’zingizga qulay vaqtda shifokor qabuliga yozilish."
   },
   "ourTeam": {
     "title": "Jamoamiz bilan tanishing",
@@ -248,7 +248,7 @@
     "subtitle": "Hoziroq ariza qoldiring va shifokor nazorati ostida bepul konsultatsiya olish imkoniyatiga ega boling!"
   },
   "connect2": {
-    "title": "So'g'lom hayot tomon ilk qadamni tashlashga tayyormisiz?",
+    "title": "Sog'lom hayot tomon ilk qadamni tashlashga tayyormisiz?",
     "subtitle": "Hoziroq ariza qoldiring va salomatligingiz haqida qayg'urishni bugundan boshlang!"
   },
   "connect3": {
@@ -262,7 +262,7 @@
     "map": "Manzil"
   },
   "footer": {
-    "quote": "Doctor Ali - so'g'lom hayot tomon biz bilan qadam tashlang!"
+    "quote": "Doctor Ali - sog'lom hayot tomon biz bilan qadam tashlang!"
   },
   "product": {
     "title": "Mahsulotimizning afzalliklarini kashf eting",
@@ -376,7 +376,7 @@
   },
   "contacts": {
     "title": "Kontaktlar",
-    "address": "Farg'ona viloyati Uchko'prik tumani O'rozmergan 94"
+    "address": "Farg'ona viloyati, Uchko'prik tumani, O'rozmergan 94"
   },
   "sertificate": {
     "item1": {

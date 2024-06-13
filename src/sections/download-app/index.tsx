@@ -31,7 +31,7 @@ const DownloadApp = () => {
               <img src="/mehrigiyo/images/icons/line.svg" />
                 <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">3</span></h3>
-                <p className="text-white text-[14px]"><Translation text="downloadApp.3"/>.</p>
+                <p className="text-white text-[14px]"><Translation text="downloadApp.3"/></p>
               </div>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
