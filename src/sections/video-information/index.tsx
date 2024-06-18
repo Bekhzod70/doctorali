@@ -42,7 +42,7 @@ const FeedbackSlider = ({
       >
         {feedback.map(({ imageUrl, videoUrl }, i) => (
           <SwiperSlide key={i} className="!h-[unset] !w-auto">
-            <div className="sm:w-[690px] w-[230px] sm:h-[356px] h-[125px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
+            <div className="sm:w-[690px] w-[290px] sm:h-[356px] h-[165px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
               <Image
                 src={imageUrl}
                 alt="feedback image"
@@ -93,7 +93,7 @@ const FeedbackSlider2 = ({
       >
         {feedback.map(({ imageUrl, videoUrl }, i) => (
           <SwiperSlide key={i} className="!h-[unset] !w-auto">
-            <div className="sm:w-[690px] w-[230px] sm:h-[356px] h-[125px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
+            <div className="sm:w-[690px] w-[290px] sm:h-[356px] h-[165px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
               <Image
                 src={imageUrl}
                 alt="feedback image"

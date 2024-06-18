@@ -54,14 +54,15 @@ const ContactInfo = () => {
               href={socialLinks.facebook}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
-              <img src="/images/icons/Facebook.svg" alt="Facebook" />
+              <img className="w-[50px]" src="/images/icons/facebook.png" alt="Facebook" />
             </a>
             <a
               href={socialLinks.instagram}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
               <img
-                src="/images/icons/Instagram.svg"
+                className="w-[55px]"
+                src="/images/icons/instagram.png"
                 alt="Instagram"
               />
             </a>
@@ -69,7 +70,9 @@ const ContactInfo = () => {
               href={socialLinks.youtube}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
-              <img src="/images/icons/Youtube.svg" alt="Youtube" />
+              <img 
+              className="w-[50px]"
+              src="/images/icons/youtube.png" alt="Youtube" />
             </a>
           </div>
         </div>

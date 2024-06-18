@@ -16,7 +16,7 @@ const Footer = () => {
               <Translation text="footer.quote" />
             </p>
           </div>
-          <div className="lg:w-[335px] max-sm:text-center">
+          <div className="lg:w-[535px] max-sm:text-center">
             <p className="text-button2 text-orange mb-[30px] font-medium">
               <Translation text="links.contact" />
             </p>
@@ -46,19 +46,6 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
-          </div>
-          <div className="lg:w-[335px] max-sm:text-center">
-            <div className="flex flex-col gap-y-5">
-              {footerLinks.map(({ label, url }) => (
-                <a
-                  href={url}
-                  key={label}
-                  className="sm:text-button1 text-base text-white font-medium hover:underline"
-                >
-                  <Translation text={label} />
-                </a>
-              ))}
-            </div>
           </div>
         </div>
       </div>

@@ -33,6 +33,10 @@ export const feedbackData = [
 
 export const expertsFeedback: Feedback[] = [
   {
+    imageUrl: "https://i3.ytimg.com/vi/yGPxiTo39ok/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=yGPxiTo39ok&ab_channel=MEHRIGIYO%7CDoctorAli",
+  },
+  {
     imageUrl: "https://i3.ytimg.com/vi/946faouA9Go/maxresdefault.jpg",
     videoUrl: "https://www.youtube.com/watch?v=946faouA9Go",
   },
@@ -59,6 +63,10 @@ export const expertsFeedback: Feedback[] = [
 ];
 
 export const clientsFeedback: Feedback[] = [
+  {
+    imageUrl: "https://i3.ytimg.com/vi/HV-3xt5pNq0/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=HV-3xt5pNq0",
+  },
   {
     imageUrl: "https://i3.ytimg.com/vi/741waOk6Gkc/maxresdefault.jpg",
     videoUrl: "https://www.youtube.com/watch?v=741waOk6Gkc",
@@ -106,15 +114,35 @@ export const starFeedback: Feedback[] = [
 
 export const famousFeedback: Feedback[] = [
   {
-    imageUrl: "/images/feedback/feedback2.jpeg",
+    imageUrl: "https://i3.ytimg.com/vi/C2Vwli_Wa4Y/maxresdefault.jpg",
+    videoUrl: "https://youtu.be/C2Vwli_Wa4Y?si=xYvbtrmXJapjtC32",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/Nre1IO86TUk/maxresdefault.jpg",
+    videoUrl: "https://youtu.be/Nre1IO86TUk?si=KePMATHm34nmAN8M",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/H1mKK5lo-eM/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=H1mKK5lo-eM&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/6JXkMFvwLvw/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=6JXkMFvwLvw&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=5",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/k0DH6PFxwlE/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=k0DH6PFxwlE&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=9",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/F9i0qwf6NWE/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=10",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/bT4Vr0FMK1M/hqdefault.jpg",
     videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
   },
   {
-    imageUrl: "/images/feedback/hamdam.jpeg",
+    imageUrl: "https://i3.ytimg.com/vi/u6VfTzNZ6EM/maxresdefault.jpg",
     videoUrl: "https://www.youtube.com/watch?v=u6VfTzNZ6EM",
-  },
-  {
-    imageUrl: "/images/feedback/feedback3.jpeg",
-    videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE",
   },
 ];

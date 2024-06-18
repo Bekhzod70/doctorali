@@ -18,7 +18,7 @@
         "subtitle": "More than 32 years have passed since the company was founded."
       },
       "item2": {
-        "subtitle": "Our products are exported to more than 10 countries around the world."
+        "subtitle": "Our products are exported to abo 10 countries around the world."
       },
       "item3": {
         "subtitle": "More than 100 types of medicinal herbs are grown."
@@ -98,34 +98,34 @@
         "benefits1": "Helps with rehabilitation after heart attacks and strokes",   
         "benefits2": "Maintains normal blood pressure levels",
         "benefits3": "Prevents nervousness and insomnia",
-        "benefits4": "Prevents anemia"
+        "benefits4": "Prevents anemia, as well as other problems"
       },
       "product2": {
         "title" : "Rohat Complex",
         "benefits1": "Prevents prostate diseases",
         "benefits2": "Fights impotence",
         "benefits3": "Increases testosterone levels in men",
-        "benefits4": "Improves reproductive health"
+        "benefits4": "Improves reproductive health, and helps with other problems"
       },
       "product3": {
         "title" : "Safo Complex",
         "benefits1": "Eliminates dandruff",
         "benefits2": "Prevents hair loss",
         "benefits3": "Fights premature graying",
-        "benefits4": "Strengthens hair roots"
+        "benefits4": "Strengthens hair roots, and helps with other problems"
       },
       "product4": {
         "title" : "Detoxioma",
         "benefits1": "Cleanses the body of toxins and worms",
         "benefits2": "Prevents liver diseases",
-        "benefits3": "Helps combat excess weight"
+        "benefits3": "Helps combat excess weight, and helps with other problems"
       },
       "product5": {
         "title" : "“Joint Doctor” Complex",
         "benefits1": "Relieves pain in hands, legs, back, and knees",
         "benefits2": "Dissolves salts accumulated in joints",
         "benefits3": "Restores mobility",
-        "benefits4": "Nourishes tissues"
+        "benefits4": "Nourishes tissues, and helps with other problems"
       }
     },
     "advantage": {
