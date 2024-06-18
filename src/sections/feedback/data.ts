@@ -114,12 +114,16 @@ export const starFeedback: Feedback[] = [
 
 export const famousFeedback: Feedback[] = [
   {
-    imageUrl: "https://i3.ytimg.com/vi/C2Vwli_Wa4Y/maxresdefault.jpg",
-    videoUrl: "https://youtu.be/C2Vwli_Wa4Y?si=xYvbtrmXJapjtC32",
+    imageUrl: "https://i3.ytimg.com/vi/u6VfTzNZ6EM/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=u6VfTzNZ6EM",
   },
   {
     imageUrl: "https://i3.ytimg.com/vi/Nre1IO86TUk/maxresdefault.jpg",
     videoUrl: "https://youtu.be/Nre1IO86TUk?si=KePMATHm34nmAN8M",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/C2Vwli_Wa4Y/maxresdefault.jpg",
+    videoUrl: "https://youtu.be/C2Vwli_Wa4Y?si=xYvbtrmXJapjtC32",
   },
   {
     imageUrl: "https://i3.ytimg.com/vi/H1mKK5lo-eM/maxresdefault.jpg",
@@ -140,9 +144,5 @@ export const famousFeedback: Feedback[] = [
   {
     imageUrl: "https://i3.ytimg.com/vi/bT4Vr0FMK1M/hqdefault.jpg",
     videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
-  },
-  {
-    imageUrl: "https://i3.ytimg.com/vi/u6VfTzNZ6EM/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=u6VfTzNZ6EM",
   },
 ];
