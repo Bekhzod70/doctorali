@@ -180,19 +180,19 @@ const Connect = (props: Props) => {
                     buttonClass
                   )}
                 >
-                  <span className="sm:inline hidden">
+                  {pending ? (
+                    <Loader2Icon className="animate-spin" />
+                  ) : (
+                  <PhoneIcon
+                    width={18}  
+                    />
+                    )}
+                    <span className="sm:inline hidden">
                     <Translation text="connect.btn" />
                   </span>
                   <span className="sm:hidden">
                     <Translation text="links.connect" />
                   </span>
-                  {pending ? (
-                    <Loader2Icon className="animate-spin" />
-                  ) : (
-                  <PhoneIcon
-                    width={18}
-                    />
-                    )}
                 </Button>
               </form>
             </Form>

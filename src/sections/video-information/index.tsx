@@ -42,7 +42,7 @@ const FeedbackSlider = ({
       >
         {feedback.map(({ imageUrl, videoUrl }, i) => (
           <SwiperSlide key={i} className="!h-[unset] !w-auto">
-            <div className="sm:w-[690px] w-[169px] sm:h-[356px] h-[95.21px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
+            <div className="sm:w-[690px] w-[230px] sm:h-[356px] h-[125px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
               <Image
                 src={imageUrl}
                 alt="feedback image"
@@ -93,7 +93,7 @@ const FeedbackSlider2 = ({
       >
         {feedback.map(({ imageUrl, videoUrl }, i) => (
           <SwiperSlide key={i} className="!h-[unset] !w-auto">
-            <div className="sm:w-[690px] w-[156px] sm:h-[356px] h-[244px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
+            <div className="sm:w-[690px] w-[230px] sm:h-[356px] h-[125px] relative sm:rounded-[48px] rounded-[10px] overflow-hidden group">
               <Image
                 src={imageUrl}
                 alt="feedback image"
@@ -135,7 +135,31 @@ const VideoInformation = () => {
         <Translation text="videoInformation.title"/>
       </SectionTitle>
       <div className="hidden sm:block" data-aos="fade-up">
-        <Tabs defaultValue="client">
+      <FeedbackSlider
+          number={2}
+          feedback={clientsFeedback}
+          setVideo={setSelectedVideo}
+          setOpen={setOpen}
+        />
+        <SectionTitle className="my-[30px] text-center">
+          <Translation text="videoInformation.thought"/>
+        </SectionTitle>
+        <FeedbackSlider
+          number={2}
+          feedback={expertsFeedback}
+          setVideo={setSelectedVideo}
+          setOpen={setOpen}
+        />
+        <SectionTitle className="my-[30px] text-center">
+          Mashhurlar tavsiya etadi
+        </SectionTitle>
+        <FeedbackSlider2
+          number={2}
+          feedback={famousFeedback}
+          setVideo={setSelectedVideo}
+          setOpen={setOpen}
+        />
+        {/* <Tabs defaultValue="client">
           <div className="flex justify-center sm:mb-20 mb-5">
             <TabsList>
               <TabsTrigger value="client">
@@ -162,7 +186,7 @@ const VideoInformation = () => {
               setOpen={setOpen}
             />
           </TabsContent>
-        </Tabs>
+        </Tabs> */}
       </div>
       <div className="sm:hidden">
         <FeedbackSlider
@@ -180,15 +204,15 @@ const VideoInformation = () => {
           setVideo={setSelectedVideo}
           setOpen={setOpen}
         />
-        {/* <SectionTitle className="my-[30px] text-center">
+        <SectionTitle className="my-[30px] text-center">
           Mashhurlar tavsiya etadi
-        </SectionTitle> */}
-        {/* <FeedbackSlider2
+        </SectionTitle>
+        <FeedbackSlider2
           number={2}
           feedback={famousFeedback}
           setVideo={setSelectedVideo}
           setOpen={setOpen}
-        /> */}
+        />
       </div>
       <VideoModal open={open} setOpen={setOpen} video={selectedVideo} />
     </Section>

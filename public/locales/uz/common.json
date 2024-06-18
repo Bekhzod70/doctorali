@@ -7,9 +7,9 @@
   },
   "hero": {
     "title_line1": "Tabiat inomi",
-    "title_line2": "Sog'lom, shifobaxsh turmush tarzi",
+    "title_line2": "Sog'lom turmush tarzi",
     "title_line3": "bilan",
-    "subtitle": "Tabiiy va shifobahsh giyohlardan tarkib topgan premium to'plamlar",
+    "subtitle": "Tabiiy va shifobaxsh giyohlardan tarkib topgan premium to'plamlar",
     "collection_ali": "Doctor Ali to'plami"
   },
   "overall": {
@@ -18,7 +18,7 @@
       "subtitle": "Kompaniyaning ochilganiga 32 yil dan oshdi"
     },
     "item2": {
-      "subtitle": "Mahsulotlarimiz 10 dan ziyod davlatlarga eksport qilinadi"
+      "subtitle": "Mahsulotlarimiz 10 ga yaqin davlatlarga eksport qilinadi"
     },
     "item3": {
       "subtitle": "100 turdan ortiq dorivor giyohlar yetishtiriladi"
@@ -98,34 +98,34 @@
       "benefits1": "Infarkt va insultdan keyingi reabilitatsiyada",
       "benefits2": "Qon bosimini bir meʼyorda ushlab turishda",
       "benefits3": "Asabiylik va uyqusizlikning oldini olishda",
-      "benefits4": "Kamqonlikka qarshi kurashishda yordam beradi."
+      "benefits4": "Kamqonlikka qarshi kurashishda va boshqa muammolarda yordam beradi."
     },
     "product2": {
       "title" : "“Rohat” kompleksi",
       "benefits1": "Prostata bezi kasalliklarining oldini olishda",
       "benefits2": "Jinsiy zaiflik muammosiga qarshi kurashishda",
       "benefits3": "Erkaklarda testosteron gormonini oshirishda",
-      "benefits4": "Reproduktiv salomatlikni yaxshilashda yordam beradi."
+      "benefits4": "Reproduktiv salomatlikni yaxshilashda va boshqa muammolarda yordam beradi."
     },
     "product3": {
       "title" : "“Safo” kompleksi",
       "benefits1": "Qazgʻoqlarni bartaraf etishda",
       "benefits2": "Sochlar toʻkilishining oldini olishda",
       "benefits3": "Tolalarning erta oqarishiga qarshi kurashishda",
-      "benefits4": "Soch ildizlarini mustahkamlashda yordam beradi."
+      "benefits4": "Soch ildizlarini mustahkamlashda va boshqa muammolarda yordam beradi."
     },
     "product4": {
       "title" : "Detoxioma",
       "benefits1": "Organizmni toksin va gijjalardan tozalashda",
       "benefits2": "Jigar kasalliklarining oldini olishda",
-      "benefits3": "Ortiqcha vaznga qarshi kurashishda yordam beradi."
+      "benefits3": "Ortiqcha vaznga qarshi kurashishda va boshqa muammolarda yordam beradi."
     },
     "product5": {
       "title" : "“Суставный доктор” kompleksi",
       "benefits1": "Qoʻl, oyoq, bel va tizzalardagi ogʻriq bilan kurashishda",
       "benefits2": "Boʻgʻimlarda yigʻilib qolgan tuzlarni eritishda",
       "benefits3": "Harakatchanlikni qayta tiklashda",
-      "benefits4": "Toʻqimalar oziqlanishini taʼminlashda yordam beradi."
+      "benefits4": "Toʻqimalar oziqlanishini taʼminlashda va boshqa muammolarda yordam beradi."
     }
   },
   "advantage": {
@@ -140,7 +140,7 @@
       "description": "Xomashyo yetishtirish, ishlab chiqarish, hammasi nazoratliligi"
     },
     "item4": {
-      "description": "Tarkibida kimyoviy moddalar yo‘qligi sabab nojo‘ya taʼsirlarni keltirib chiqarmaydi."
+      "description": "Tarkibida kimyoviy qo'shimchalar yo‘qligi sabab nojo‘ya taʼsirlarni keltirib chiqarmaydi."
     },
     "item5": {
       "description": "Dunyo tan olgan xalqaro sertifikatlar"
@@ -169,7 +169,7 @@
     "title": "“Doctor Ali” mahsulotlari jahon bozorini egallamoqda",
     "state1": "Rossiya",
     "state2": "AQSH",
-    "state3": "Xitoy",
+    "state3": "Saudiya Arabistoni",
     "state4": "Qirg'iziston",
     "state5": "Tojikiston",
     "state6": "Qozog’iston"
@@ -275,7 +275,7 @@
   },
   "health": {
     "title": "Salomatlik uchun no'yob kompleks",
-    "subtitle": "70 hil shifobahsh giyohdan tarkib topgan kompleksning o'ziga xos xususiyatlari",
+    "subtitle": "70 hil shifobaxsh giyohdan tarkib topgan kompleksning o'ziga xos xususiyatlari",
     "eliksir": "Eliksir",
     "marmelad": "Marmelad",
     "capsula": "Kapsulalar",
