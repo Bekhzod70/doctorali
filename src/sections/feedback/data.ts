@@ -130,19 +130,19 @@ export const famousFeedback: Feedback[] = [
     videoUrl: "https://www.youtube.com/watch?v=H1mKK5lo-eM&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D",
   },
   {
-    imageUrl: "https://i3.ytimg.com/vi/6JXkMFvwLvw/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=6JXkMFvwLvw&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=5",
-  },
-  {
-    imageUrl: "https://i3.ytimg.com/vi/k0DH6PFxwlE/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=k0DH6PFxwlE&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=9",
+    imageUrl: "https://i3.ytimg.com/vi/bT4Vr0FMK1M/hqdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
   },
   {
     imageUrl: "https://i3.ytimg.com/vi/F9i0qwf6NWE/maxresdefault.jpg",
     videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=10",
   },
   {
-    imageUrl: "https://i3.ytimg.com/vi/bT4Vr0FMK1M/hqdefault.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
+    imageUrl: "https://i3.ytimg.com/vi/6JXkMFvwLvw/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=6JXkMFvwLvw&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=5",
+  },
+  {
+    imageUrl: "https://i3.ytimg.com/vi/k0DH6PFxwlE/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=k0DH6PFxwlE&list=PLmkNjPG-8tY1maBh7N5ck08_G4bf5Tm9D&index=9",
   },
 ];
