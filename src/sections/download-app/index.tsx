@@ -23,12 +23,12 @@ const DownloadApp = () => {
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">1</span></h3>
                 <p className="text-white text-[14px]"><Translation text="downloadApp.1"/></p>
               </div>
-                <img src="/mehrigiyo/images/icons/line.svg" />
+                <img src="/images/icons/line.svg" />
                 <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">2</span></h3>
                 <p className="text-white text-[14px]"><Translation text="downloadApp.2"/></p>
               </div>
-              <img src="/mehrigiyo/images/icons/line.svg" />
+              <img src="/images/icons/line.svg" />
                 <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">3</span></h3>
                 <p className="text-white text-[14px]"><Translation text="downloadApp.3"/></p>
@@ -41,7 +41,7 @@ const DownloadApp = () => {
                 target="_blank"
               >
                 <img
-                  src="/mehrigiyo/images/icons/googleplay.svg"
+                  src="/images/icons/googleplay.svg"
                   alt="google play"
                   className="sm:h-[50px] h-10"
                 />
@@ -51,7 +51,7 @@ const DownloadApp = () => {
                 data-aos="fade-up"
               >
                 <img
-                  src="/mehrigiyo/images/icons/appstore.svg"
+                  src="/images/icons/appstore.svg"
                   alt="appstore"
                   data-aos="zoom-in"
                   className="sm:h-[50px] h-10"
@@ -62,7 +62,7 @@ const DownloadApp = () => {
           <div>
             <img
               data-aos="zoom-in"
-              src="/mehrigiyo/images/App Story.png"
+              src="/images/App Story.png"
               alt="app story"
               className="lg:absolute 2xl:w-[645.74px] w-[274px] 2xl:-bottom-20 -bottom-10"
             />
@@ -75,7 +75,7 @@ const DownloadApp = () => {
           data-aos="fade-up"
         >
           <img
-            src="/mehrigiyo/images/icons/googleplay.svg"
+            src="/images/icons/googleplay.svg"
             alt="google play"
             className="h-[50px]"
           />
@@ -85,7 +85,7 @@ const DownloadApp = () => {
           data-aos="fade-up"
         >
           <img
-            src="/mehrigiyo/images/icons/appstore.svg"
+            src="/images/icons/appstore.svg"
             alt="appstore"
             className="h-[50px]"
           />

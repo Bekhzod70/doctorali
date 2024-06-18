@@ -5,27 +5,27 @@ import Translation from "@/components/translation";
 
 const data = [
   {
-    src: "/mehrigiyo/images/flag/russia.png",
+    src: "/images/flag/russia.png",
     title: "world.state1",
   },
   {
-    src: "/mehrigiyo/images/flag/america.png",
+    src: "/images/flag/america.png",
     title: "world.state2",
   },
   {
-    src: "/mehrigiyo/images/flag/saudi.png",
+    src: "/images/flag/saudi.png",
     title: "world.state3",
   },
   {
-    src: "/mehrigiyo/images/flag/qirgi.png",
+    src: "/images/flag/qirgi.png",
     title: "world.state4",
   },
   {
-    src: "/mehrigiyo/images/flag/tojik.png",
+    src: "/images/flag/tojik.png",
     title: "world.state5",
   },
   {
-    src: "/mehrigiyo/images/flag/qozoq.png",
+    src: "/images/flag/qozoq.png",
     title: "world.state6",
   },
 ];

@@ -8,7 +8,7 @@ import Translation from "@/components/translation";
 
 const data = [
   {
-    imageUrl: "/mehrigiyo/images/product/doctor-ali.jpg",
+    imageUrl: "/images/product/doctor-ali.jpg",
     title: "ourProduct.product1.title",
     connect: "+998787773103",
     benefits: [
@@ -19,7 +19,7 @@ const data = [
     ]
   },
   {
-    imageUrl: "/mehrigiyo/images/product/rohat.jpg",
+    imageUrl: "/images/product/rohat.jpg",
     title: "ourProduct.product2.title",
     connect: "+998984447077",
     benefits: [
@@ -30,7 +30,7 @@ const data = [
     ],
   },
   {
-    imageUrl: "/mehrigiyo/images/product/safo.jpg",
+    imageUrl: "/images/product/safo.jpg",
     title: "ourProduct.product3.title",
     connect: "+998982227077",
     benefits: [
@@ -41,7 +41,7 @@ const data = [
     ],
   },
   {
-    imageUrl: "/mehrigiyo/images/product/detoxioma.jpeg",
+    imageUrl: "/images/product/detoxioma.jpeg",
     title: "ourProduct.product4.title",
     connect: "+998982227077",
     benefits: [
@@ -52,7 +52,7 @@ const data = [
   },
   // TODO: change image
   {
-    imageUrl: "/mehrigiyo/images/product/sustav.jpeg",
+    imageUrl: "/images/product/sustav.jpeg",
     title: "ourProduct.product5.title",
     connect: "+998984447077",
     benefits: [

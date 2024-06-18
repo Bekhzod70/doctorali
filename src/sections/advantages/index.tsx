@@ -6,47 +6,47 @@ const data = [
   {
     description:
       "advantage.item1.description",
-    icon: "/mehrigiyo/images/icons/32.svg",
+    icon: "/images/icons/32.svg",
   },
   {
     description:
       "advantage.item2.description",
-    icon: "/mehrigiyo/images/icons/leaf.svg",
+    icon: "/images/icons/leaf.svg",
   },
   {
     description:
       "advantage.item3.description",
-    icon: "/mehrigiyo/images/icons/box.svg",
+    icon: "/images/icons/box.svg",
   },
   {
     description:
       "advantage.item4.description",
-    icon: "/mehrigiyo/images/icons/body2.svg",
+    icon: "/images/icons/body2.svg",
   },
   {
     description:
       "advantage.item5.description",
-    icon: "/mehrigiyo/images/icons/list.svg",
+    icon: "/images/icons/list.svg",
   },
   {
     description:
       "advantage.item6.description",
-    icon: "/mehrigiyo/images/icons/call.svg",
+    icon: "/images/icons/call.svg",
   },
   {
     description:
       "advantage.item7.description",
-    icon: "/mehrigiyo/images/icons/uzb.svg",
+    icon: "/images/icons/uzb.svg",
   },
   {
     description:
       "advantage.item8.description",
-    icon: "/mehrigiyo/images/icons/4.svg",
+    icon: "/images/icons/4.svg",
   },
   {
     description:
       "advantage.item9.description",
-    icon: "/mehrigiyo/images/icons/gift.svg",
+    icon: "/images/icons/gift.svg",
   },
 ];
 

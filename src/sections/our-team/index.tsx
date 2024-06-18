@@ -6,31 +6,31 @@ import Translation from "@/components/translation";
 
 const data = [
   {
-    imageUrl: "/mehrigiyo/images/doctors/zokirnew.png",
+    imageUrl: "/images/doctors/zokirnew.png",
     name: "ourTeam.doctor1.name",
     profession: "ourTeam.doctor1.profession",
     experence: "ourTeam.doctor1.experence",
   },
   {
-    imageUrl: "/mehrigiyo/images/doctors/shahobiddin.png",
+    imageUrl: "/images/doctors/shahobiddin.png",
     name: "ourTeam.doctor2.name",
     profession: "ourTeam.doctor2.profession",
     experence: "ourTeam.doctor2.experence",
   },
   {
-    imageUrl: "/mehrigiyo/images/doctors/xojimurod.png",
+    imageUrl: "/images/doctors/xojimurod.png",
     name: "ourTeam.doctor3.name",
     profession: "ourTeam.doctor3.profession",
     experence: "ourTeam.doctor3.experence",
   },
   {
-    imageUrl: "/mehrigiyo/images/doctors/dilshodbek.png",
+    imageUrl: "/images/doctors/dilshodbek.png",
     name: "ourTeam.doctor4.name",
     profession: "ourTeam.doctor4.profession",
     experence: "ourTeam.doctor4.experence",
   },
   {
-    imageUrl: "/mehrigiyo/images/doctors/Axror.png",
+    imageUrl: "/images/doctors/Axror.png",
     name: "ourTeam.doctor5.name",
     profession: "ourTeam.doctor5.profession",
     experence: "ourTeam.doctor5.experence",

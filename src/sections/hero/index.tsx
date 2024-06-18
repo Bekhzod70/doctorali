@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
             <div className="xl:hidden my-[30px] max-sm:h-[397px] overflow-hidden max-sm:rounded-[30px]">
               <img
-                src="/mehrigiyo/images/hero.jpeg"
+                src="/images/hero.jpeg"
                 alt=""
                 className="size-full object-cover"
               />
@@ -62,7 +62,7 @@ const Hero = () => {
         <div className="col-span-6 xl:h-[640px]">
           <div className="xl:block hidden h-full">
             <img
-              src="/mehrigiyo/images/hero.jpeg"
+              src="/images/hero.jpeg"
               alt=""
               className="size-full object-cover"
             />

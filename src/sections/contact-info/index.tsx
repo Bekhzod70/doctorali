@@ -54,14 +54,14 @@ const ContactInfo = () => {
               href={socialLinks.facebook}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
-              <img src="/mehrigiyo/images/icons/Facebook.svg" alt="Facebook" />
+              <img src="/images/icons/Facebook.svg" alt="Facebook" />
             </a>
             <a
               href={socialLinks.instagram}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
               <img
-                src="/mehrigiyo/images/icons/Instagram.svg"
+                src="/images/icons/Instagram.svg"
                 alt="Instagram"
               />
             </a>
@@ -69,7 +69,7 @@ const ContactInfo = () => {
               href={socialLinks.youtube}
               className="md:size-14 size-12 shrink-0 rounded-full center-mode"
             >
-              <img src="/mehrigiyo/images/icons/Youtube.svg" alt="Youtube" />
+              <img src="/images/icons/Youtube.svg" alt="Youtube" />
             </a>
           </div>
         </div>

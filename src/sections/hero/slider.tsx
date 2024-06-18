@@ -20,7 +20,7 @@ const Slider = () => {
           <Image
             width={1000}
             height={1000}
-            src="/mehrigiyo/images/hero2.jpg"
+            src="/images/hero2.jpg"
             alt="landing image"
             className="rounded-inherit w-full h-full transition-all object-cover"
           />
@@ -54,7 +54,7 @@ const Slider = () => {
           <Image
             width={1000}
             height={1000}
-            src="/mehrigiyo/images/landing.jpg"
+            src="/images/landing.jpg"
             alt=""
             className="rounded-inherit w-full h-full transition-all object-cover"
           />

@@ -5,27 +5,27 @@ interface Feedback {
 
 export const feedbackData = [
   {
-    imageUrl: "/mehrigiyo/images/feedback/card-4.png",
+    imageUrl: "/images/feedback/card-4.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Малинин Роман Сергеевич",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/card-1.png",
+    imageUrl: "/images/feedback/card-1.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Жданов Кирилл Романович",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/card-2.png",
+    imageUrl: "/images/feedback/card-2.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Поликарпова Мирослава Максимовна",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/card-3.png",
+    imageUrl: "/images/feedback/card-3.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Фомин Ярослав Львович",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/card-3.png",
+    imageUrl: "/images/feedback/card-3.png",
     videoUrl: "https://www.youtube.com/embed/iZE8EYF-deQ",
     // info: "Фомин Ярослав Львович",
   },
@@ -87,7 +87,7 @@ export const clientsFeedback: Feedback[] = [
 
 export const starFeedback: Feedback[] = [
   {
-    imageUrl: "/mehrigiyo/images/feedback/Abror_Muxtor_Aliy.jpg",
+    imageUrl: "/images/feedback/Abror_Muxtor_Aliy.jpg",
     videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
   },
   {
@@ -99,22 +99,22 @@ export const starFeedback: Feedback[] = [
     videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/Muhammadali_Eshonqulov.jpg",
+    imageUrl: "/images/feedback/Muhammadali_Eshonqulov.jpg",
     videoUrl: "https://www.youtube.com/watch?v=de4DJwdGQMA",
   },
 ];
 
 export const famousFeedback: Feedback[] = [
   {
-    imageUrl: "/mehrigiyo/images/feedback/feedback2.jpeg",
+    imageUrl: "/images/feedback/feedback2.jpeg",
     videoUrl: "https://www.youtube.com/watch?v=bT4Vr0FMK1M",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/hamdam.jpeg",
+    imageUrl: "/images/feedback/hamdam.jpeg",
     videoUrl: "https://www.youtube.com/watch?v=u6VfTzNZ6EM",
   },
   {
-    imageUrl: "/mehrigiyo/images/feedback/feedback3.jpeg",
+    imageUrl: "/images/feedback/feedback3.jpeg",
     videoUrl: "https://www.youtube.com/watch?v=F9i0qwf6NWE",
   },
 ];

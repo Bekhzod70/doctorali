@@ -6,71 +6,71 @@ import Translation from "@/components/translation";
 const data = [
   {
     info: "problem.item1.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame.svg",
+    iconUrl: "/images/icons/Frame.svg",
   },
   {
     info: "problem.item2.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-1.svg",
+    iconUrl: "/images/icons/Frame-1.svg",
   },
   {
     info: "problem.item3.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-2.svg",
+    iconUrl: "/images/icons/Frame-2.svg",
   },
   {
     info: "problem.item4.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-3.svg",
+    iconUrl: "/images/icons/Frame-3.svg",
   },
   {
     info: "problem.item5.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-4.svg",
+    iconUrl: "/images/icons/Frame-4.svg",
   },
   {
     info: "problem.item6.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-5.svg",
+    iconUrl: "/images/icons/Frame-5.svg",
   },
   {
     info: "problem.item7.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-6.svg",
+    iconUrl: "/images/icons/Frame-6.svg",
   },
   {
     info: "problem.item8.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-7.svg",
+    iconUrl: "/images/icons/Frame-7.svg",
   },
   {
     info: "problem.item9.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-8.svg",
+    iconUrl: "/images/icons/Frame-8.svg",
   },
   {
     info: "problem.item10.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-9.svg",
+    iconUrl: "/images/icons/Frame-9.svg",
   },
   {
     info: "problem.item11.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-10.svg",
+    iconUrl: "/images/icons/Frame-10.svg",
   },
   {
     info: "problem.item12.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-11.svg",
+    iconUrl: "/images/icons/Frame-11.svg",
   },
   {
     info: "problem.item13.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-12.svg",
+    iconUrl: "/images/icons/Frame-12.svg",
   },
   {
     info: "problem.item14.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-13.svg",
+    iconUrl: "/images/icons/Frame-13.svg",
   },
   {
     info: "problem.item15.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-14.svg",
+    iconUrl: "/images/icons/Frame-14.svg",
   },
   {
     info: "problem.item16.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-15.svg",
+    iconUrl: "/images/icons/Frame-15.svg",
   },
   {
     info: "problem.item17.info",
-    iconUrl: "/mehrigiyo/images/icons/Frame-16.svg",
+    iconUrl: "/images/icons/Frame-16.svg",
   },
 ];
 
@@ -92,12 +92,12 @@ const Problem = () => {
         </SectionTitle>
         <div className="flex relative flex-wrap sm:gap-x-5 sm:gap-y-10 sm:justify-center gap-5">
           <img
-            src="/mehrigiyo/images/icons/seperator.svg"
+            src="/images/icons/seperator.svg"
             alt="icon"
             className="absolute -z-10 left-1/2 -translate-x-1/2 xs:top-[8.7rem] top-[6.8rem] sm:hidden"
           />
           <img
-            src="/mehrigiyo/images/icons/seperator.svg"
+            src="/images/icons/seperator.svg"
             alt="icon"
             className="absolute -z-10 left-1/2 -translate-x-1/2 xs:top-[20.5rem] top-[16.8rem] sm:hidden"
           />

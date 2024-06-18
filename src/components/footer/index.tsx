@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex lg:flex-row flex-col max-sm:items-center lg:gap-5 gap-y-[50px]">
           <div className="lg:w-[690px] max-sm:mx-auto">
             <div className="max-w-[115px] max-sm:mx-auto">
-              <img src="/mehrigiyo/images/lgoo.svg" alt="logo" />
+              <img src="/images/lgoo.svg" alt="logo" />
             </div>
             <p className="mt-5 text-white text-paragraph2 max-sm:text-center max-w-[248px]">
               <Translation text="footer.quote" />

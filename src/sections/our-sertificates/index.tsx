@@ -6,23 +6,23 @@ import Translation from "@/components/translation";
 const data = [
   {
     name: "Halal",
-    imageUrl: "/mehrigiyo/images/sertificate/halal.png",
+    imageUrl: "/images/sertificate/halal.png",
   },
   {
     name: "ISO 9001",
-    imageUrl: "/mehrigiyo/images/sertificate/iso.png",
+    imageUrl: "/images/sertificate/iso.png",
   },
   {
     name: "USDA organic",
-    imageUrl: "/mehrigiyo/images/sertificate/usda.png",
+    imageUrl: "/images/sertificate/usda.png",
   },
   {
     name: "EU Organik",
-    imageUrl: "/mehrigiyo/images/sertificate/organic.png",
+    imageUrl: "/images/sertificate/organic.png",
   },
   {
     name: "Non GMO",
-    imageUrl: "/mehrigiyo/images/sertificate/non.png",
+    imageUrl: "/images/sertificate/non.png",
   },
 ];
 
