@@ -18,7 +18,7 @@
         "subtitle": "More than 32 years have passed since the company was founded."
       },
       "item2": {
-        "subtitle": "Our products are exported to abo 10 countries around the world."
+        "subtitle": "Our products are exported to about 10 countries around the world."
       },
       "item3": {
         "subtitle": "More than 100 types of medicinal herbs are grown."
@@ -140,7 +140,7 @@
         "description": "Production and manufacturing control"
       },
       "item4": {
-        "description": "No side effects due to the absence of chemicals"
+        "description": "No side effects due to the absence of chemical additives"
       },
       "item5": {
         "description": "International certificates recognized worldwide"
@@ -235,7 +235,8 @@
       "title": "Discover the reviews",
       "clients": "Clients",
       "experts": "Experienced Specialists",
-      "thought": "Opinion of specialists"
+      "thought": "Opinion of specialists",
+      "famous": "Famous people recommend"
     },
     "connect": {
       "btn": "Get a free consultation",

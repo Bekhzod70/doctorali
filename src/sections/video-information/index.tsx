@@ -151,7 +151,7 @@ const VideoInformation = () => {
           setOpen={setOpen}
         />
         <SectionTitle className="my-[30px] text-center">
-          Mashhurlar tavsiya etadi
+        <Translation text="videoInformation.famous"/>
         </SectionTitle>
         <FeedbackSlider2
           number={2}
