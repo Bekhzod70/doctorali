@@ -396,5 +396,11 @@
       "title": "EU Organic",
       "info": "Mazkur sertifikat mahsulotning Evropa bio standartlariga muvofiq ekanligini bildiradi. Bio va organik mahsulotlarining dunyo miqyosida tan olgan umumiy belgisi hisoblanadi."
     }
+  },
+  "thanks": {
+    "Success_line1": "Raqamingiz qabul qilindi",
+    "Success_line2": "Ishonchingiz uchun tashakkur. ",
+    "Success_line3": "Sizga mutaxasisslarimiz kun davomida aloqaga chiqishadi",
+    "GoBack": "Orqaga qaytish"
   }
 }

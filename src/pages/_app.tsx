@@ -13,6 +13,7 @@ import { ArrowUp, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Translation from "@/components/translation";
 import { useEffect } from "react";
+import Link from 'next/link';
 
 const interFont = localFont({
   src: [
@@ -50,6 +51,9 @@ function App({ Component, pageProps }: AppProps) {
           font-weight: 400;
         }
       `}</style>
+      <Link href={{
+        pathname: '/thanks',
+      }}></Link>
       <div>
         <Navbar />
         <Component {...pageProps} />

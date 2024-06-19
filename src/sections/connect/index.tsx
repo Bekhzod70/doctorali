@@ -1,7 +1,5 @@
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-// import { PhoneInput } from "react-international-phone";
-// import "react-international-phone/style.css";
 import Chip from "@/components/chip";
 import Section from "../components/section";
 import SectionTitle from "../components/section-title";
@@ -20,11 +18,31 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import Pencil from "@/components/icons/pencil";
 import { ChevronRight, Loader2Icon, PhoneIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { sendMessage } from "@/utils/send-data";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Translation from "@/components/translation";
 import { useTranslation } from "next-i18next";
+import axios from 'axios';
+
+const sendTelegramMessage = async (data: { form_name?: string; name: any; phone: any; }) => {
+  const token = '7038871747:AAHWWqdJ3Xw6jl9eLGybamNi63lsEqgx4F0'; // Replace with your bot token
+  const chatId = '-4284927867'; // Replace with your chat ID
+  const text = `Ismi: ${data.name}\nTelefon raqami: ${data.phone}`;
+  
+
+  const url = `https://api.telegram.org/bot${token}/sendMessage`;
+  
+  try {
+    const response = await axios.post(url, {
+      chat_id: chatId,
+      text: text,
+    });
+    return response;
+  } catch (error) {
+    console.error("Error sending message to Telegram:", error);
+    throw error;
+  }
+};
 
 interface Props {
   title: string;
@@ -62,22 +80,23 @@ const Connect = (props: Props) => {
 
   async function onSubmit(values: FormSchema) {
     setIsPending(true);
+
     const { name, phone } = values;
 
     const _data = {
-      form_name: "numakids",
       name: name,
       phone: phone,
     };
 
     try {
-      await sendMessage(_data).then((data) => {
-        if (data.status === 200) {
-          // router.push("/thanks");
-          console.log("TODO!");
+      // Send data to your server or perform other actions here
+      await sendTelegramMessage(_data).then((response) => {
+        if (response.status === 200) {
+          router.push("/thanks");
+          console.log("Message sent successfully!");
         }
       });
-    } catch (_) {
+    } catch (error) {
       alert(`Iltimos, qayta urinib ko'ring`);
     } finally {
       setIsPending(false);
@@ -99,16 +118,6 @@ const Connect = (props: Props) => {
           bgColor
         )}
       >
-        {/* <img
-          src={desktopImg}
-          alt="Connect bg shape"
-          className="absolute bottom-0 lg:block hidden left-1/2 -translate-x-1/2"
-        />
-        <img
-          src={mobileImg}
-          alt="Connect bg shape"
-          className="absolute lg:hidden right-0 top-0"
-        /> */}
         {image ? (
           <div className="w-full overflow-hidden rounded-2xl mb-[22px] sm:hidden">
             <img
@@ -121,10 +130,7 @@ const Connect = (props: Props) => {
         <div className="flex lg:flex-row flex-col xl:gap-24 gap-y-7 text-white relative z-10">
           <div className="lg:w-1/2 text-center">
             <SectionTitle className="mb-[14px]">{title}</SectionTitle>
-            <p
-              className="sm:text-paragraph1 text-base"
-              data-aos="fade-up"
-            >
+            <p className="sm:text-paragraph1 text-base" data-aos="fade-up">
               {subtitle}
             </p>
           </div>
@@ -147,7 +153,6 @@ const Connect = (props: Props) => {
                           {...field}
                         />
                       </FormControl>
-
                       <FormMessage />
                     </FormItem>
                   )}
@@ -183,16 +188,16 @@ const Connect = (props: Props) => {
                   {pending ? (
                     <Loader2Icon className="animate-spin" />
                   ) : (
-                  <PhoneIcon
-                    width={18}  
-                    />
-                    )}
-                    <span className="sm:inline hidden">
-                    <Translation text="connect.btn" />
-                  </span>
-                  <span className="sm:hidden">
-                    <Translation text="links.connect" />
-                  </span>
+                    <>
+                      <PhoneIcon width={18} />
+                      <span className="sm:inline hidden">
+                        <Translation text="connect.btn" />
+                      </span>
+                      <span className="sm:hidden">
+                        <Translation text="links.connect" />
+                      </span>
+                    </>
+                  )}
                 </Button>
               </form>
             </Form>
@@ -202,4 +207,5 @@ const Connect = (props: Props) => {
     </Section>
   );
 };
+
 export default Connect;
