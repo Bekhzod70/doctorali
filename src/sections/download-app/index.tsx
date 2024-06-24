@@ -19,20 +19,22 @@ const DownloadApp = () => {
                 <Translation text="downloadApp.description"/>
 
               </p>
+            <div className="flex flex-col">
               <div className="py-[8px] mt-[6px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">1</span></h3>
                 <p className="text-white text-[14px]"><Translation text="downloadApp.1"/></p>
               </div>
                 <img src="/images/icons/line.svg" />
-                <div className="py-[8px]">
+              <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">2</span></h3>
                 <p className="text-white text-[14px]"><Translation text="downloadApp.2"/></p>
               </div>
-              <img src="/images/icons/line.svg" />
-                <div className="py-[8px]">
+                <img src="/images/icons/line.svg" />
+              <div className="py-[8px]">
                 <h3 className="float-left mr-[10px] w-[39px] h-[39px] bg-white bg-opacity-15 rounded-[10px] flex justify-center items-center"><span className="unbounded text-white font-bold text[20px]">3</span></h3>
                 <p className="text-white text-[14px]"><Translation text="downloadApp.3"/></p>
               </div>
+            </div>
             </div>
             <div className="sm:flex hidden lg:justify-start justify-center items-center gap-[11px]">
               <a
